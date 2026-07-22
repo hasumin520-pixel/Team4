@@ -1,4 +1,4 @@
-# 모심(Mosim) PC 에이전트 원클릭 설치
+﻿# 모심(Mosim) PC 에이전트 원클릭 설치
 # 실행: irm https://moim-blush.vercel.app/setup.ps1 | iex
 # 하는 일: ① Claude Code 설치 ② catchtable-sniper 스킬 설치(MIT, NomaDamas/k-skill)
 #          ③ 모심 PC 에이전트 설치 + 시작프로그램 등록 + 즉시 실행 ④ 크롬 확장 설치 페이지 열기

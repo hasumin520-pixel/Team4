@@ -1,4 +1,4 @@
-# 모심(Mosim) PC 에이전트 — localhost 브리지
+﻿# 모심(Mosim) PC 에이전트 — localhost 브리지
 # 모심 웹앱의 "빈자리 감시" 버튼 요청을 받아 이 PC에서 Claude Code(catchtable-sniper)를 실행한다.
 # 설치: irm https://moim-blush.vercel.app/setup.ps1 | iex  (시작프로그램에 자동 등록됨)
 
@@ -50,7 +50,15 @@ while ($listener.IsListening) {
       # 온보딩 포함 프롬프트 — 확장 미연결/캐치테이블 미로그인이어도 Claude가 대화로 해결을 안내한 뒤 감시 시작
       $prompt = "캐치테이블 예약을 도와줘. 식당: $($body.name), 날짜: $($body.date), 시간: $($body.time), 인원: $($body.people)명. 먼저 claude-in-chrome 크롬 확장이 연결되는지 확인하고, 안 되면 설치·연결 방법을 한국어로 차근차근 안내해줘. 캐치테이블 로그인이 안 돼 있으면 크롬에서 직접 로그인하도록 안내하고 기다려줘. 준비가 되면 catchtable-sniper 스킬을 사용해서: 현재 빈자리가 있으면 감시 없이 바로 예약을 진행하고, 없을 때만 취소표 감시 모드로 전환해줘. 결제가 필요한 단계는 반드시 내 확인을 받아줘."
       # cmd /k — claude 종료 후에도 창을 남겨 결과/오류를 볼 수 있게 함
-      Start-Process cmd.exe -ArgumentList '/k', "claude `"$prompt`""
+      $log = "$env:USERPROFILE\.mosim\agent.log"
+      try {
+        $proc = Start-Process cmd.exe -ArgumentList '/k', "claude `"$prompt`"" -PassThru
+        Add-Content $log "$(Get-Date -Format o) snipe 실행: pid=$($proc.Id) name=$($body.name)"
+      } catch {
+        Add-Content $log "$(Get-Date -Format o) snipe 실패: $($_.Exception.Message)"
+        Send-Json $res @{ ok = $false; error = $_.Exception.Message } 500
+        continue
+      }
       Send-Json $res @{ ok = $true }
     }
     else {
