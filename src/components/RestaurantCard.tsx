@@ -41,6 +41,11 @@ export default function RestaurantCard({
                 🆕 새로 오픈
               </span>
             )}
+            {r.catchtable && (
+              <span className="shrink-0 rounded bg-orange-500 px-1.5 py-0.5 text-[11px] font-bold text-white">
+                예약 가능
+              </span>
+            )}
           </div>
           <p className="mt-0.5 truncate text-xs text-slate-500">{r.desc}</p>
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-600">

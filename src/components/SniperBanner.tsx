@@ -50,8 +50,8 @@ export default function SniperBanner() {
         {open && (
           <div className="border-t border-violet-100 px-3 py-2.5">
             <p className="text-[11px] leading-relaxed text-slate-600">
-              꽉 찬 식당도 <b>내 PC</b>의 Claude가 캐치테이블 취소표를 감시해 예약을 시도합니다.
-              식당 상세 → 예약의 <b className="text-violet-700">🎯 버튼</b>으로 시작하세요.
+              <b>내 PC</b>의 Claude가 캐치테이블에서 바로 예약하고, 자리가 없으면 취소표 감시로
+              전환합니다. 식당 상세 → 예약의 <b className="text-violet-700">🎯 버튼</b>으로 시작하세요.
             </p>
 
             <p className="mt-2 text-[11px] font-semibold">

@@ -100,17 +100,24 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
         >
           네이버에서 예약
         </a>
-        <a
-          href={`https://app.catchtable.co.kr/ct/search?keyword=${encodeURIComponent(r.name)}`}
-          target="_blank"
-          rel="noreferrer"
-          className="flex-1 rounded-lg bg-orange-500/10 py-2 text-center text-xs font-bold text-orange-600"
-        >
-          캐치테이블에서 열기
-        </a>
+        {r.catchtable ? (
+          <a
+            href={`https://app.catchtable.co.kr/ct/search?keyword=${encodeURIComponent(r.name)}`}
+            target="_blank"
+            rel="noreferrer"
+            className="flex-1 rounded-lg bg-orange-500/10 py-2 text-center text-xs font-bold text-orange-600"
+          >
+            캐치테이블에서 예약
+          </a>
+        ) : (
+          <span className="flex-1 rounded-lg bg-slate-100 py-2 text-center text-xs font-medium text-slate-400">
+            캐치테이블 미입점
+          </span>
+        )}
       </div>
 
-      <SniperLauncher name={r.name} date={date} time={time} people={people} />
+      {/* Claude 자동 예약은 캐치테이블 입점 식당에서만 */}
+      {r.catchtable && <SniperLauncher name={r.name} date={date} time={time} people={people} />}
     </div>
   );
 }

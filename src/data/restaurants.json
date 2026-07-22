@@ -1162,7 +1162,7 @@
         "count": 373
       },
       "naverBooking": false,
-      "catchtable": false,
+      "catchtable": true,
       "address": "서울 종로구 종로3길 17",
       "placeUrl": "http://place.map.kakao.com/1758366707"
     },
@@ -3716,7 +3716,7 @@
         "count": 212
       },
       "naverBooking": false,
-      "catchtable": false,
+      "catchtable": true,
       "address": "서울 종로구 새문안로5길 8-1",
       "placeUrl": "http://place.map.kakao.com/552877346"
     },
@@ -4104,7 +4104,7 @@
         "count": 181
       },
       "naverBooking": false,
-      "catchtable": false,
+      "catchtable": true,
       "address": "서울 종로구 세종대로 178",
       "placeUrl": "http://place.map.kakao.com/877868443"
     },
@@ -4869,5 +4869,6 @@
       "address": "서울 종로구 삼일대로15길 24",
       "placeUrl": "http://place.map.kakao.com/15232887"
     }
-  ]
+  ],
+  "_catchtable": "캐치테이블 입점 여부는 방문횟수 상위 20곳을 웹 실사(2026-07-23)로 확인. 입점: 덕후선생 광화문 D타워점(R040)·동베이 광화문점(R127)·루드베키아(R140). 나머지 46곳은 미조사(false 유지)"
 }

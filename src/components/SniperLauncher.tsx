@@ -55,9 +55,9 @@ export default function SniperLauncher({
   if (state === 'launched') {
     return (
       <div className="mt-2 rounded-xl bg-violet-50 p-3 text-center">
-        <p className="text-sm font-bold text-violet-700">🎯 PC에서 감시를 시작했어요</p>
+        <p className="text-sm font-bold text-violet-700">🎯 PC에서 Claude가 예약을 시작했어요</p>
         <p className="mt-1 text-[11px] leading-relaxed text-violet-600">
-          방금 열린 터미널에서 Claude가 캐치테이블 빈자리를 감시합니다.
+          빈자리가 있으면 바로 예약하고, 없으면 취소표 감시로 전환합니다.
           <br />
           결제가 필요한 단계에서는 반드시 직접 확인을 요청해요.
         </p>
@@ -75,7 +75,7 @@ export default function SniperLauncher({
         disabled={state === 'checking'}
         className="w-full rounded-lg bg-violet-600/10 py-2 text-center text-xs font-bold text-violet-700 disabled:opacity-60"
       >
-        {state === 'checking' ? '내 PC 에이전트 확인 중...' : '🎯 Claude로 빈자리 감시 (내 PC에서 실행)'}
+        {state === 'checking' ? '내 PC 에이전트 확인 중...' : '🎯 Claude로 예약 — 빈자리 없으면 자동 감시 (내 PC)'}
       </button>
 
       {state === 'setup' && (
