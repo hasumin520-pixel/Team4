@@ -2,7 +2,7 @@ import restaurantsJson from '@/data/restaurants.json';
 import visitsJson from '@/data/visits.json';
 
 export type Purpose = '점심' | '저녁 회식' | '접대';
-export type Cuisine = '한식' | '일식' | '중식' | '양식' | '동남아';
+export type Cuisine = '한식' | '일식' | '중식' | '양식' | '동남아' | '기타';
 
 export interface Visit {
   date: string; // YYYYMMDD
@@ -22,6 +22,7 @@ export interface Restaurant {
   dx: number;
   dy: number;
   kakao: { score: number; count: number };
+  naver: { score: number; count: number };
   google: { score: number; count: number };
   naverBooking: boolean;
   catchtable: boolean;
@@ -33,7 +34,7 @@ export interface Restaurant {
   lastDate: string;
   byAccount: Record<string, number>;
   recent: Visit[];
-  rating: number; // 카카오/구글 리뷰 개수 가중평균
+  rating: number; // 카카오/네이버/구글 리뷰 개수 가중평균 (엑셀 '통합평점'과 동일 공식)
   reviewCount: number;
   walkMin: number;
 }
@@ -63,7 +64,7 @@ export const ACCOUNT_BY_PURPOSE: Record<Purpose, string> = {
 };
 
 export const PURPOSES: Purpose[] = ['점심', '저녁 회식', '접대'];
-export const CUISINES: Cuisine[] = ['한식', '일식', '중식', '양식', '동남아'];
+export const CUISINES: Cuisine[] = ['한식', '일식', '중식', '양식', '동남아', '기타'];
 export const DIST_BANDS = [500, 1000, 1500] as const;
 
 export const CUISINE_COLOR: Record<Cuisine, string> = {
@@ -72,6 +73,7 @@ export const CUISINE_COLOR: Record<Cuisine, string> = {
   중식: '#D97706',
   양식: '#7C3AED',
   동남아: '#059669',
+  기타: '#64748B',
 };
 
 import type { Stats } from './assign';
@@ -85,7 +87,7 @@ export function buildRestaurants(stats: Record<string, Stats>): Restaurant[] {
     >[]
   ).map((r) => {
     const s = stats[r.id];
-    const reviewCount = r.kakao.count + r.google.count;
+    const reviewCount = r.kakao.count + r.naver.count + r.google.count;
     return {
       ...r,
       visitCount: s?.count ?? 0,
@@ -95,7 +97,9 @@ export function buildRestaurants(stats: Record<string, Stats>): Restaurant[] {
       recent: s?.recent ?? [],
       rating:
         Math.round(
-          ((r.kakao.score * r.kakao.count + r.google.score * r.google.count) / reviewCount) * 10
+          ((r.kakao.score * r.kakao.count + r.naver.score * r.naver.count + r.google.score * r.google.count) /
+            reviewCount) *
+            10
         ) / 10,
       reviewCount,
       walkMin: Math.max(1, Math.round(r.distM / 67)),

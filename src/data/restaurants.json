@@ -2,10 +2,1611 @@
   "_comment": "식당명·좌표·거리·주소는 카카오 로컬 API 실측(2026-07-22). 평점/리뷰수는 여전히 시연용 가상 값. dx/dy는 SK서린빌딩 기준 상대좌표(m).",
   "restaurants": [
     {
-      "id": "seorin-nakji",
+      "id": "R001",
+      "name": "청진옥",
+      "cuisine": "한식",
+      "desc": "1937년",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 227,
+      "dx": -78,
+      "dy": 215,
+      "kakao": {
+        "score": 4.1,
+        "count": 217
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1440
+      },
+      "google": {
+        "score": 4.6,
+        "count": 384
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 32",
+      "placeUrl": "http://place.map.kakao.com/27540102"
+    },
+    {
+      "id": "R002",
+      "name": "무교동북어국집",
+      "cuisine": "한식",
+      "desc": "북엇국",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 231,
+      "dx": -42,
+      "dy": -229,
+      "kakao": {
+        "score": 4.4,
+        "count": 428
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 318
+      },
+      "google": {
+        "score": 4.7,
+        "count": 379
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로1길 38",
+      "placeUrl": "http://place.map.kakao.com/11064200"
+    },
+    {
+      "id": "R003",
+      "name": "이문설농탕",
+      "cuisine": "한식",
+      "desc": "1904년",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 454,
+      "dx": 316,
+      "dy": 328,
+      "kakao": {
+        "score": 3.8,
+        "count": 306
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1290
+      },
+      "google": {
+        "score": 5,
+        "count": 135
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 우정국로 38-13",
+      "placeUrl": "http://place.map.kakao.com/24725293"
+    },
+    {
+      "id": "R004",
+      "name": "미진",
+      "cuisine": "한식",
+      "desc": "광화문",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 122,
+      "dx": -36,
+      "dy": 118,
+      "kakao": {
+        "score": 4,
+        "count": 338
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 52
+      },
+      "google": {
+        "score": 3.8,
+        "count": 176
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/21326655"
+    },
+    {
+      "id": "R005",
+      "name": "몽탄광화문",
+      "cuisine": "한식",
+      "desc": "광화문",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 519,
+      "dx": 327,
+      "dy": 403,
+      "kakao": {
+        "score": 4.4,
+        "count": 565
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 299
+      },
+      "google": {
+        "score": 4.5,
+        "count": 368
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R006",
+      "name": "송추가마골",
+      "cuisine": "한식",
+      "desc": "광화문",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 646,
+      "dx": -525,
+      "dy": 377,
+      "kakao": {
+        "score": 4.4,
+        "count": 1389
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1744
+      },
+      "google": {
+        "score": 4,
+        "count": 579
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로5길 31",
+      "placeUrl": "http://place.map.kakao.com/26844382"
+    },
+    {
+      "id": "R007",
+      "name": "광화문석갈비",
+      "cuisine": "한식",
+      "desc": "그랑서울/디타워 인근",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 183,
+      "dx": -125,
+      "dy": 134,
+      "kakao": {
+        "score": 3.9,
+        "count": 1418
+      },
+      "naver": {
+        "score": 4,
+        "count": 69
+      },
+      "google": {
+        "score": 4,
+        "count": 71
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/1541493246"
+    },
+    {
+      "id": "R008",
+      "name": "양연화로 종로직영점",
+      "cuisine": "한식",
+      "desc": "종로",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 547,
+      "dx": 544,
+      "dy": -60,
+      "kakao": {
+        "score": 4.7,
+        "count": 406
+      },
+      "naver": {
+        "score": 4.7,
+        "count": 1180
+      },
+      "google": {
+        "score": 4.5,
+        "count": 87
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로17길 18",
+      "placeUrl": "http://place.map.kakao.com/1619274444"
+    },
+    {
+      "id": "R009",
+      "name": "쟁반집8292 종로점",
+      "cuisine": "한식",
+      "desc": "종로",
+      "priceTier": 1,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 985,
+      "dx": 565,
+      "dy": 807,
+      "kakao": {
+        "score": 4.2,
+        "count": 998
+      },
+      "naver": {
+        "score": 4,
+        "count": 1754
+      },
+      "google": {
+        "score": 4.3,
+        "count": 272
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R010",
+      "name": "촌",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 2,
+      "purposes": [
+        "접대",
+        "저녁 회식"
+      ],
+      "distM": 715,
+      "dx": 421,
+      "dy": 580,
+      "kakao": {
+        "score": 4.6,
+        "count": 296
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 662
+      },
+      "google": {
+        "score": 4.4,
+        "count": 589
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동14길 19",
+      "placeUrl": "http://place.map.kakao.com/8096496"
+    },
+    {
+      "id": "R011",
+      "name": "선천집",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 2,
+      "purposes": [
+        "접대",
+        "저녁 회식"
+      ],
+      "distM": 668,
+      "dx": 360,
+      "dy": 565,
+      "kakao": {
+        "score": 4.2,
+        "count": 451
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 982
+      },
+      "google": {
+        "score": 4.7,
+        "count": 274
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동14길 5",
+      "placeUrl": "http://place.map.kakao.com/16037219"
+    },
+    {
+      "id": "R012",
+      "name": "경복궁 관훈점",
+      "cuisine": "한식",
+      "desc": "인사동5길",
+      "priceTier": 2,
+      "purposes": [
+        "접대",
+        "저녁 회식"
+      ],
+      "distM": 461,
+      "dx": 342,
+      "dy": 310,
+      "kakao": {
+        "score": 4,
+        "count": 680
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 885
+      },
+      "google": {
+        "score": 4.2,
+        "count": 557
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동5길 38",
+      "placeUrl": "http://place.map.kakao.com/17103184"
+    },
+    {
+      "id": "R013",
+      "name": "서당골",
+      "cuisine": "한식",
+      "desc": "디타워",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 122,
+      "dx": -36,
+      "dy": 118,
+      "kakao": {
+        "score": 4.4,
+        "count": 91
+      },
+      "naver": {
+        "score": 3.7,
+        "count": 790
+      },
+      "google": {
+        "score": 4.1,
+        "count": 46
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/1833195180"
+    },
+    {
+      "id": "R014",
+      "name": "윤찬식당",
+      "cuisine": "한식",
+      "desc": "디타워",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 122,
+      "dx": -36,
+      "dy": 118,
+      "kakao": {
+        "score": 4,
+        "count": 1245
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 525
+      },
+      "google": {
+        "score": 4.1,
+        "count": 539
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/1909881864"
+    },
+    {
+      "id": "R015",
+      "name": "광화문국밥",
+      "cuisine": "한식",
+      "desc": "돼지국밥과",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 445,
+      "dx": -436,
+      "dy": -92,
+      "kakao": {
+        "score": 4.8,
+        "count": 311
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1498
+      },
+      "google": {
+        "score": 4.3,
+        "count": 17
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로21길 53",
+      "placeUrl": "http://place.map.kakao.com/2067124772"
+    },
+    {
+      "id": "R016",
+      "name": "허니떡볶이",
+      "cuisine": "한식",
+      "desc": "광화문",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 374,
+      "dx": -365,
+      "dy": 81,
+      "kakao": {
+        "score": 3.7,
+        "count": 762
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 255
+      },
+      "google": {
+        "score": 4.2,
+        "count": 540
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로 103-1",
+      "placeUrl": "http://place.map.kakao.com/1079219444"
+    },
+    {
+      "id": "R017",
+      "name": "고려삼계탕",
+      "cuisine": "한식",
+      "desc": "광화문광장 인근",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 419,
+      "dx": -375,
+      "dy": 189,
+      "kakao": {
+        "score": 4.4,
+        "count": 1139
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 851
+      },
+      "google": {
+        "score": 4.3,
+        "count": 449
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 세종대로23길 5-1",
+      "placeUrl": "http://place.map.kakao.com/25051694"
+    },
+    {
+      "id": "R018",
+      "name": "고봉삼계탕",
+      "cuisine": "한식",
+      "desc": "새문안교회 인근",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 519,
+      "dx": -514,
+      "dy": 76,
+      "kakao": {
+        "score": 3.9,
+        "count": 1431
+      },
+      "naver": {
+        "score": 4,
+        "count": 223
+      },
+      "google": {
+        "score": 4.5,
+        "count": 369
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로 89",
+      "placeUrl": "http://place.map.kakao.com/731443103"
+    },
+    {
+      "id": "R019",
+      "name": "풍남골뱅이",
+      "cuisine": "한식",
+      "desc": "을지로",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 967,
+      "dx": 851,
+      "dy": -458,
+      "kakao": {
+        "score": 4.4,
+        "count": 1483
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 355
+      },
+      "google": {
+        "score": 4.3,
+        "count": 82
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 수표로 50-1",
+      "placeUrl": "http://place.map.kakao.com/8120548"
+    },
+    {
+      "id": "R020",
+      "name": "툇마루집",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 671,
+      "dx": 540,
+      "dy": 398,
+      "kakao": {
+        "score": 4.2,
+        "count": 778
+      },
+      "naver": {
+        "score": 4,
+        "count": 286
+      },
+      "google": {
+        "score": 3.9,
+        "count": 97
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동4길 5-26",
+      "placeUrl": "http://place.map.kakao.com/20534822"
+    },
+    {
+      "id": "R021",
+      "name": "꽃밥에피다",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 690,
+      "dx": 325,
+      "dy": 611,
+      "kakao": {
+        "score": 4.3,
+        "count": 709
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 73
+      },
+      "google": {
+        "score": 4.3,
+        "count": 486
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동16길 3-6",
+      "placeUrl": "http://place.map.kakao.com/27373320"
+    },
+    {
+      "id": "R022",
+      "name": "고궁 인사동점",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 890,
+      "dx": -472,
+      "dy": 757,
+      "kakao": {
+        "score": 4.1,
+        "count": 1101
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 432
+      },
+      "google": {
+        "score": 4.5,
+        "count": 315
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 효자로 12",
+      "placeUrl": "http://place.map.kakao.com/805718320"
+    },
+    {
+      "id": "R023",
+      "name": "소문 종로점",
+      "cuisine": "한식",
+      "desc": "종각역 센트로폴리스",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 94,
+      "dx": -38,
+      "dy": 87,
+      "kakao": {
+        "score": 4,
+        "count": 247
+      },
+      "naver": {
+        "score": 4,
+        "count": 919
+      },
+      "google": {
+        "score": 4.2,
+        "count": 433
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/16677630"
+    },
+    {
+      "id": "R024",
+      "name": "뉘조",
+      "cuisine": "한식",
+      "desc": "인사동14길",
+      "priceTier": 2,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 735,
+      "dx": 435,
+      "dy": 594,
+      "kakao": {
+        "score": 4.3,
+        "count": 878
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1082
+      },
+      "google": {
+        "score": 4.6,
+        "count": 269
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동14길 27",
+      "placeUrl": "http://place.map.kakao.com/10279722"
+    },
+    {
+      "id": "R025",
+      "name": "인사동두부마을",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 678,
+      "dx": 530,
+      "dy": 424,
+      "kakao": {
+        "score": 4.5,
+        "count": 185
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 63
+      },
+      "google": {
+        "score": 4.3,
+        "count": 470
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 인사동길 30-12",
+      "placeUrl": "http://place.map.kakao.com/15958548"
+    },
+    {
+      "id": "R026",
+      "name": "천둥소리 인사동점",
+      "cuisine": "한식",
+      "desc": "인사동",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 1060,
+      "dx": -431,
+      "dy": 968,
+      "kakao": {
+        "score": 4,
+        "count": 1383
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1394
+      },
+      "google": {
+        "score": 4.4,
+        "count": 547
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R027",
+      "name": "지리산",
+      "cuisine": "한식",
+      "desc": "안국역",
+      "priceTier": 2,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 1084,
+      "dx": -458,
+      "dy": 982,
+      "kakao": {
+        "score": 3.8,
+        "count": 391
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 439
+      },
+      "google": {
+        "score": 4.1,
+        "count": 148
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R028",
+      "name": "바른고기 정육점 광화문 SFC점",
+      "cuisine": "한식",
+      "desc": "SFC몰",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 237,
+      "dx": -183,
+      "dy": -152,
+      "kakao": {
+        "score": 4.2,
+        "count": 1200
+      },
+      "naver": {
+        "score": 4,
+        "count": 58
+      },
+      "google": {
+        "score": 4.1,
+        "count": 530
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로 136",
+      "placeUrl": "http://place.map.kakao.com/488283694"
+    },
+    {
+      "id": "R029",
+      "name": "고우가 광화문점",
+      "cuisine": "한식",
+      "desc": "SFC몰",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 263,
+      "dx": -215,
+      "dy": -154,
+      "kakao": {
+        "score": 4.8,
+        "count": 913
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1771
+      },
+      "google": {
+        "score": 4.1,
+        "count": 34
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로 136",
+      "placeUrl": "http://place.map.kakao.com/2067761241"
+    },
+    {
+      "id": "R030",
+      "name": "라멘 시미즈",
+      "cuisine": "일식",
+      "desc": "광화문",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 675,
+      "dx": -653,
+      "dy": 173,
+      "kakao": {
+        "score": 4.2,
+        "count": 208
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 625
+      },
+      "google": {
+        "score": 4.2,
+        "count": 347
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로3길 12",
+      "placeUrl": "http://place.map.kakao.com/1022528804"
+    },
+    {
+      "id": "R031",
+      "name": "오가와",
+      "cuisine": "일식",
+      "desc": "당주동 로얄빌딩",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 577,
+      "dx": 147,
+      "dy": -560,
+      "kakao": {
+        "score": 4.1,
+        "count": 440
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1275
+      },
+      "google": {
+        "score": 4.7,
+        "count": 31
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 남대문로 81",
+      "placeUrl": "http://place.map.kakao.com/266557064"
+    },
+    {
+      "id": "R032",
+      "name": "스시소라",
+      "cuisine": "일식",
+      "desc": "광화문",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 95,
+      "dx": -42,
+      "dy": 86,
+      "kakao": {
+        "score": 4.5,
+        "count": 355
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1298
+      },
+      "google": {
+        "score": 4.5,
+        "count": 416
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/1315083198"
+    },
+    {
+      "id": "R033",
+      "name": "모던샤브하우스",
+      "cuisine": "일식",
+      "desc": "디타워",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 183,
+      "dx": -125,
+      "dy": 134,
+      "kakao": {
+        "score": 3.9,
+        "count": 1079
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 122
+      },
+      "google": {
+        "score": 4.3,
+        "count": 148
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/804923494"
+    },
+    {
+      "id": "R034",
+      "name": "이자카야 소우",
+      "cuisine": "일식",
+      "desc": "광화문 골목",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 492,
+      "dx": -459,
+      "dy": 179,
+      "kakao": {
+        "score": 4.4,
+        "count": 601
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 369
+      },
+      "google": {
+        "score": 4.3,
+        "count": 244
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로7길 26",
+      "placeUrl": "http://place.map.kakao.com/769112864"
+    },
+    {
+      "id": "R035",
+      "name": "혼미 광화문점",
+      "cuisine": "일식",
+      "desc": "광화문역 8번출구",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 504,
+      "dx": -472,
+      "dy": 176,
+      "kakao": {
+        "score": 4.5,
+        "count": 982
+      },
+      "naver": {
+        "score": 4.7,
+        "count": 949
+      },
+      "google": {
+        "score": 4.8,
+        "count": 404
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로5길 12",
+      "placeUrl": "http://place.map.kakao.com/233326199"
+    },
+    {
+      "id": "R036",
+      "name": "스시조",
+      "cuisine": "일식",
+      "desc": "웨스틴조선",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 588,
+      "dx": -26,
+      "dy": -590,
+      "kakao": {
+        "score": 4.8,
+        "count": 906
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1137
+      },
+      "google": {
+        "score": 4.6,
+        "count": 163
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 소공로 106",
+      "placeUrl": "http://place.map.kakao.com/21306205"
+    },
+    {
+      "id": "R037",
+      "name": "오제제",
+      "cuisine": "일식",
+      "desc": "SFC몰",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 237,
+      "dx": -187,
+      "dy": -146,
+      "kakao": {
+        "score": 4.4,
+        "count": 906
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 907
+      },
+      "google": {
+        "score": 4.3,
+        "count": 130
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로 136",
+      "placeUrl": "http://place.map.kakao.com/913589012"
+    },
+    {
+      "id": "R038",
+      "name": "모모야",
+      "cuisine": "일식",
+      "desc": "SFC몰",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 220,
+      "dx": -157,
+      "dy": -154,
+      "kakao": {
+        "score": 4.4,
+        "count": 922
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 373
+      },
+      "google": {
+        "score": 4.7,
+        "count": 560
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로 136",
+      "placeUrl": "http://place.map.kakao.com/1058314880"
+    },
+    {
+      "id": "R039",
+      "name": "오로지라멘 종각점",
+      "cuisine": "일식",
+      "desc": "종각",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 236,
+      "dx": -200,
+      "dy": 125,
+      "kakao": {
+        "score": 4.3,
+        "count": 345
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1681
+      },
+      "google": {
+        "score": 3.8,
+        "count": 351
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R040",
+      "name": "덕후선생 광화문 D타워점",
+      "cuisine": "중식",
+      "desc": "디타워",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 188,
+      "dx": -124,
+      "dy": 142,
+      "kakao": {
+        "score": 3.9,
+        "count": 37
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1787
+      },
+      "google": {
+        "score": 4.3,
+        "count": 373
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/1758366707"
+    },
+    {
+      "id": "R041",
+      "name": "차알",
+      "cuisine": "중식",
+      "desc": "디타워",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 183,
+      "dx": -124,
+      "dy": 135,
+      "kakao": {
+        "score": 4.3,
+        "count": 1056
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 91
+      },
+      "google": {
+        "score": 4.2,
+        "count": 79
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/27260716"
+    },
+    {
+      "id": "R042",
+      "name": "홈보이서울",
+      "cuisine": "중식",
+      "desc": "사직로 경복궁역",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 954,
+      "dx": -634,
+      "dy": 715,
+      "kakao": {
+        "score": 4.1,
+        "count": 1379
+      },
+      "naver": {
+        "score": 4,
+        "count": 1536
+      },
+      "google": {
+        "score": 4.3,
+        "count": 588
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 사직로 127-14",
+      "placeUrl": "http://place.map.kakao.com/410544988"
+    },
+    {
+      "id": "R043",
+      "name": "홍연",
+      "cuisine": "중식",
+      "desc": "웨스틴조선호텔 서울",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 593,
+      "dx": -21,
+      "dy": -595,
+      "kakao": {
+        "score": 4.6,
+        "count": 284
+      },
+      "naver": {
+        "score": 4.7,
+        "count": 1254
+      },
+      "google": {
+        "score": 4.4,
+        "count": 303
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 소공로 106",
+      "placeUrl": "http://place.map.kakao.com/21306045"
+    },
+    {
+      "id": "R044",
+      "name": "부띠끄경성",
+      "cuisine": "양식",
+      "desc": "팔판동",
+      "priceTier": 2,
+      "purposes": [
+        "접대",
+        "저녁 회식"
+      ],
+      "distM": 1388,
+      "dx": 74,
+      "dy": 1390,
+      "kakao": {
+        "score": 3.9,
+        "count": 119
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 529
+      },
+      "google": {
+        "score": 4.2,
+        "count": 538
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼청로 75-5",
+      "placeUrl": "http://place.map.kakao.com/27344166"
+    },
+    {
+      "id": "R045",
+      "name": "이태리총각",
+      "cuisine": "양식",
+      "desc": "체부동/서촌",
+      "priceTier": 2,
+      "purposes": [
+        "접대",
+        "저녁 회식"
+      ],
+      "distM": 1365,
+      "dx": -861,
+      "dy": 1061,
+      "kakao": {
+        "score": 3.8,
+        "count": 471
+      },
+      "naver": {
+        "score": 4,
+        "count": 505
+      },
+      "google": {
+        "score": 4.2,
+        "count": 424
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 자하문로9길 11",
+      "placeUrl": "http://place.map.kakao.com/24449603"
+    },
+    {
+      "id": "R046",
+      "name": "나인스게이트",
+      "cuisine": "양식",
+      "desc": "웨스틴조선호텔 서울",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 588,
+      "dx": -14,
+      "dy": -591,
+      "kakao": {
+        "score": 4,
+        "count": 802
+      },
+      "naver": {
+        "score": 4.9,
+        "count": 449
+      },
+      "google": {
+        "score": 4.5,
+        "count": 538
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 소공로 106",
+      "placeUrl": "http://place.map.kakao.com/8225675"
+    },
+    {
+      "id": "R047",
+      "name": "루브리카",
+      "cuisine": "양식",
+      "desc": "웨스틴조선호텔 서울",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 591,
+      "dx": -36,
+      "dy": -592,
+      "kakao": {
+        "score": 3.7,
+        "count": 348
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1621
+      },
+      "google": {
+        "score": 4.7,
+        "count": 311
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 소공로 106",
+      "placeUrl": "http://place.map.kakao.com/1999647180"
+    },
+    {
+      "id": "R048",
+      "name": "아리아",
+      "cuisine": "양식",
+      "desc": "웨스틴조선호텔 서울",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 594,
+      "dx": -21,
+      "dy": -596,
+      "kakao": {
+        "score": 4.5,
+        "count": 694
+      },
+      "naver": {
+        "score": 4.7,
+        "count": 733
+      },
+      "google": {
+        "score": 4.9,
+        "count": 160
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 소공로 106",
+      "placeUrl": "http://place.map.kakao.com/21306149"
+    },
+    {
+      "id": "R049",
+      "name": "포비",
+      "cuisine": "양식",
+      "desc": "디타워",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 183,
+      "dx": -125,
+      "dy": 134,
+      "kakao": {
+        "score": 4.2,
+        "count": 315
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1230
+      },
+      "google": {
+        "score": 4,
+        "count": 513
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/27187492"
+    },
+    {
+      "id": "R050",
+      "name": "비스",
+      "cuisine": "양식",
+      "desc": "정동길",
+      "priceTier": 1,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 1077,
+      "dx": -1005,
+      "dy": -386,
+      "kakao": {
+        "score": 4,
+        "count": 551
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1619
+      },
+      "google": {
+        "score": 4.3,
+        "count": 90
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R051",
+      "name": "띤띤",
+      "cuisine": "동남아",
+      "desc": "SFC몰",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 262,
+      "dx": -212,
+      "dy": -155,
+      "kakao": {
+        "score": 4,
+        "count": 1026
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 545
+      },
+      "google": {
+        "score": 4.3,
+        "count": 282
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로 136",
+      "placeUrl": "http://place.map.kakao.com/879176742"
+    },
+    {
+      "id": "R052",
+      "name": "쿠아타이푸드",
+      "cuisine": "동남아",
+      "desc": "종각 지하",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 128,
+      "dx": -46,
+      "dy": 120,
+      "kakao": {
+        "score": 4.3,
+        "count": 771
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 881
+      },
+      "google": {
+        "score": 4.3,
+        "count": 250
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/1275625140"
+    },
+    {
+      "id": "R053",
+      "name": "까몬 광화문점",
+      "cuisine": "동남아",
+      "desc": "SFC몰",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 678,
+      "dx": -653,
+      "dy": 183,
+      "kakao": {
+        "score": 4.1,
+        "count": 357
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1651
+      },
+      "google": {
+        "score": 4.2,
+        "count": 198
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로3길 12",
+      "placeUrl": "http://place.map.kakao.com/1482801701"
+    },
+    {
+      "id": "R054",
+      "name": "생어거스틴 광화문파이낸스점",
+      "cuisine": "동남아",
+      "desc": "신세계 방향",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 1312,
+      "dx": -1189,
+      "dy": -554,
+      "kakao": {
+        "score": 4,
+        "count": 338
+      },
+      "naver": {
+        "score": 4,
+        "count": 874
+      },
+      "google": {
+        "score": 3.7,
+        "count": 158
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R055",
+      "name": "만선호프",
+      "cuisine": "한식",
+      "desc": "을지로 노가리골목",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 1032,
+      "dx": 988,
+      "dy": -293,
+      "kakao": {
+        "score": 4,
+        "count": 629
+      },
+      "naver": {
+        "score": 4,
+        "count": 882
+      },
+      "google": {
+        "score": 4.1,
+        "count": 327
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 충무로9길 14",
+      "placeUrl": "http://place.map.kakao.com/1745558364"
+    },
+    {
+      "id": "R056",
       "name": "서린낙지",
       "cuisine": "한식",
-      "desc": "매콤한 낙지볶음 노포, 회사 바로 앞",
+      "desc": "매콤한 낙지볶음 노포",
       "priceTier": 1,
       "purposes": [
         "점심",
@@ -16,11 +1617,15 @@
       "dy": 90,
       "kakao": {
         "score": 4,
-        "count": 820
+        "count": 1433
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 290
       },
       "google": {
-        "score": 4.2,
-        "count": 510
+        "score": 4.5,
+        "count": 432
       },
       "naverBooking": false,
       "catchtable": false,
@@ -28,33 +1633,37 @@
       "placeUrl": "http://place.map.kakao.com/7937472"
     },
     {
-      "id": "cheongjinok",
-      "name": "청진옥",
+      "id": "R057",
+      "name": "창화당 익선점",
       "cuisine": "한식",
-      "desc": "1937년 개업 해장국 노포",
+      "desc": "익선동 만두 전문",
       "priceTier": 1,
       "purposes": [
         "점심",
         "저녁 회식"
       ],
-      "distM": 227,
-      "dx": -78,
-      "dy": 215,
+      "distM": 828,
+      "dx": 689,
+      "dy": -461,
       "kakao": {
-        "score": 4.1,
-        "count": 1250
+        "score": 4.6,
+        "count": 687
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1268
       },
       "google": {
-        "score": 4.3,
-        "count": 980
+        "score": 4.4,
+        "count": 256
       },
       "naverBooking": false,
       "catchtable": false,
-      "address": "서울 종로구 종로3길 32",
-      "placeUrl": "http://place.map.kakao.com/27540102"
+      "address": "서울 중구 을지로 100",
+      "placeUrl": "http://place.map.kakao.com/2125197753"
     },
     {
-      "id": "yeolchajip",
+      "id": "R058",
       "name": "열차집",
       "cuisine": "한식",
       "desc": "공평동 빈대떡·막걸리 노포",
@@ -67,11 +1676,15 @@
       "dy": 213,
       "kakao": {
         "score": 4.3,
-        "count": 640
+        "count": 352
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1153
       },
       "google": {
-        "score": 4.4,
-        "count": 420
+        "score": 4.1,
+        "count": 312
       },
       "naverBooking": false,
       "catchtable": false,
@@ -79,83 +1692,67 @@
       "placeUrl": "http://place.map.kakao.com/13092177"
     },
     {
-      "id": "imun-seolnongtang",
-      "name": "이문설농탕",
+      "id": "R059",
+      "name": "보건옥",
       "cuisine": "한식",
-      "desc": "1904년 개업, 서울에서 가장 오래된 설렁탕집",
-      "priceTier": 1,
+      "desc": "을지로 불고기 노포",
+      "priceTier": 2,
       "purposes": [
-        "점심"
-      ],
-      "distM": 454,
-      "dx": 316,
-      "dy": 328,
-      "kakao": {
-        "score": 4.2,
-        "count": 980
-      },
-      "google": {
-        "score": 4.4,
-        "count": 1500
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 종로구 우정국로 38-13",
-      "placeUrl": "http://place.map.kakao.com/24725293"
-    },
-    {
-      "id": "mijin",
-      "name": "미진",
-      "cuisine": "한식",
-      "desc": "광화문 메밀국수 노포",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 122,
-      "dx": -36,
-      "dy": 118,
-      "kakao": {
-        "score": 4,
-        "count": 1100
-      },
-      "google": {
-        "score": 4.2,
-        "count": 890
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 종로구 종로 19",
-      "placeUrl": "http://place.map.kakao.com/21326655"
-    },
-    {
-      "id": "gwanghwamun-gukbap",
-      "name": "광화문국밥",
-      "cuisine": "한식",
-      "desc": "돼지국밥과 평양냉면",
-      "priceTier": 1,
-      "purposes": [
-        "점심",
         "저녁 회식"
       ],
-      "distM": 445,
-      "dx": -436,
-      "dy": -92,
+      "distM": 1634,
+      "dx": 1626,
+      "dy": -140,
       "kakao": {
-        "score": 4.3,
-        "count": 760
+        "score": 4.2,
+        "count": 807
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 847
       },
       "google": {
         "score": 4.4,
-        "count": 640
+        "count": 328
       },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 중구 세종대로21길 53",
-      "placeUrl": "http://place.map.kakao.com/2067124772"
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 창경궁로8길 12",
+      "placeUrl": "http://place.map.kakao.com/10375797"
     },
     {
-      "id": "yonggeumok",
+      "id": "R060",
+      "name": "한일관 광화문점",
+      "cuisine": "한식",
+      "desc": "1939년 개업 불고기",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 557,
+      "dx": -114,
+      "dy": 547,
+      "kakao": {
+        "score": 4.4,
+        "count": 608
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1634
+      },
+      "google": {
+        "score": 4.3,
+        "count": 579
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로1길 50",
+      "placeUrl": "http://place.map.kakao.com/20333726"
+    },
+    {
+      "id": "R061",
       "name": "용금옥",
       "cuisine": "한식",
       "desc": "1932년 개업 추어탕 노포",
@@ -168,11 +1765,15 @@
       "dy": -237,
       "kakao": {
         "score": 4.1,
-        "count": 430
+        "count": 831
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1364
       },
       "google": {
         "score": 4.3,
-        "count": 350
+        "count": 99
       },
       "naverBooking": false,
       "catchtable": false,
@@ -180,7 +1781,7 @@
       "placeUrl": "http://place.map.kakao.com/10703052"
     },
     {
-      "id": "buminok",
+      "id": "R062",
       "name": "부민옥",
       "cuisine": "한식",
       "desc": "다동 육개장·양무침",
@@ -193,12 +1794,16 @@
       "dx": -1,
       "dy": -254,
       "kakao": {
+        "score": 4.1,
+        "count": 1104
+      },
+      "naver": {
         "score": 4.2,
-        "count": 520
+        "count": 251
       },
       "google": {
-        "score": 4.3,
-        "count": 410
+        "score": 4.7,
+        "count": 13
       },
       "naverBooking": false,
       "catchtable": false,
@@ -206,239 +1811,10 @@
       "placeUrl": "http://place.map.kakao.com/1346301870"
     },
     {
-      "id": "nampo-myeonok",
-      "name": "남포면옥",
-      "cuisine": "한식",
-      "desc": "다동 평양냉면·어복쟁반",
-      "priceTier": 2,
-      "purposes": [
-        "점심",
-        "저녁 회식"
-      ],
-      "distM": 317,
-      "dx": 126,
-      "dy": -292,
-      "kakao": {
-        "score": 4,
-        "count": 610
-      },
-      "google": {
-        "score": 4.2,
-        "count": 480
-      },
-      "naverBooking": true,
-      "catchtable": false,
-      "address": "서울 중구 을지로3길 24",
-      "placeUrl": "http://place.map.kakao.com/21232315"
-    },
-    {
-      "id": "mugyodong-bugeoguk",
-      "name": "무교동북어국집",
-      "cuisine": "한식",
-      "desc": "북엇국 단일 메뉴, 아침·점심 해장 성지",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 231,
-      "dx": -42,
-      "dy": -229,
-      "kakao": {
-        "score": 4.4,
-        "count": 1900
-      },
-      "google": {
-        "score": 4.5,
-        "count": 2300
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 을지로1길 38",
-      "placeUrl": "http://place.map.kakao.com/11064200"
-    },
-    {
-      "id": "yujeong-nakji",
-      "name": "무교동유정낙지 본점",
-      "cuisine": "한식",
-      "desc": "낙지볶음 노포, 정동 성공회성당 맞은편",
-      "priceTier": 1,
-      "purposes": [
-        "점심",
-        "저녁 회식"
-      ],
-      "distM": 448,
-      "dx": -378,
-      "dy": -240,
-      "kakao": {
-        "score": 4,
-        "count": 700
-      },
-      "google": {
-        "score": 4.1,
-        "count": 520
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 세종대로21길 22",
-      "placeUrl": "http://place.map.kakao.com/106387862"
-    },
-    {
-      "id": "jinju-hoegwan",
-      "name": "진주회관",
-      "cuisine": "한식",
-      "desc": "시청 앞 콩국수 명가",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 959,
-      "dx": -512,
-      "dy": -814,
-      "kakao": {
-        "score": 4.2,
-        "count": 1300
-      },
-      "google": {
-        "score": 4.3,
-        "count": 1100
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 세종대로11길 26",
-      "placeUrl": "http://place.map.kakao.com/11152625"
-    },
-    {
-      "id": "hadongkwan",
-      "name": "하동관 명동본점",
-      "cuisine": "한식",
-      "desc": "1939년 개업 곰탕, 오후 4시 마감",
-      "priceTier": 2,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 724,
-      "dx": 414,
-      "dy": -597,
-      "kakao": {
-        "score": 4.3,
-        "count": 1600
-      },
-      "google": {
-        "score": 4.4,
-        "count": 2100
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 명동9길 12",
-      "placeUrl": "http://place.map.kakao.com/1822111964"
-    },
-    {
-      "id": "tosokchon",
-      "name": "토속촌삼계탕",
-      "cuisine": "한식",
-      "desc": "경복궁 옆 삼계탕, 외국 손님에게 인기",
-      "priceTier": 1,
-      "purposes": [
-        "점심",
-        "접대"
-      ],
-      "distM": 1176,
-      "dx": -780,
-      "dy": 883,
-      "kakao": {
-        "score": 4.1,
-        "count": 2400
-      },
-      "google": {
-        "score": 4.3,
-        "count": 5200
-      },
-      "naverBooking": true,
-      "catchtable": false,
-      "address": "서울 종로구 자하문로5길 5",
-      "placeUrl": "http://place.map.kakao.com/26545925"
-    },
-    {
-      "id": "gomgooksijip",
-      "name": "곰국시집",
-      "cuisine": "한식",
-      "desc": "곰국수·수육 노포, 무교동 직장인 단골",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 208,
-      "dx": -80,
-      "dy": -193,
-      "kakao": {
-        "score": 4.3,
-        "count": 700
-      },
-      "google": {
-        "score": 4.4,
-        "count": 520
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 무교로 24",
-      "placeUrl": "http://place.map.kakao.com/13288123"
-    },
-    {
-      "id": "bogeonok",
-      "name": "보건옥",
-      "cuisine": "한식",
-      "desc": "을지로 불고기 노포, 저녁 회식 단골",
-      "priceTier": 2,
-      "purposes": [
-        "저녁 회식"
-      ],
-      "distM": 1634,
-      "dx": 1626,
-      "dy": -140,
-      "kakao": {
-        "score": 4.2,
-        "count": 540
-      },
-      "google": {
-        "score": 4.3,
-        "count": 380
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 창경궁로8길 12",
-      "placeUrl": "http://place.map.kakao.com/10375797"
-    },
-    {
-      "id": "changhwadang",
-      "name": "창화당 파인애비뉴점",
-      "cuisine": "한식",
-      "desc": "만두 전문, 캐주얼 회식 (을지로 파인애비뉴)",
-      "priceTier": 1,
-      "purposes": [
-        "점심",
-        "저녁 회식"
-      ],
-      "distM": 828,
-      "dx": 689,
-      "dy": -461,
-      "kakao": {
-        "score": 4.3,
-        "count": 1100
-      },
-      "google": {
-        "score": 4.4,
-        "count": 800
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 중구 을지로 100",
-      "placeUrl": "http://place.map.kakao.com/2125197753"
-    },
-    {
-      "id": "changgo43",
+      "id": "R063",
       "name": "창고43 시청점",
       "cuisine": "한식",
-      "desc": "한우 구이 전문, 접대·회식 룸 보유",
+      "desc": "한우 구이 전문",
       "priceTier": 3,
       "purposes": [
         "저녁 회식",
@@ -448,226 +1824,27 @@
       "dx": -502,
       "dy": -770,
       "kakao": {
-        "score": 4.3,
-        "count": 720
+        "score": 4.1,
+        "count": 1274
+      },
+      "naver": {
+        "score": 4.7,
+        "count": 416
       },
       "google": {
-        "score": 4.4,
-        "count": 530
+        "score": 4.3,
+        "count": 425
       },
-      "naverBooking": true,
-      "catchtable": true,
+      "naverBooking": false,
+      "catchtable": false,
       "address": "서울 중구 서소문로 120",
       "placeUrl": "http://place.map.kakao.com/26470073"
     },
     {
-      "id": "hanilkwan",
-      "name": "한일관 광화문점",
-      "cuisine": "한식",
-      "desc": "1939년 개업 불고기, D타워 입점",
-      "priceTier": 2,
-      "purposes": [
-        "점심",
-        "저녁 회식",
-        "접대"
-      ],
-      "distM": 557,
-      "dx": -114,
-      "dy": 547,
-      "kakao": {
-        "score": 4.2,
-        "count": 980
-      },
-      "google": {
-        "score": 4.3,
-        "count": 1200
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 종로구 종로1길 50",
-      "placeUrl": "http://place.map.kakao.com/20333726"
-    },
-    {
-      "id": "dalgaebi",
-      "name": "달개비",
-      "cuisine": "한식",
-      "desc": "정동 한정식, 조용한 접대 자리",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 492,
-      "dx": -357,
-      "dy": -339,
-      "kakao": {
-        "score": 4.3,
-        "count": 310
-      },
-      "google": {
-        "score": 4.4,
-        "count": 270
-      },
-      "naverBooking": true,
-      "catchtable": false,
-      "address": "서울 중구 세종대로19길 16",
-      "placeUrl": "http://place.map.kakao.com/10256976"
-    },
-    {
-      "id": "yongsusan",
-      "name": "용수산 비원점",
-      "cuisine": "한식",
-      "desc": "개성식 한정식, 창덕궁 앞 접대 명소",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 1327,
-      "dx": 783,
-      "dy": 1075,
-      "kakao": {
-        "score": 4.1,
-        "count": 280
-      },
-      "google": {
-        "score": 4.3,
-        "count": 340
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 종로구 창덕궁1길 2",
-      "placeUrl": "http://place.map.kakao.com/8470559"
-    },
-    {
-      "id": "jambaeok",
-      "name": "잼배옥",
-      "cuisine": "한식",
-      "desc": "1933년 창업 설렁탕 노포, 서소문",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 993,
-      "dx": -584,
-      "dy": -806,
-      "kakao": {
-        "score": 4.2,
-        "count": 900
-      },
-      "google": {
-        "score": 4.3,
-        "count": 700
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 서소문동 60-1",
-      "placeUrl": "http://place.map.kakao.com/8531849"
-    },
-    {
-      "id": "myeongdong-kyoja",
-      "name": "명동교자 본점",
-      "cuisine": "한식",
-      "desc": "칼국수·만두, 미쉐린 빕구르망",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 1081,
-      "dx": 508,
-      "dy": -958,
-      "kakao": {
-        "score": 4.2,
-        "count": 3100
-      },
-      "google": {
-        "score": 4.3,
-        "count": 6800
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 퇴계로 129",
-      "placeUrl": "http://place.map.kakao.com/1479300828"
-    },
-    {
-      "id": "sunhuine",
-      "name": "순희네빈대떡",
-      "cuisine": "한식",
-      "desc": "광장시장 대표 빈대떡, 시장 회식",
-      "priceTier": 1,
-      "purposes": [
-        "저녁 회식"
-      ],
-      "distM": 1063,
-      "dx": -251,
-      "dy": -1037,
-      "kakao": {
-        "score": 4.2,
-        "count": 1500
-      },
-      "google": {
-        "score": 4.3,
-        "count": 2400
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 남대문시장길 25-8",
-      "placeUrl": "http://place.map.kakao.com/13595176"
-    },
-    {
-      "id": "sushisora",
-      "name": "스시소라 광화문점",
-      "cuisine": "일식",
-      "desc": "가성비 초밥, 르메이에르 입점",
-      "priceTier": 1,
-      "purposes": [
-        "점심"
-      ],
-      "distM": 95,
-      "dx": -42,
-      "dy": 86,
-      "kakao": {
-        "score": 4,
-        "count": 450
-      },
-      "google": {
-        "score": 4.1,
-        "count": 380
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 종로구 종로 19",
-      "placeUrl": "http://place.map.kakao.com/1315083198"
-    },
-    {
-      "id": "osaichobap",
-      "name": "오사이초밥 광화문점",
-      "cuisine": "일식",
-      "desc": "오마카세·초밥, 점심 코스 합리적",
-      "priceTier": 2,
-      "purposes": [
-        "점심",
-        "접대"
-      ],
-      "distM": 122,
-      "dx": -36,
-      "dy": 118,
-      "kakao": {
-        "score": 4.2,
-        "count": 380
-      },
-      "google": {
-        "score": 4.3,
-        "count": 290
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 종로구 종로 19",
-      "placeUrl": "http://place.map.kakao.com/1616941791"
-    },
-    {
-      "id": "la-cantina",
+      "id": "R064",
       "name": "라칸티나",
       "cuisine": "양식",
-      "desc": "1967년 개업 이탈리안 노포, 을지로1가",
+      "desc": "1967년 개업 이탈리안 노포",
       "priceTier": 2,
       "purposes": [
         "저녁 회식",
@@ -677,197 +1854,24 @@
       "dx": -34,
       "dy": -398,
       "kakao": {
-        "score": 4.3,
-        "count": 850
+        "score": 4.5,
+        "count": 143
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1375
       },
       "google": {
-        "score": 4.4,
-        "count": 600
+        "score": 4.1,
+        "count": 98
       },
-      "naverBooking": true,
-      "catchtable": true,
+      "naverBooking": false,
+      "catchtable": false,
       "address": "서울 중구 을지로 19",
       "placeUrl": "http://place.map.kakao.com/10372376"
     },
     {
-      "id": "sushi-cho",
-      "name": "스시조",
-      "cuisine": "일식",
-      "desc": "웨스틴조선 스시, 최고급 접대",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 588,
-      "dx": -26,
-      "dy": -590,
-      "kakao": {
-        "score": 4.5,
-        "count": 260
-      },
-      "google": {
-        "score": 4.6,
-        "count": 310
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 중구 소공로 106",
-      "placeUrl": "http://place.map.kakao.com/21306205"
-    },
-    {
-      "id": "momoyama",
-      "name": "모모야마",
-      "cuisine": "일식",
-      "desc": "롯데호텔 일식, 룸 완비 접대 명소",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 495,
-      "dx": 55,
-      "dy": -494,
-      "kakao": {
-        "score": 4.4,
-        "count": 190
-      },
-      "google": {
-        "score": 4.5,
-        "count": 240
-      },
-      "naverBooking": true,
-      "catchtable": false,
-      "address": "서울 중구 을지로 30",
-      "placeUrl": "http://place.map.kakao.com/7856128"
-    },
-    {
-      "id": "andongjang",
-      "name": "안동장",
-      "cuisine": "중식",
-      "desc": "1948년 개업, 굴짬뽕 원조",
-      "priceTier": 1,
-      "purposes": [
-        "점심",
-        "저녁 회식"
-      ],
-      "distM": 1075,
-      "dx": 992,
-      "dy": -412,
-      "kakao": {
-        "score": 4.1,
-        "count": 830
-      },
-      "google": {
-        "score": 4.2,
-        "count": 690
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 중구 을지로 124",
-      "placeUrl": "http://place.map.kakao.com/10582837"
-    },
-    {
-      "id": "dowon",
-      "name": "더플라자호텔 도원",
-      "cuisine": "중식",
-      "desc": "더플라자 중식당, 시청 뷰 룸",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 601,
-      "dx": -198,
-      "dy": -570,
-      "kakao": {
-        "score": 4.3,
-        "count": 230
-      },
-      "google": {
-        "score": 4.4,
-        "count": 300
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 중구 소공로 119",
-      "placeUrl": "http://place.map.kakao.com/27025622"
-    },
-    {
-      "id": "yuyuan",
-      "name": "유유안",
-      "cuisine": "중식",
-      "desc": "포시즌스 광둥식 파인다이닝",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 435,
-      "dx": -424,
-      "dy": 97,
-      "kakao": {
-        "score": 4.5,
-        "count": 320
-      },
-      "google": {
-        "score": 4.6,
-        "count": 410
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 종로구 새문안로 97",
-      "placeUrl": "http://place.map.kakao.com/27464311"
-    },
-    {
-      "id": "boccalino",
-      "name": "보칼리노",
-      "cuisine": "양식",
-      "desc": "포시즌스 이탈리안, 비즈니스 런치",
-      "priceTier": 3,
-      "purposes": [
-        "접대"
-      ],
-      "distM": 447,
-      "dx": -435,
-      "dy": 101,
-      "kakao": {
-        "score": 4.4,
-        "count": 210
-      },
-      "google": {
-        "score": 4.5,
-        "count": 280
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 종로구 새문안로 97",
-      "placeUrl": "http://place.map.kakao.com/1580609628"
-    },
-    {
-      "id": "mad-for-garlic",
-      "name": "매드포갈릭 D타워점",
-      "cuisine": "양식",
-      "desc": "마늘 컨셉 이탈리안, 단체석",
-      "priceTier": 2,
-      "purposes": [
-        "점심",
-        "저녁 회식"
-      ],
-      "distM": 180,
-      "dx": -140,
-      "dy": 114,
-      "kakao": {
-        "score": 4,
-        "count": 560
-      },
-      "google": {
-        "score": 4.2,
-        "count": 480
-      },
-      "naverBooking": true,
-      "catchtable": true,
-      "address": "서울 종로구 종로3길 17",
-      "placeUrl": "http://place.map.kakao.com/1851079532"
-    },
-    {
-      "id": "butchers-cut",
+      "id": "R065",
       "name": "부처스컷 광화문점",
       "cuisine": "양식",
       "desc": "프리미엄 스테이크하우스",
@@ -880,20 +1884,169 @@
       "dx": -133,
       "dy": -163,
       "kakao": {
+        "score": 4.2,
+        "count": 1252
+      },
+      "naver": {
         "score": 4.3,
-        "count": 490
+        "count": 1347
       },
       "google": {
-        "score": 4.4,
-        "count": 520
+        "score": 4.5,
+        "count": 11
       },
-      "naverBooking": true,
-      "catchtable": true,
+      "naverBooking": false,
+      "catchtable": false,
       "address": "서울 중구 세종대로 136",
       "placeUrl": "http://place.map.kakao.com/18274189"
     },
     {
-      "id": "misien",
+      "id": "R066",
+      "name": "매드포갈릭 D타워점",
+      "cuisine": "양식",
+      "desc": "마늘 컨셉 이탈리안",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 180,
+      "dx": -140,
+      "dy": 114,
+      "kakao": {
+        "score": 3.9,
+        "count": 584
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 296
+      },
+      "google": {
+        "score": 3.9,
+        "count": 448
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/1851079532"
+    },
+    {
+      "id": "R067",
+      "name": "달개비",
+      "cuisine": "한식",
+      "desc": "정동 한정식",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 492,
+      "dx": -357,
+      "dy": -339,
+      "kakao": {
+        "score": 4.1,
+        "count": 684
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 595
+      },
+      "google": {
+        "score": 4.2,
+        "count": 166
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로19길 16",
+      "placeUrl": "http://place.map.kakao.com/10256976"
+    },
+    {
+      "id": "R068",
+      "name": "스시마이우 광화문점",
+      "cuisine": "일식",
+      "desc": "D타워 스시",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "접대"
+      ],
+      "distM": 700,
+      "dx": -350,
+      "dy": -606,
+      "kakao": {
+        "score": 4.4,
+        "count": 499
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 986
+      },
+      "google": {
+        "score": 4.8,
+        "count": 414
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R069",
+      "name": "모모야마",
+      "cuisine": "일식",
+      "desc": "롯데호텔 일식",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 495,
+      "dx": 55,
+      "dy": -494,
+      "kakao": {
+        "score": 4.4,
+        "count": 726
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 290
+      },
+      "google": {
+        "score": 4.4,
+        "count": 305
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로 30",
+      "placeUrl": "http://place.map.kakao.com/7856128"
+    },
+    {
+      "id": "R070",
+      "name": "유유안",
+      "cuisine": "중식",
+      "desc": "포시즌스 광둥식 파인다이닝",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 435,
+      "dx": -424,
+      "dy": 97,
+      "kakao": {
+        "score": 4.6,
+        "count": 1149
+      },
+      "naver": {
+        "score": 4.6,
+        "count": 1633
+      },
+      "google": {
+        "score": 4.9,
+        "count": 307
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로 97",
+      "placeUrl": "http://place.map.kakao.com/27464311"
+    },
+    {
+      "id": "R071",
       "name": "광화문미시엔",
       "cuisine": "동남아",
       "desc": "광화문 쌀국수 맛집",
@@ -906,16 +2059,2815 @@
       "dy": -10,
       "kakao": {
         "score": 4.2,
-        "count": 600
+        "count": 748
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 193
       },
       "google": {
-        "score": 4.3,
-        "count": 450
+        "score": 4.2,
+        "count": 249
       },
       "naverBooking": false,
       "catchtable": false,
       "address": "서울 종로구 새문안로 92",
       "placeUrl": "http://place.map.kakao.com/1958296219"
+    },
+    {
+      "id": "R072",
+      "name": "곰국시집",
+      "cuisine": "한식",
+      "desc": "곰국수·수육 노포",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 208,
+      "dx": -80,
+      "dy": -193,
+      "kakao": {
+        "score": 4.5,
+        "count": 1156
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 714
+      },
+      "google": {
+        "score": 4.8,
+        "count": 203
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 24",
+      "placeUrl": "http://place.map.kakao.com/13288123"
+    },
+    {
+      "id": "R073",
+      "name": "용수산 비원점",
+      "cuisine": "한식",
+      "desc": "개성식 한정식",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 1327,
+      "dx": 783,
+      "dy": 1075,
+      "kakao": {
+        "score": 4.1,
+        "count": 857
+      },
+      "naver": {
+        "score": 4.6,
+        "count": 514
+      },
+      "google": {
+        "score": 3.7,
+        "count": 233
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 창덕궁1길 2",
+      "placeUrl": "http://place.map.kakao.com/8470559"
+    },
+    {
+      "id": "R074",
+      "name": "토속촌삼계탕",
+      "cuisine": "한식",
+      "desc": "경복궁 옆 삼계탕",
+      "priceTier": 1,
+      "purposes": [
+        "점심",
+        "접대"
+      ],
+      "distM": 1176,
+      "dx": -780,
+      "dy": 883,
+      "kakao": {
+        "score": 4.1,
+        "count": 1465
+      },
+      "naver": {
+        "score": 4.8,
+        "count": 232
+      },
+      "google": {
+        "score": 4.2,
+        "count": 513
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 자하문로5길 5",
+      "placeUrl": "http://place.map.kakao.com/26545925"
+    },
+    {
+      "id": "R075",
+      "name": "미소야 종로점",
+      "cuisine": "일식",
+      "desc": "돈카츠·우동",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 1000,
+      "dx": -35,
+      "dy": -999,
+      "kakao": {
+        "score": 4.2,
+        "count": 49
+      },
+      "naver": {
+        "score": 4,
+        "count": 1663
+      },
+      "google": {
+        "score": 4.4,
+        "count": 167
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R076",
+      "name": "안동장",
+      "cuisine": "중식",
+      "desc": "1948년 개업",
+      "priceTier": 1,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 1075,
+      "dx": 992,
+      "dy": -412,
+      "kakao": {
+        "score": 4.1,
+        "count": 1445
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1716
+      },
+      "google": {
+        "score": 4.2,
+        "count": 384
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로 124",
+      "placeUrl": "http://place.map.kakao.com/10582837"
+    },
+    {
+      "id": "R077",
+      "name": "보칼리노",
+      "cuisine": "양식",
+      "desc": "포시즌스 이탈리안",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 447,
+      "dx": -435,
+      "dy": 101,
+      "kakao": {
+        "score": 4.6,
+        "count": 516
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1704
+      },
+      "google": {
+        "score": 4.4,
+        "count": 348
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로 97",
+      "placeUrl": "http://place.map.kakao.com/1580609628"
+    },
+    {
+      "id": "R078",
+      "name": "무교동유정낙지 본점",
+      "cuisine": "한식",
+      "desc": "낙지볶음 노포",
+      "priceTier": 1,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 448,
+      "dx": -378,
+      "dy": -240,
+      "kakao": {
+        "score": 3.9,
+        "count": 1239
+      },
+      "naver": {
+        "score": 3.5,
+        "count": 1633
+      },
+      "google": {
+        "score": 4.1,
+        "count": 230
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로21길 22",
+      "placeUrl": "http://place.map.kakao.com/106387862"
+    },
+    {
+      "id": "R079",
+      "name": "남포면옥",
+      "cuisine": "한식",
+      "desc": "다동 평양냉면·어복쟁반",
+      "priceTier": 2,
+      "purposes": [
+        "점심",
+        "저녁 회식"
+      ],
+      "distM": 317,
+      "dx": 126,
+      "dy": -292,
+      "kakao": {
+        "score": 3.8,
+        "count": 197
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1597
+      },
+      "google": {
+        "score": 4.7,
+        "count": 410
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 24",
+      "placeUrl": "http://place.map.kakao.com/21232315"
+    },
+    {
+      "id": "R080",
+      "name": "명동교자 본점",
+      "cuisine": "한식",
+      "desc": "칼국수·만두",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 1081,
+      "dx": 508,
+      "dy": -958,
+      "kakao": {
+        "score": 4.2,
+        "count": 55
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1729
+      },
+      "google": {
+        "score": 4,
+        "count": 254
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 퇴계로 129",
+      "placeUrl": "http://place.map.kakao.com/1479300828"
+    },
+    {
+      "id": "R081",
+      "name": "하동관 명동본점",
+      "cuisine": "한식",
+      "desc": "1939년 개업 곰탕",
+      "priceTier": 2,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 724,
+      "dx": 414,
+      "dy": -597,
+      "kakao": {
+        "score": 4.2,
+        "count": 526
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1590
+      },
+      "google": {
+        "score": 4.7,
+        "count": 327
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 명동9길 12",
+      "placeUrl": "http://place.map.kakao.com/1822111964"
+    },
+    {
+      "id": "R082",
+      "name": "순희네빈대떡",
+      "cuisine": "한식",
+      "desc": "광장시장 대표 빈대떡",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 1063,
+      "dx": -251,
+      "dy": -1037,
+      "kakao": {
+        "score": 4.5,
+        "count": 1118
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1659
+      },
+      "google": {
+        "score": 4.4,
+        "count": 520
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 남대문시장길 25-8",
+      "placeUrl": "http://place.map.kakao.com/13595176"
+    },
+    {
+      "id": "R083",
+      "name": "도원",
+      "cuisine": "중식",
+      "desc": "더플라자 중식당",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 335,
+      "dx": -210,
+      "dy": 262,
+      "kakao": {
+        "score": 4.5,
+        "count": 245
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1737
+      },
+      "google": {
+        "score": 4.2,
+        "count": 17
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 세종대로 178",
+      "placeUrl": "http://place.map.kakao.com/1972946304"
+    },
+    {
+      "id": "R084",
+      "name": "진주회관",
+      "cuisine": "한식",
+      "desc": "시청 앞 콩국수 명가",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 959,
+      "dx": -512,
+      "dy": -814,
+      "kakao": {
+        "score": 4.5,
+        "count": 1153
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1035
+      },
+      "google": {
+        "score": 4.5,
+        "count": 148
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로11길 26",
+      "placeUrl": "http://place.map.kakao.com/11152625"
+    },
+    {
+      "id": "R085",
+      "name": "잼배옥",
+      "cuisine": "한식",
+      "desc": "1933년 창업 설렁탕 노포",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 993,
+      "dx": -584,
+      "dy": -806,
+      "kakao": {
+        "score": 3.8,
+        "count": 1497
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1306
+      },
+      "google": {
+        "score": 3.9,
+        "count": 23
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 서소문동 60-1",
+      "placeUrl": "http://place.map.kakao.com/8531849"
+    },
+    {
+      "id": "R086",
+      "name": "장호왕곱창",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 124,
+      "dx": -36,
+      "dy": 120,
+      "kakao": {
+        "score": 4.1,
+        "count": 627
+      },
+      "naver": {
+        "score": 4,
+        "count": 989
+      },
+      "google": {
+        "score": 4.1,
+        "count": 441
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/15948216"
+    },
+    {
+      "id": "R087",
+      "name": "손가명가",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 183,
+      "dx": -10,
+      "dy": -184,
+      "kakao": {
+        "score": 4.2,
+        "count": 117
+      },
+      "naver": {
+        "score": 4,
+        "count": 794
+      },
+      "google": {
+        "score": 4.2,
+        "count": 28
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 13",
+      "placeUrl": "http://place.map.kakao.com/7953115"
+    },
+    {
+      "id": "R088",
+      "name": "해봉정육 무교점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 142,
+      "dx": -11,
+      "dy": -142,
+      "kakao": {
+        "score": 3.9,
+        "count": 981
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 895
+      },
+      "google": {
+        "score": 4.1,
+        "count": 477
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 청계천로 24",
+      "placeUrl": "http://place.map.kakao.com/1937271927"
+    },
+    {
+      "id": "R089",
+      "name": "알돈",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 219,
+      "dx": 129,
+      "dy": -179,
+      "kakao": {
+        "score": 4.2,
+        "count": 587
+      },
+      "naver": {
+        "score": 3.7,
+        "count": 576
+      },
+      "google": {
+        "score": 4.2,
+        "count": 135
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 43",
+      "placeUrl": "http://place.map.kakao.com/625603977"
+    },
+    {
+      "id": "R090",
+      "name": "원흥",
+      "cuisine": "중식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 240,
+      "dx": 118,
+      "dy": -210,
+      "kakao": {
+        "score": 4.2,
+        "count": 830
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 345
+      },
+      "google": {
+        "score": 4.2,
+        "count": 261
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 46",
+      "placeUrl": "http://place.map.kakao.com/9351301"
+    },
+    {
+      "id": "R091",
+      "name": "일일향 을지로점",
+      "cuisine": "중식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 236,
+      "dx": 176,
+      "dy": -157,
+      "kakao": {
+        "score": 3.9,
+        "count": 494
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1434
+      },
+      "google": {
+        "score": 4.2,
+        "count": 226
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 남대문로 125",
+      "placeUrl": "http://place.map.kakao.com/2038957265"
+    },
+    {
+      "id": "R092",
+      "name": "가쯔야 무교본점",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 241,
+      "dx": 112,
+      "dy": -215,
+      "kakao": {
+        "score": 4.4,
+        "count": 39
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 762
+      },
+      "google": {
+        "score": 3.8,
+        "count": 378
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 46",
+      "placeUrl": "http://place.map.kakao.com/8138069"
+    },
+    {
+      "id": "R093",
+      "name": "박군자 진주냉면 본점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 266,
+      "dx": 127,
+      "dy": -235,
+      "kakao": {
+        "score": 4,
+        "count": 932
+      },
+      "naver": {
+        "score": 4,
+        "count": 435
+      },
+      "google": {
+        "score": 4.2,
+        "count": 60
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 30-5",
+      "placeUrl": "http://place.map.kakao.com/1031103621"
+    },
+    {
+      "id": "R094",
+      "name": "충무집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 306,
+      "dx": 149,
+      "dy": -268,
+      "kakao": {
+        "score": 4.1,
+        "count": 1191
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 459
+      },
+      "google": {
+        "score": 4.1,
+        "count": 230
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 30-14",
+      "placeUrl": "http://place.map.kakao.com/781644913"
+    },
+    {
+      "id": "R095",
+      "name": "산불등심",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 280,
+      "dx": 104,
+      "dy": -262,
+      "kakao": {
+        "score": 4,
+        "count": 739
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 376
+      },
+      "google": {
+        "score": 4.4,
+        "count": 139
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 30",
+      "placeUrl": "http://place.map.kakao.com/12448101"
+    },
+    {
+      "id": "R096",
+      "name": "참복집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 1068,
+      "dx": 934,
+      "dy": -518,
+      "kakao": {
+        "score": 4.2,
+        "count": 271
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1180
+      },
+      "google": {
+        "score": 4.1,
+        "count": 396
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R097",
+      "name": "파스타타타",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 346,
+      "dx": 142,
+      "dy": -317,
+      "kakao": {
+        "score": 4.2,
+        "count": 722
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 803
+      },
+      "google": {
+        "score": 4,
+        "count": 552
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 남대문로9길 6",
+      "placeUrl": "http://place.map.kakao.com/651364551"
+    },
+    {
+      "id": "R098",
+      "name": "서울고기집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 1308,
+      "dx": 1165,
+      "dy": -594,
+      "kakao": {
+        "score": 3.9,
+        "count": 167
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 886
+      },
+      "google": {
+        "score": 4.1,
+        "count": 308
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R099",
+      "name": "오륙도",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 331,
+      "dx": 122,
+      "dy": -309,
+      "kakao": {
+        "score": 4.3,
+        "count": 80
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 312
+      },
+      "google": {
+        "score": 3.9,
+        "count": 275
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 20",
+      "placeUrl": "http://place.map.kakao.com/9262816"
+    },
+    {
+      "id": "R100",
+      "name": "우정육 시청점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 375,
+      "dx": 355,
+      "dy": 122,
+      "kakao": {
+        "score": 4.1,
+        "count": 588
+      },
+      "naver": {
+        "score": 3.8,
+        "count": 851
+      },
+      "google": {
+        "score": 4.3,
+        "count": 232
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로9길 8",
+      "placeUrl": "http://place.map.kakao.com/1135393729"
+    },
+    {
+      "id": "R101",
+      "name": "이가네양꼬치 무교점",
+      "cuisine": "중식",
+      "desc": "161",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 335,
+      "dx": 105,
+      "dy": -320,
+      "kakao": {
+        "score": 4.1,
+        "count": 556
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1790
+      },
+      "google": {
+        "score": 4.1,
+        "count": 478
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 17",
+      "placeUrl": "http://place.map.kakao.com/1504382971"
+    },
+    {
+      "id": "R102",
+      "name": "우일뭉티키",
+      "cuisine": "기타",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 747,
+      "dx": 243,
+      "dy": -706,
+      "kakao": {
+        "score": 4.2,
+        "count": 223
+      },
+      "naver": {
+        "score": 4,
+        "count": 1587
+      },
+      "google": {
+        "score": 3.7,
+        "count": 352
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R103",
+      "name": "비어할레 을지로점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 265,
+      "dx": 101,
+      "dy": -246,
+      "kakao": {
+        "score": 4.5,
+        "count": 769
+      },
+      "naver": {
+        "score": 4,
+        "count": 114
+      },
+      "google": {
+        "score": 3.8,
+        "count": 20
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 34",
+      "placeUrl": "http://place.map.kakao.com/406136454"
+    },
+    {
+      "id": "R104",
+      "name": "인천집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 234,
+      "dx": 82,
+      "dy": -220,
+      "kakao": {
+        "score": 3.9,
+        "count": 345
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1068
+      },
+      "google": {
+        "score": 4.2,
+        "count": 159
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 36",
+      "placeUrl": "http://place.map.kakao.com/9352032"
+    },
+    {
+      "id": "R105",
+      "name": "태성골뱅이신사 본점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 247,
+      "dx": 84,
+      "dy": -233,
+      "kakao": {
+        "score": 4.5,
+        "count": 832
+      },
+      "naver": {
+        "score": 4,
+        "count": 1454
+      },
+      "google": {
+        "score": 4.2,
+        "count": 124
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 35",
+      "placeUrl": "http://place.map.kakao.com/9984162"
+    },
+    {
+      "id": "R106",
+      "name": "철철복집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 288,
+      "dx": 84,
+      "dy": -277,
+      "kakao": {
+        "score": 4.2,
+        "count": 1264
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 522
+      },
+      "google": {
+        "score": 3.9,
+        "count": 427
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 29",
+      "placeUrl": "http://place.map.kakao.com/16268305"
+    },
+    {
+      "id": "R107",
+      "name": "데일리픽스 을지로",
+      "cuisine": "양식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 303,
+      "dx": 86,
+      "dy": -293,
+      "kakao": {
+        "score": 4.1,
+        "count": 1433
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 113
+      },
+      "google": {
+        "score": 4.3,
+        "count": 365
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 남대문로9길 24",
+      "placeUrl": "http://place.map.kakao.com/2084281644"
+    },
+    {
+      "id": "R108",
+      "name": "육미곳간",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 234,
+      "dx": -16,
+      "dy": -234,
+      "kakao": {
+        "score": 4.2,
+        "count": 1041
+      },
+      "naver": {
+        "score": 4,
+        "count": 621
+      },
+      "google": {
+        "score": 4,
+        "count": 282
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 16",
+      "placeUrl": "http://place.map.kakao.com/980090355"
+    },
+    {
+      "id": "R109",
+      "name": "세림",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 247,
+      "dx": -30,
+      "dy": -246,
+      "kakao": {
+        "score": 3.9,
+        "count": 667
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 842
+      },
+      "google": {
+        "score": 4.5,
+        "count": 429
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로1길 32-3",
+      "placeUrl": "http://place.map.kakao.com/16650576"
+    },
+    {
+      "id": "R110",
+      "name": "초류향",
+      "cuisine": "중식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 256,
+      "dx": 10,
+      "dy": -257,
+      "kakao": {
+        "score": 4.2,
+        "count": 611
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1074
+      },
+      "google": {
+        "score": 4,
+        "count": 141
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 24-10",
+      "placeUrl": "http://place.map.kakao.com/8577709"
+    },
+    {
+      "id": "R111",
+      "name": "도장",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 236,
+      "dx": 24,
+      "dy": -236,
+      "kakao": {
+        "score": 4,
+        "count": 664
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1225
+      },
+      "google": {
+        "score": 3.9,
+        "count": 404
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 24",
+      "placeUrl": "http://place.map.kakao.com/636106906"
+    },
+    {
+      "id": "R112",
+      "name": "오군",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 230,
+      "dx": 7,
+      "dy": -231,
+      "kakao": {
+        "score": 4.1,
+        "count": 710
+      },
+      "naver": {
+        "score": 3.7,
+        "count": 1358
+      },
+      "google": {
+        "score": 4.1,
+        "count": 459
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 20",
+      "placeUrl": "http://place.map.kakao.com/808212847"
+    },
+    {
+      "id": "R113",
+      "name": "이도곰탕 을지로직영점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 238,
+      "dx": 39,
+      "dy": -236,
+      "kakao": {
+        "score": 4,
+        "count": 1255
+      },
+      "naver": {
+        "score": 3.8,
+        "count": 49
+      },
+      "google": {
+        "score": 3.6,
+        "count": 286
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 30",
+      "placeUrl": "http://place.map.kakao.com/2132367356"
+    },
+    {
+      "id": "R114",
+      "name": "이소식당",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 338,
+      "dx": -73,
+      "dy": -331,
+      "kakao": {
+        "score": 3.8,
+        "count": 603
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 949
+      },
+      "google": {
+        "score": 4.2,
+        "count": 324
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 남대문로9길 51",
+      "placeUrl": "http://place.map.kakao.com/1946899279"
+    },
+    {
+      "id": "R115",
+      "name": "고려보쌈",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 324,
+      "dx": -141,
+      "dy": -294,
+      "kakao": {
+        "score": 4.3,
+        "count": 98
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 935
+      },
+      "google": {
+        "score": 4.1,
+        "count": 369
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로20길 23",
+      "placeUrl": "http://place.map.kakao.com/95505565"
+    },
+    {
+      "id": "R116",
+      "name": "장군보쌈족발",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 272,
+      "dx": -62,
+      "dy": -266,
+      "kakao": {
+        "score": 4.3,
+        "count": 541
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 373
+      },
+      "google": {
+        "score": 3.8,
+        "count": 494
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 16",
+      "placeUrl": "http://place.map.kakao.com/13321945"
+    },
+    {
+      "id": "R117",
+      "name": "바스버거 광화문점",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 207,
+      "dx": -61,
+      "dy": -199,
+      "kakao": {
+        "score": 4,
+        "count": 672
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 297
+      },
+      "google": {
+        "score": 4.1,
+        "count": 301
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 다동길 5",
+      "placeUrl": "http://place.map.kakao.com/26608740"
+    },
+    {
+      "id": "R118",
+      "name": "오복수산참치 광화문점",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 241,
+      "dx": -121,
+      "dy": -209,
+      "kakao": {
+        "score": 4.3,
+        "count": 484
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1089
+      },
+      "google": {
+        "score": 4.4,
+        "count": 530
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 21",
+      "placeUrl": "http://place.map.kakao.com/1076353597"
+    },
+    {
+      "id": "R119",
+      "name": "영덕회식당 시청점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 3,
+      "purposes": [
+        "저녁 회식",
+        "접대"
+      ],
+      "distM": 132,
+      "dx": -68,
+      "dy": -114,
+      "kakao": {
+        "score": 4.7,
+        "count": 1489
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1366
+      },
+      "google": {
+        "score": 4.3,
+        "count": 426
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 32",
+      "placeUrl": "http://place.map.kakao.com/12447947"
+    },
+    {
+      "id": "R120",
+      "name": "무교동닭도리탕",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 161,
+      "dx": -55,
+      "dy": -152,
+      "kakao": {
+        "score": 4,
+        "count": 246
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1780
+      },
+      "google": {
+        "score": 4.2,
+        "count": 356
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 28",
+      "placeUrl": "http://place.map.kakao.com/77481311"
+    },
+    {
+      "id": "R121",
+      "name": "고바우",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 134,
+      "dx": -71,
+      "dy": -115,
+      "kakao": {
+        "score": 3.9,
+        "count": 1084
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1292
+      },
+      "google": {
+        "score": 4.2,
+        "count": 423
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 32",
+      "placeUrl": "http://place.map.kakao.com/10159791"
+    },
+    {
+      "id": "R122",
+      "name": "VIP참치 뉴서울호텔점",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 276,
+      "dx": -191,
+      "dy": -200,
+      "kakao": {
+        "score": 4.3,
+        "count": 577
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 396
+      },
+      "google": {
+        "score": 4.3,
+        "count": 546
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 세종대로22길 16",
+      "placeUrl": "http://place.map.kakao.com/1284015512"
+    },
+    {
+      "id": "R123",
+      "name": "브루클린더버거조인트 청계천점",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 167,
+      "dx": -130,
+      "dy": -106,
+      "kakao": {
+        "score": 4.1,
+        "count": 865
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 623
+      },
+      "google": {
+        "score": 4.3,
+        "count": 473
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 청계천로 14",
+      "placeUrl": "http://place.map.kakao.com/50009469"
+    },
+    {
+      "id": "R124",
+      "name": "브라주카 그릴",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 269,
+      "dx": -119,
+      "dy": -242,
+      "kakao": {
+        "score": 4,
+        "count": 1423
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 999
+      },
+      "google": {
+        "score": 4.3,
+        "count": 203
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 무교로 19",
+      "placeUrl": "http://place.map.kakao.com/356383284"
+    },
+    {
+      "id": "R125",
+      "name": "광화문해물",
+      "cuisine": "기타",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 136,
+      "dx": 135,
+      "dy": -14,
+      "kakao": {
+        "score": 3.6,
+        "count": 1169
+      },
+      "naver": {
+        "score": 3.8,
+        "count": 1239
+      },
+      "google": {
+        "score": 4.2,
+        "count": 410
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R126",
+      "name": "상인정신",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 524,
+      "dx": -497,
+      "dy": 166,
+      "kakao": {
+        "score": 4.1,
+        "count": 789
+      },
+      "naver": {
+        "score": 3.8,
+        "count": 1005
+      },
+      "google": {
+        "score": 3.8,
+        "count": 348
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로5길 11-1",
+      "placeUrl": "http://place.map.kakao.com/37108391"
+    },
+    {
+      "id": "R127",
+      "name": "동베이",
+      "cuisine": "중식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 486,
+      "dx": -468,
+      "dy": 133,
+      "kakao": {
+        "score": 3.9,
+        "count": 704
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 234
+      },
+      "google": {
+        "score": 4.1,
+        "count": 212
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로5길 8-1",
+      "placeUrl": "http://place.map.kakao.com/552877346"
+    },
+    {
+      "id": "R128",
+      "name": "풍년옥",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 493,
+      "dx": -459,
+      "dy": 179,
+      "kakao": {
+        "score": 4.1,
+        "count": 469
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1127
+      },
+      "google": {
+        "score": 4.2,
+        "count": 62
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로7길 26",
+      "placeUrl": "http://place.map.kakao.com/11422210"
+    },
+    {
+      "id": "R129",
+      "name": "광화문육회",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 600,
+      "dx": -551,
+      "dy": 239,
+      "kakao": {
+        "score": 4,
+        "count": 256
+      },
+      "naver": {
+        "score": 4,
+        "count": 310
+      },
+      "google": {
+        "score": 4.2,
+        "count": 54
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로5길 19",
+      "placeUrl": "http://place.map.kakao.com/1252049542"
+    },
+    {
+      "id": "R130",
+      "name": "평안도만두집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 691,
+      "dx": -623,
+      "dy": 300,
+      "kakao": {
+        "score": 3.9,
+        "count": 332
+      },
+      "naver": {
+        "score": 4,
+        "count": 43
+      },
+      "google": {
+        "score": 4.4,
+        "count": 586
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로3길 30",
+      "placeUrl": "http://place.map.kakao.com/8122006"
+    },
+    {
+      "id": "R131",
+      "name": "광화문뚝감",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 729,
+      "dx": -684,
+      "dy": 254,
+      "kakao": {
+        "score": 4.3,
+        "count": 604
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 268
+      },
+      "google": {
+        "score": 3.8,
+        "count": 148
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로3길 21",
+      "placeUrl": "http://place.map.kakao.com/18363906"
+    },
+    {
+      "id": "R132",
+      "name": "루뽀",
+      "cuisine": "양식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 636,
+      "dx": -527,
+      "dy": 357,
+      "kakao": {
+        "score": 4,
+        "count": 1337
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1584
+      },
+      "google": {
+        "score": 4.1,
+        "count": 330
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로5길 31",
+      "placeUrl": "http://place.map.kakao.com/886908526"
+    },
+    {
+      "id": "R133",
+      "name": "행복한식탁",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 703,
+      "dx": -622,
+      "dy": 328,
+      "kakao": {
+        "score": 4,
+        "count": 822
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 550
+      },
+      "google": {
+        "score": 4.3,
+        "count": 595
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 새문안로3길 30",
+      "placeUrl": "http://place.map.kakao.com/391715703"
+    },
+    {
+      "id": "R134",
+      "name": "체부동잔치집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 1050,
+      "dx": -766,
+      "dy": 720,
+      "kakao": {
+        "score": 3.9,
+        "count": 871
+      },
+      "naver": {
+        "score": 4.7,
+        "count": 313
+      },
+      "google": {
+        "score": 4.4,
+        "count": 550
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 사직로 115-1",
+      "placeUrl": "http://place.map.kakao.com/24484506"
+    },
+    {
+      "id": "R135",
+      "name": "서평옥 광화문본점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 471,
+      "dx": -119,
+      "dy": 457,
+      "kakao": {
+        "score": 4.1,
+        "count": 735
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1047
+      },
+      "google": {
+        "score": 4.3,
+        "count": 228
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로1길 42",
+      "placeUrl": "http://place.map.kakao.com/1222528438"
+    },
+    {
+      "id": "R136",
+      "name": "헤비스테이크 종로구청점",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 293,
+      "dx": -67,
+      "dy": 286,
+      "kakao": {
+        "score": 4.4,
+        "count": 78
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1468
+      },
+      "google": {
+        "score": 4.1,
+        "count": 558
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼봉로 42",
+      "placeUrl": "http://place.map.kakao.com/50290257"
+    },
+    {
+      "id": "R137",
+      "name": "타코챔피언 광화문점",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 328,
+      "dx": -221,
+      "dy": 243,
+      "kakao": {
+        "score": 3.9,
+        "count": 406
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 1255
+      },
+      "google": {
+        "score": 3.8,
+        "count": 321
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 세종대로 178",
+      "placeUrl": "http://place.map.kakao.com/804796765"
+    },
+    {
+      "id": "R138",
+      "name": "주유별장",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 226,
+      "dx": -141,
+      "dy": 177,
+      "kakao": {
+        "score": 4.2,
+        "count": 523
+      },
+      "naver": {
+        "score": 4,
+        "count": 1033
+      },
+      "google": {
+        "score": 4,
+        "count": 305
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로3길 17",
+      "placeUrl": "http://place.map.kakao.com/27437215"
+    },
+    {
+      "id": "R139",
+      "name": "코끼리초밥",
+      "cuisine": "일식",
+      "desc": "135",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 345,
+      "dx": -224,
+      "dy": 263,
+      "kakao": {
+        "score": 3.9,
+        "count": 1347
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 1278
+      },
+      "google": {
+        "score": 4.2,
+        "count": 283
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 세종대로 178",
+      "placeUrl": "http://place.map.kakao.com/603228177"
+    },
+    {
+      "id": "R140",
+      "name": "루드베키아",
+      "cuisine": "기타",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 340,
+      "dx": -219,
+      "dy": 261,
+      "kakao": {
+        "score": 4,
+        "count": 1185
+      },
+      "naver": {
+        "score": 3.8,
+        "count": 940
+      },
+      "google": {
+        "score": 4.1,
+        "count": 181
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 세종대로 178",
+      "placeUrl": "http://place.map.kakao.com/877868443"
+    },
+    {
+      "id": "R141",
+      "name": "만도리 신라스테이 광화문",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 320,
+      "dx": 22,
+      "dy": 321,
+      "kakao": {
+        "score": 4.4,
+        "count": 1485
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 763
+      },
+      "google": {
+        "score": 4.3,
+        "count": 205
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 율곡로4길 74",
+      "placeUrl": "http://place.map.kakao.com/851002057"
+    },
+    {
+      "id": "R142",
+      "name": "병천유황오리",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 271,
+      "dx": 53,
+      "dy": 267,
+      "kakao": {
+        "score": 4,
+        "count": 241
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1126
+      },
+      "google": {
+        "score": 4.2,
+        "count": 397
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼봉로 68",
+      "placeUrl": "http://place.map.kakao.com/10372075"
+    },
+    {
+      "id": "R143",
+      "name": "청진동장터순대국",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 256,
+      "dx": 7,
+      "dy": 258,
+      "kakao": {
+        "score": 4.1,
+        "count": 652
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1725
+      },
+      "google": {
+        "score": 3.9,
+        "count": 51
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로5길 40",
+      "placeUrl": "http://place.map.kakao.com/24725093"
+    },
+    {
+      "id": "R144",
+      "name": "관북",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 239,
+      "dx": 45,
+      "dy": 236,
+      "kakao": {
+        "score": 3.9,
+        "count": 641
+      },
+      "naver": {
+        "score": 4,
+        "count": 50
+      },
+      "google": {
+        "score": 4.3,
+        "count": 216
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로5길 32-5",
+      "placeUrl": "http://place.map.kakao.com/1840751741"
+    },
+    {
+      "id": "R145",
+      "name": "옛마을",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 235,
+      "dx": 62,
+      "dy": 228,
+      "kakao": {
+        "score": 3.8,
+        "count": 227
+      },
+      "naver": {
+        "score": 3.8,
+        "count": 418
+      },
+      "google": {
+        "score": 4.1,
+        "count": 526
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로5길 32-18",
+      "placeUrl": "http://place.map.kakao.com/8491902"
+    },
+    {
+      "id": "R146",
+      "name": "청진복집",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 254,
+      "dx": 76,
+      "dy": 243,
+      "kakao": {
+        "score": 3.8,
+        "count": 766
+      },
+      "naver": {
+        "score": 4,
+        "count": 1220
+      },
+      "google": {
+        "score": 4.2,
+        "count": 304
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로7길 29-21",
+      "placeUrl": "http://place.map.kakao.com/10855052"
+    },
+    {
+      "id": "R147",
+      "name": "진중 우육면관 광화문",
+      "cuisine": "중식",
+      "desc": "161",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 262,
+      "dx": 79,
+      "dy": 251,
+      "kakao": {
+        "score": 4.2,
+        "count": 543
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 286
+      },
+      "google": {
+        "score": 4,
+        "count": 577
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로7길 29-14",
+      "placeUrl": "http://place.map.kakao.com/1030931779"
+    },
+    {
+      "id": "R148",
+      "name": "진순대",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 122,
+      "dx": -36,
+      "dy": 117,
+      "kakao": {
+        "score": 4.2,
+        "count": 134
+      },
+      "naver": {
+        "score": 4,
+        "count": 125
+      },
+      "google": {
+        "score": 4.1,
+        "count": 459
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로 19",
+      "placeUrl": "http://place.map.kakao.com/1002551612"
+    },
+    {
+      "id": "R149",
+      "name": "성가백암순대",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "점심"
+      ],
+      "distM": 309,
+      "dx": 124,
+      "dy": 284,
+      "kakao": {
+        "score": 4.4,
+        "count": 1060
+      },
+      "naver": {
+        "score": 4.5,
+        "count": 246
+      },
+      "google": {
+        "score": 4,
+        "count": 50
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼봉로 81",
+      "placeUrl": "http://place.map.kakao.com/900862973"
+    },
+    {
+      "id": "R150",
+      "name": "심경희라라랜드",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 365,
+      "dx": 189,
+      "dy": 313,
+      "kakao": {
+        "score": 4.1,
+        "count": 731
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 823
+      },
+      "google": {
+        "score": 4,
+        "count": 481
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼봉로 95",
+      "placeUrl": "http://place.map.kakao.com/779352240"
+    },
+    {
+      "id": "R151",
+      "name": "백부장집닭한마리",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 255,
+      "dx": 27,
+      "dy": 255,
+      "kakao": {
+        "score": 4.1,
+        "count": 1226
+      },
+      "naver": {
+        "score": 3.7,
+        "count": 1719
+      },
+      "google": {
+        "score": 4.2,
+        "count": 441
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로5길 42-5",
+      "placeUrl": "http://place.map.kakao.com/2079295092"
+    },
+    {
+      "id": "R152",
+      "name": "곰평동꼼장어",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 759,
+      "dx": 79,
+      "dy": 755,
+      "kakao": {
+        "score": 4.2,
+        "count": 425
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1732
+      },
+      "google": {
+        "score": 4.5,
+        "count": 229
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R153",
+      "name": "갓포우오 종각점",
+      "cuisine": "일식",
+      "desc": "135",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 349,
+      "dx": 349,
+      "dy": -9,
+      "kakao": {
+        "score": 4.2,
+        "count": 134
+      },
+      "naver": {
+        "score": 3.7,
+        "count": 975
+      },
+      "google": {
+        "score": 4.1,
+        "count": 345
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 우정국로2길 21",
+      "placeUrl": "http://place.map.kakao.com/464435127"
+    },
+    {
+      "id": "R154",
+      "name": "대물섬 종로점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 344,
+      "dx": 334,
+      "dy": -80,
+      "kakao": {
+        "score": 4,
+        "count": 714
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1204
+      },
+      "google": {
+        "score": 4.2,
+        "count": 350
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로8길 21",
+      "placeUrl": "http://place.map.kakao.com/179737555"
+    },
+    {
+      "id": "R155",
+      "name": "참치공방",
+      "cuisine": "일식",
+      "desc": "42",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 358,
+      "dx": 351,
+      "dy": -73,
+      "kakao": {
+        "score": 3.9,
+        "count": 379
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1263
+      },
+      "google": {
+        "score": 4.4,
+        "count": 208
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로10길 20",
+      "placeUrl": "http://place.map.kakao.com/1090041795"
+    },
+    {
+      "id": "R156",
+      "name": "육미",
+      "cuisine": "기타",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 358,
+      "dx": 12,
+      "dy": 358,
+      "kakao": {
+        "score": 4,
+        "count": 282
+      },
+      "naver": {
+        "score": 4,
+        "count": 1074
+      },
+      "google": {
+        "score": 4.1,
+        "count": 547
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R157",
+      "name": "반갑다하대포",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 308,
+      "dx": 111,
+      "dy": -288,
+      "kakao": {
+        "score": 4,
+        "count": 945
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 100
+      },
+      "google": {
+        "score": 4,
+        "count": 481
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 중구 을지로3길 26",
+      "placeUrl": "http://place.map.kakao.com/1153249336"
+    },
+    {
+      "id": "R158",
+      "name": "돈존참나무장작구이",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 355,
+      "dx": 344,
+      "dy": 89,
+      "kakao": {
+        "score": 3.7,
+        "count": 1489
+      },
+      "naver": {
+        "score": 3.9,
+        "count": 252
+      },
+      "google": {
+        "score": 3.8,
+        "count": 400
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로9길 8",
+      "placeUrl": "http://place.map.kakao.com/7833853"
+    },
+    {
+      "id": "R159",
+      "name": "강촌숯불닭갈비",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 396,
+      "dx": 372,
+      "dy": 136,
+      "kakao": {
+        "score": 4.2,
+        "count": 492
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 1115
+      },
+      "google": {
+        "score": 4.3,
+        "count": 471
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 종로9길 18",
+      "placeUrl": "http://place.map.kakao.com/1227929570"
+    },
+    {
+      "id": "R160",
+      "name": "죽마고돈",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 432,
+      "dx": 430,
+      "dy": -46,
+      "kakao": {
+        "score": 3.9,
+        "count": 1239
+      },
+      "naver": {
+        "score": 4,
+        "count": 1237
+      },
+      "google": {
+        "score": 4,
+        "count": 151
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로17길 42-4",
+      "placeUrl": "http://place.map.kakao.com/761329037"
+    },
+    {
+      "id": "R161",
+      "name": "경성양꼬치",
+      "cuisine": "중식",
+      "desc": "161",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 274,
+      "dx": -111,
+      "dy": 250,
+      "kakao": {
+        "score": 4.1,
+        "count": 438
+      },
+      "naver": {
+        "score": 3.6,
+        "count": 1211
+      },
+      "google": {
+        "score": 4.4,
+        "count": 28
+      },
+      "naverBooking": false,
+      "catchtable": false
+    },
+    {
+      "id": "R162",
+      "name": "명품황소곱창",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 501,
+      "dx": 501,
+      "dy": -14,
+      "kakao": {
+        "score": 3.9,
+        "count": 590
+      },
+      "naver": {
+        "score": 4.1,
+        "count": 1176
+      },
+      "google": {
+        "score": 4.1,
+        "count": 383
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로19길 28",
+      "placeUrl": "http://place.map.kakao.com/1596637955"
+    },
+    {
+      "id": "R163",
+      "name": "와인슈타인",
+      "cuisine": "양식",
+      "desc": "175",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 513,
+      "dx": 504,
+      "dy": -96,
+      "kakao": {
+        "score": 3.4,
+        "count": 664
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 1425
+      },
+      "google": {
+        "score": 4.1,
+        "count": 584
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로15길 26",
+      "placeUrl": "http://place.map.kakao.com/831653195"
+    },
+    {
+      "id": "R164",
+      "name": "숙썽수산 종로본점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 1,
+      "purposes": [
+        "저녁 회식",
+        "점심"
+      ],
+      "distM": 567,
+      "dx": 567,
+      "dy": -15,
+      "kakao": {
+        "score": 4.2,
+        "count": 189
+      },
+      "naver": {
+        "score": 4.2,
+        "count": 699
+      },
+      "google": {
+        "score": 3.9,
+        "count": 335
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로19길 16",
+      "placeUrl": "http://place.map.kakao.com/668796727"
+    },
+    {
+      "id": "R165",
+      "name": "종로양꼬치",
+      "cuisine": "중식",
+      "desc": "161",
+      "priceTier": 2,
+      "purposes": [
+        "저녁 회식"
+      ],
+      "distM": 542,
+      "dx": 539,
+      "dy": -55,
+      "kakao": {
+        "score": 4.3,
+        "count": 612
+      },
+      "naver": {
+        "score": 4.4,
+        "count": 1458
+      },
+      "google": {
+        "score": 4.1,
+        "count": 496
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로17길 20-2",
+      "placeUrl": "http://place.map.kakao.com/15864091"
+    },
+    {
+      "id": "R166",
+      "name": "왕비집 종로직영점",
+      "cuisine": "한식",
+      "desc": "42",
+      "priceTier": 3,
+      "purposes": [
+        "접대"
+      ],
+      "distM": 525,
+      "dx": 517,
+      "dy": -95,
+      "kakao": {
+        "score": 4.2,
+        "count": 255
+      },
+      "naver": {
+        "score": 4.3,
+        "count": 338
+      },
+      "google": {
+        "score": 4.2,
+        "count": 305
+      },
+      "naverBooking": false,
+      "catchtable": false,
+      "address": "서울 종로구 삼일대로15길 24",
+      "placeUrl": "http://place.map.kakao.com/15232887"
     }
   ]
 }

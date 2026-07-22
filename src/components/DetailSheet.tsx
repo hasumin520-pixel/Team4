@@ -62,7 +62,7 @@ export default function DetailSheet({
           <div className="rounded-xl bg-slate-50 p-3">
             <p className="text-lg font-black text-amber-500">★ {r.rating.toFixed(1)}</p>
             <p className="text-[11px] text-slate-400">
-              카카오 {r.kakao.score} · 구글 {r.google.score}
+              네이버 {r.naver.score} · 카카오 {r.kakao.score} · 구글 {r.google.score}
             </p>
           </div>
           <div className="rounded-xl bg-slate-50 p-3">
