@@ -1,0 +1,1288 @@
+{
+  "generatedFrom": "20260722사용원가(실적).xlsx (999건, 의욕관리비) + 합성 200건(경상회의비/접대비)",
+  "txCount": {
+    "excel": 112,
+    "synth": 200
+  },
+  "stats": {
+    "mijin": {
+      "count": 5,
+      "totalAmount": 94914,
+      "lastDate": "20260602",
+      "byAccount": {
+        "의욕관리비": 5
+      },
+      "recent": [
+        {
+          "date": "20260602",
+          "amount": 12637,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260507",
+          "amount": 25912,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260427",
+          "amount": 10182,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260126",
+          "amount": 30910,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260105",
+          "amount": 15273,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "gomgooksijip": {
+      "count": 6,
+      "totalAmount": 165909,
+      "lastDate": "20260430",
+      "byAccount": {
+        "의욕관리비": 6
+      },
+      "recent": [
+        {
+          "date": "20260430",
+          "amount": 33081,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260413",
+          "amount": 29091,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260320",
+          "amount": 17372,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260204",
+          "amount": 8182,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260126",
+          "amount": 25455,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "mugyodong-bugeoguk": {
+      "count": 11,
+      "totalAmount": 357031,
+      "lastDate": "20260602",
+      "byAccount": {
+        "의욕관리비": 11
+      },
+      "recent": [
+        {
+          "date": "20260602",
+          "amount": 5810,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260602",
+          "amount": 38183,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260602",
+          "amount": 31819,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260527",
+          "amount": 23637,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260507",
+          "amount": 80000,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "misien": {
+      "count": 7,
+      "totalAmount": 121093,
+      "lastDate": "20260616",
+      "byAccount": {
+        "의욕관리비": 7
+      },
+      "recent": [
+        {
+          "date": "20260616",
+          "amount": 7819,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260602",
+          "amount": 17273,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260527",
+          "amount": 18091,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260430",
+          "amount": 11364,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260430",
+          "amount": 12272,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "seorin-nakji": {
+      "count": 32,
+      "totalAmount": 5853826,
+      "lastDate": "20260622",
+      "byAccount": {
+        "의욕관리비": 15,
+        "경상회의비": 17
+      },
+      "recent": [
+        {
+          "date": "20260622",
+          "amount": 19364,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260622",
+          "amount": 18182,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260619",
+          "amount": 464600,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260616",
+          "amount": 3846,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260616",
+          "amount": 300800,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "buminok": {
+      "count": 10,
+      "totalAmount": 2358404,
+      "lastDate": "20260602",
+      "byAccount": {
+        "의욕관리비": 5,
+        "경상회의비": 5
+      },
+      "recent": [
+        {
+          "date": "20260602",
+          "amount": 25455,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260602",
+          "amount": 103637,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260504",
+          "amount": 392100,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260430",
+          "amount": 17455,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260427",
+          "amount": 437500,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "imun-seolnongtang": {
+      "count": 12,
+      "totalAmount": 364633,
+      "lastDate": "20260616",
+      "byAccount": {
+        "의욕관리비": 12
+      },
+      "recent": [
+        {
+          "date": "20260616",
+          "amount": 9410,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260602",
+          "amount": 49400,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260602",
+          "amount": 19091,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260521",
+          "amount": 39819,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260507",
+          "amount": 18000,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "yonggeumok": {
+      "count": 11,
+      "totalAmount": 272814,
+      "lastDate": "20260622",
+      "byAccount": {
+        "의욕관리비": 11
+      },
+      "recent": [
+        {
+          "date": "20260622",
+          "amount": 32364,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260622",
+          "amount": 21455,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260527",
+          "amount": 20637,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260430",
+          "amount": 21819,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260320",
+          "amount": 15455,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "hadongkwan": {
+      "count": 2,
+      "totalAmount": 146819,
+      "lastDate": "20260401",
+      "byAccount": {
+        "의욕관리비": 2
+      },
+      "recent": [
+        {
+          "date": "20260401",
+          "amount": 118182,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260202",
+          "amount": 28637,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "cheongjinok": {
+      "count": 24,
+      "totalAmount": 5010091,
+      "lastDate": "20260622",
+      "byAccount": {
+        "의욕관리비": 13,
+        "경상회의비": 11
+      },
+      "recent": [
+        {
+          "date": "20260622",
+          "amount": 41091,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260621",
+          "amount": 329900,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260617",
+          "amount": 146900,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260616",
+          "amount": 12728,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260616",
+          "amount": 2782,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "misoya": {
+      "count": 5,
+      "totalAmount": 74367,
+      "lastDate": "20260527",
+      "byAccount": {
+        "의욕관리비": 5
+      },
+      "recent": [
+        {
+          "date": "20260527",
+          "amount": 17273,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260430",
+          "amount": 10727,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260303",
+          "amount": 4091,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260212",
+          "amount": 17910,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260204",
+          "amount": 24366,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "andongjang": {
+      "count": 5,
+      "totalAmount": 649546,
+      "lastDate": "20260405",
+      "byAccount": {
+        "의욕관리비": 2,
+        "경상회의비": 3
+      },
+      "recent": [
+        {
+          "date": "20260405",
+          "amount": 217500,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260325",
+          "amount": 196500,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260318",
+          "amount": 10091,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260212",
+          "amount": 45455,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260114",
+          "amount": 180000,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "myeongdong-kyoja": {
+      "count": 3,
+      "totalAmount": 27818,
+      "lastDate": "20260527",
+      "byAccount": {
+        "의욕관리비": 3
+      },
+      "recent": [
+        {
+          "date": "20260527",
+          "amount": 11545,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260331",
+          "amount": 4091,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260303",
+          "amount": 12182,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "gwanghwamun-gukbap": {
+      "count": 19,
+      "totalAmount": 5677412,
+      "lastDate": "20260616",
+      "byAccount": {
+        "의욕관리비": 6,
+        "경상회의비": 13
+      },
+      "recent": [
+        {
+          "date": "20260616",
+          "amount": 71458,
+          "account": "의욕관리비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260612",
+          "amount": 342600,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260601",
+          "amount": 401400,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260526",
+          "amount": 138100,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260518",
+          "amount": 141600,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "mad-for-garlic": {
+      "count": 8,
+      "totalAmount": 2142138,
+      "lastDate": "20260622",
+      "byAccount": {
+        "의욕관리비": 3,
+        "경상회의비": 5
+      },
+      "recent": [
+        {
+          "date": "20260622",
+          "amount": 74546,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260527",
+          "amount": 11455,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260518",
+          "amount": 431800,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260501",
+          "amount": 366400,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260424",
+          "amount": 437000,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "nampo-myeonok": {
+      "count": 3,
+      "totalAmount": 439046,
+      "lastDate": "20260403",
+      "byAccount": {
+        "의욕관리비": 1,
+        "경상회의비": 2
+      },
+      "recent": [
+        {
+          "date": "20260403",
+          "amount": 222700,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260403",
+          "amount": 181800,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260320",
+          "amount": 34546,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "hanilkwan": {
+      "count": 13,
+      "totalAmount": 3910764,
+      "lastDate": "20260609",
+      "byAccount": {
+        "의욕관리비": 2,
+        "경상회의비": 4,
+        "접대비": 7
+      },
+      "recent": [
+        {
+          "date": "20260609",
+          "amount": 585400,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260521",
+          "amount": 26364,
+          "account": "의욕관리비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260520",
+          "amount": 200200,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260424",
+          "amount": 522400,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260423",
+          "amount": 467800,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "yujeong-nakji": {
+      "count": 4,
+      "totalAmount": 1142938,
+      "lastDate": "20260516",
+      "byAccount": {
+        "의욕관리비": 1,
+        "경상회의비": 3
+      },
+      "recent": [
+        {
+          "date": "20260516",
+          "amount": 463200,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260509",
+          "amount": 395700,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260430",
+          "amount": 22038,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260113",
+          "amount": 262000,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "sushi-maiu": {
+      "count": 7,
+      "totalAmount": 3125992,
+      "lastDate": "20260626",
+      "byAccount": {
+        "의욕관리비": 1,
+        "접대비": 6
+      },
+      "recent": [
+        {
+          "date": "20260626",
+          "amount": 359800,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260620",
+          "amount": 455800,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260602",
+          "amount": 29092,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260426",
+          "amount": 659500,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260424",
+          "amount": 346200,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "changhwadang": {
+      "count": 18,
+      "totalAmount": 6889319,
+      "lastDate": "20260622",
+      "byAccount": {
+        "의욕관리비": 1,
+        "경상회의비": 17
+      },
+      "recent": [
+        {
+          "date": "20260622",
+          "amount": 296300,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260602",
+          "amount": 21819,
+          "account": "의욕관리비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260528",
+          "amount": 397900,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260519",
+          "amount": 276500,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260518",
+          "amount": 508500,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "yeolchajip": {
+      "count": 17,
+      "totalAmount": 6217500,
+      "lastDate": "20260626",
+      "byAccount": {
+        "경상회의비": 17
+      },
+      "recent": [
+        {
+          "date": "20260626",
+          "amount": 384300,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260518",
+          "amount": 438600,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260515",
+          "amount": 290300,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260509",
+          "amount": 566800,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260426",
+          "amount": 262000,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "bogeonok": {
+      "count": 16,
+      "totalAmount": 5881500,
+      "lastDate": "20260623",
+      "byAccount": {
+        "경상회의비": 16
+      },
+      "recent": [
+        {
+          "date": "20260623",
+          "amount": 526400,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260608",
+          "amount": 546300,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260525",
+          "amount": 330900,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260515",
+          "amount": 293800,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260513",
+          "amount": 472700,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "butchers-cut": {
+      "count": 10,
+      "totalAmount": 4288400,
+      "lastDate": "20260619",
+      "byAccount": {
+        "경상회의비": 2,
+        "접대비": 8
+      },
+      "recent": [
+        {
+          "date": "20260619",
+          "amount": 187400,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260426",
+          "amount": 478700,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260418",
+          "amount": 499100,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260416",
+          "amount": 409300,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260404",
+          "amount": 582300,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "la-cantina": {
+      "count": 10,
+      "totalAmount": 4213900,
+      "lastDate": "20260524",
+      "byAccount": {
+        "경상회의비": 7,
+        "접대비": 3
+      },
+      "recent": [
+        {
+          "date": "20260524",
+          "amount": 356100,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260504",
+          "amount": 264400,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260424",
+          "amount": 382600,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260420",
+          "amount": 461100,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260418",
+          "amount": 595100,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "changgo43": {
+      "count": 10,
+      "totalAmount": 3692500,
+      "lastDate": "20260617",
+      "byAccount": {
+        "경상회의비": 6,
+        "접대비": 4
+      },
+      "recent": [
+        {
+          "date": "20260617",
+          "amount": 496000,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260602",
+          "amount": 721300,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260521",
+          "amount": 166100,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260519",
+          "amount": 256000,
+          "account": "경상회의비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260413",
+          "amount": 284800,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "sunhuine": {
+      "count": 2,
+      "totalAmount": 538400,
+      "lastDate": "20260211",
+      "byAccount": {
+        "경상회의비": 2
+      },
+      "recent": [
+        {
+          "date": "20260211",
+          "amount": 155700,
+          "account": "경상회의비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260126",
+          "amount": 382700,
+          "account": "경상회의비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "tosokchon": {
+      "count": 5,
+      "totalAmount": 2033700,
+      "lastDate": "20260604",
+      "byAccount": {
+        "접대비": 5
+      },
+      "recent": [
+        {
+          "date": "20260604",
+          "amount": 246100,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260428",
+          "amount": 575700,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260419",
+          "amount": 217600,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260207",
+          "amount": 662700,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260107",
+          "amount": 331600,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "yuyuan": {
+      "count": 7,
+      "totalAmount": 3115800,
+      "lastDate": "20260620",
+      "byAccount": {
+        "접대비": 7
+      },
+      "recent": [
+        {
+          "date": "20260620",
+          "amount": 705000,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260615",
+          "amount": 719000,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260607",
+          "amount": 168800,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260427",
+          "amount": 340400,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260403",
+          "amount": 197000,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "momoyama": {
+      "count": 7,
+      "totalAmount": 3906900,
+      "lastDate": "20260601",
+      "byAccount": {
+        "접대비": 7
+      },
+      "recent": [
+        {
+          "date": "20260601",
+          "amount": 741000,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260421",
+          "amount": 484600,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260419",
+          "amount": 544400,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260415",
+          "amount": 404900,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260404",
+          "amount": 799700,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "dalgaebi": {
+      "count": 7,
+      "totalAmount": 3178500,
+      "lastDate": "20260623",
+      "byAccount": {
+        "접대비": 7
+      },
+      "recent": [
+        {
+          "date": "20260623",
+          "amount": 629700,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260515",
+          "amount": 404700,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260419",
+          "amount": 454100,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260318",
+          "amount": 407700,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260301",
+          "amount": 719100,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "sushi-cho": {
+      "count": 4,
+      "totalAmount": 2065000,
+      "lastDate": "20260526",
+      "byAccount": {
+        "접대비": 4
+      },
+      "recent": [
+        {
+          "date": "20260526",
+          "amount": 684600,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260503",
+          "amount": 317400,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260408",
+          "amount": 374400,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260407",
+          "amount": 688600,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        }
+      ]
+    },
+    "boccalino": {
+      "count": 5,
+      "totalAmount": 1655800,
+      "lastDate": "20260606",
+      "byAccount": {
+        "접대비": 5
+      },
+      "recent": [
+        {
+          "date": "20260606",
+          "amount": 476900,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260412",
+          "amount": 213700,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260311",
+          "amount": 213300,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260205",
+          "amount": 413400,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260203",
+          "amount": 338500,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        }
+      ]
+    },
+    "yongsusan": {
+      "count": 6,
+      "totalAmount": 3194800,
+      "lastDate": "20260617",
+      "byAccount": {
+        "접대비": 6
+      },
+      "recent": [
+        {
+          "date": "20260617",
+          "amount": 608000,
+          "account": "접대비",
+          "card": "하나법인카드_이*기"
+        },
+        {
+          "date": "20260602",
+          "amount": 407900,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260518",
+          "amount": 546200,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        },
+        {
+          "date": "20260412",
+          "amount": 492300,
+          "account": "접대비",
+          "card": "현대법인카드_전*연"
+        },
+        {
+          "date": "20260327",
+          "amount": 711900,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    },
+    "dowon": {
+      "count": 1,
+      "totalAmount": 772800,
+      "lastDate": "20260523",
+      "byAccount": {
+        "접대비": 1
+      },
+      "recent": [
+        {
+          "date": "20260523",
+          "amount": 772800,
+          "account": "접대비",
+          "card": "현대법인카드_이*환"
+        }
+      ]
+    }
+  }
+}

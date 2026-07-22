@@ -1,0 +1,4 @@
+# 사내 원본 자료 — 배포 업로드 제외
+*.docx
+*.xlsx
+scripts/data-src/

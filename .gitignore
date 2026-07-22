@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+.env*.local
+.vercel
+*.tsbuildinfo
+
+# 사내 원본 자료 — 카드 소지자 실명 등 개인정보 포함, 저장소 제외
+*.docx
+*.xlsx
+scripts/data-src/
