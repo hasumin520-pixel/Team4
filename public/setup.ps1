@@ -41,10 +41,14 @@ Start-Process powershell -WindowStyle Hidden -ArgumentList '-NoProfile', '-Execu
 Write-Host '[4/4] 크롬 확장 설치 페이지를 엽니다 — [Chrome에 추가]를 눌러주세요'
 Start-Process 'https://claude.ai/chrome'
 
+# 5) 마무리는 Claude가 대화로 안내 — 최초 로그인 + 확장 연결 + 캐치테이블 로그인 확인
+$onboard = '모심(회사 식당 지도)의 캐치테이블 빈자리 감시 기능을 방금 설치했어. 남은 설정을 도와줘. ' +
+  '① claude-in-chrome 크롬 확장이 연결되는지 확인하고, 안 되면 방금 열린 페이지에서 설치·연결하는 방법을 한국어로 안내해줘. ' +
+  '② 크롬에서 캐치테이블(app.catchtable.co.kr) 로그인 상태를 확인하고, 안 돼 있으면 직접 로그인하도록 안내해줘. ' +
+  "모두 확인되면 '준비 완료! 모심에서 [빈자리 감시] 버튼을 눌러 시작하세요'라고 알려줘."
+Start-Process cmd.exe -ArgumentList '/k', "claude `"$onboard`""
+
 Write-Host ''
-Write-Host '=== 설치 완료! 남은 수동 단계 ===' -ForegroundColor Cyan
-Write-Host '  1. 크롬 확장 [Chrome에 추가] 클릭 (방금 열린 페이지)'
-Write-Host '  2. 터미널에서 claude 실행 후 로그인 (최초 1회)'
-Write-Host '  3. 크롬에서 캐치테이블(catchtable.co.kr) 로그인'
-Write-Host ''
-Write-Host '완료 후 모심의 [빈자리 감시] 버튼을 누르면 이 PC에서 감시가 시작됩니다.'
+Write-Host '=== 설치 완료! ===' -ForegroundColor Cyan
+Write-Host '방금 열린 터미널에서 Claude에 로그인하면, 이후 남은 설정은 Claude가 대화로 안내합니다.'
+Write-Host '(크롬 확장 추가 → 캐치테이블 로그인 → 준비 완료)'

@@ -7,7 +7,7 @@ import { useState } from 'react';
 export const AGENT = 'http://localhost:43110';
 export const SETUP_CMD = 'irm https://moim-blush.vercel.app/setup.ps1 | iex';
 
-type AgentStatus = { agent: boolean; claude: boolean; skill: boolean };
+type AgentStatus = { agent: boolean; claude: boolean; skill: boolean; auth: boolean };
 
 export default function SniperLauncher({
   name,
@@ -21,7 +21,7 @@ export default function SniperLauncher({
   people: number;
 }) {
   const [state, setState] = useState<'idle' | 'checking' | 'launched' | 'setup'>('idle');
-  const [status, setStatus] = useState<AgentStatus>({ agent: false, claude: false, skill: false });
+  const [status, setStatus] = useState<AgentStatus>({ agent: false, claude: false, skill: false, auth: false });
   const [copied, setCopied] = useState(false);
 
   const launch = async () => {
@@ -41,7 +41,7 @@ export default function SniperLauncher({
       });
       setState('launched');
     } catch {
-      setStatus({ agent: false, claude: false, skill: false });
+      setStatus({ agent: false, claude: false, skill: false, auth: false });
       setState('setup');
     }
   };
@@ -85,6 +85,7 @@ export default function SniperLauncher({
             <CheckRow ok={status.agent} label="모심 PC 에이전트 실행" />
             <CheckRow ok={status.claude} label="Claude Code 설치" />
             <CheckRow ok={status.skill} label="catchtable-sniper 스킬 설치" />
+            <CheckRow ok={status.auth} label="Claude 로그인 (미완이어도 실행 시 안내됨)" />
             <li className="flex items-center gap-1.5">
               <span>🔗</span>
               <a href="https://claude.ai/chrome" target="_blank" rel="noreferrer" className="underline">

@@ -42,11 +42,13 @@ while ($listener.IsListening) {
     if ($req.Url.AbsolutePath -eq '/status') {
       $claude = $null -ne (Get-Command claude -ErrorAction SilentlyContinue)
       $skill = Test-Path "$env:USERPROFILE\.claude\skills\catchtable-sniper\SKILL.md"
-      Send-Json $res @{ agent = $true; claude = $claude; skill = $skill }
+      $auth = Test-Path "$env:USERPROFILE\.claude\.credentials.json"
+      Send-Json $res @{ agent = $true; claude = $claude; skill = $skill; auth = $auth }
     }
     elseif ($req.Url.AbsolutePath -eq '/snipe' -and $req.HttpMethod -eq 'POST') {
       $body = (New-Object IO.StreamReader($req.InputStream, [Text.Encoding]::UTF8)).ReadToEnd() | ConvertFrom-Json
-      $prompt = "캐치테이블 빈자리 감시를 시작해줘. 식당: $($body.name), 날짜: $($body.date), 시간: $($body.time), 인원: $($body.people)명. catchtable-sniper 스킬을 사용하고, 결제가 필요한 단계는 반드시 내 확인을 받아줘."
+      # 온보딩 포함 프롬프트 — 확장 미연결/캐치테이블 미로그인이어도 Claude가 대화로 해결을 안내한 뒤 감시 시작
+      $prompt = "캐치테이블 빈자리 감시를 시작하려고 해. 식당: $($body.name), 날짜: $($body.date), 시간: $($body.time), 인원: $($body.people)명. 먼저 claude-in-chrome 크롬 확장이 연결되는지 확인하고, 안 되면 설치·연결 방법을 한국어로 차근차근 안내해줘. 캐치테이블 로그인이 안 돼 있으면 크롬에서 직접 로그인하도록 안내하고 기다려줘. 준비가 되면 catchtable-sniper 스킬로 감시를 시작하고, 결제가 필요한 단계는 반드시 내 확인을 받아줘."
       # cmd /k — claude 종료 후에도 창을 남겨 결과/오류를 볼 수 있게 함
       Start-Process cmd.exe -ArgumentList '/k', "claude `"$prompt`""
       Send-Json $res @{ ok = $true }
