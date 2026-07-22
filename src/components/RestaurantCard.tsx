@@ -14,7 +14,7 @@ export default function RestaurantCard({
   return (
     <li
       onClick={onClick}
-      className="cursor-pointer rounded-xl bg-white p-4 shadow-sm transition-shadow active:shadow-md"
+      className="cursor-pointer rounded-xl bg-[#fffdf8] p-4 shadow-md transition-shadow active:shadow-lg"
       style={{ animation: 'cardIn 0.25s ease both' }}
     >
       <div className="flex items-start gap-3">

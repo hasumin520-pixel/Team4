@@ -24,7 +24,7 @@ export default function DetailSheet({
     <div className="fixed inset-0 z-30" onClick={onClose}>
       <div className="absolute inset-0 bg-black/40" style={{ animation: 'fadeIn 0.2s ease' }} />
       <div
-        className="absolute inset-x-0 bottom-0 mx-auto max-w-[480px] rounded-t-2xl bg-white p-5 pb-8"
+        className="absolute inset-x-0 bottom-0 mx-auto max-w-[480px] rounded-t-2xl bg-[#fffdf8] p-5 pb-8"
         style={{ animation: 'sheetUp 0.25s ease' }}
         onClick={(e) => e.stopPropagation()}
       >
@@ -105,7 +105,7 @@ export default function DetailSheet({
             href={r.placeUrl ?? `https://map.kakao.com/link/search/${encodeURIComponent(r.name)}`}
             target="_blank"
             rel="noreferrer"
-            className="flex-1 rounded-xl bg-slate-900 py-3 text-center text-sm font-bold text-white"
+            className="flex-1 rounded-xl bg-[#3d0b12] py-3 text-center text-sm font-bold text-white"
           >
             지도에서 보기
           </a>

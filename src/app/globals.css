@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+/* SK Innovation E&S CI 팔레트 — rose/orange를 브랜드 컬러로, slate 밝은 톤을 아이보리로 교체 */
+@theme {
+  --color-rose-50: #fde8ea;
+  --color-rose-500: #ea002c;
+  --color-rose-600: #ea002c;
+  --color-rose-700: #c00024;
+  --color-orange-500: #f47725;
+  --color-orange-600: #f47725;
+  --color-slate-50: #fdeee0;
+  --color-slate-100: #fadbc0;
+  --color-slate-200: #f5c99e;
+  --color-slate-300: #eeaf72;
+}
+
 @keyframes cardIn {
   from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }

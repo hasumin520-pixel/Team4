@@ -24,7 +24,7 @@ export default function MapView({
 
   return (
     <div className="px-4">
-      <div className="overflow-hidden rounded-xl bg-white shadow-sm">
+      <div className="overflow-hidden rounded-xl bg-[#fffdf8] shadow-sm">
         <svg viewBox={`${-R} ${-R} ${R * 2} ${R * 2}`} className="block w-full">
           {/* 거리 동심원 */}
           {[500, 1000, 1500].map((d) => (
@@ -34,7 +34,7 @@ export default function MapView({
                 cy={0}
                 r={d}
                 fill="none"
-                stroke="#CBD5E1"
+                stroke="#eeaf72"
                 strokeWidth={6}
                 strokeDasharray="24 18"
               />
@@ -67,7 +67,7 @@ export default function MapView({
                     fontSize={95}
                     fontWeight={isSel ? 900 : 500}
                     fill="#334155"
-                    stroke="#F8FAFC"
+                    stroke="#fffdf8"
                     strokeWidth={20}
                     paintOrder="stroke"
                     textAnchor="middle"
@@ -81,17 +81,17 @@ export default function MapView({
 
           {/* 회사 마커 */}
           <g>
-            <rect x={-90} y={-90} width={180} height={180} rx={40} fill="#0F172A" />
+            <rect x={-90} y={-90} width={180} height={180} rx={40} fill="#3d0b12" />
             <text y={35} fontSize={85} fill="#fff" textAnchor="middle" fontWeight={900}>
               SK
             </text>
             <text
               y={280}
               fontSize={95}
-              fill="#0F172A"
+              fill="#3d0b12"
               textAnchor="middle"
               fontWeight={900}
-              stroke="#F8FAFC"
+              stroke="#fffdf8"
               strokeWidth={20}
               paintOrder="stroke"
             >

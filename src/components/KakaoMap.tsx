@@ -62,7 +62,7 @@ export default function KakaoMap({
         new maps.CustomOverlay({
           position: center,
           content:
-            '<div style="background:#0F172A;color:#fff;font-weight:900;font-size:11px;padding:4px 8px;border-radius:8px">SK서린빌딩</div>',
+            '<div style="background:#3d0b12;color:#fff;font-weight:900;font-size:11px;padding:4px 8px;border-radius:8px">SK서린빌딩</div>',
           yAnchor: 0.5,
         }).setMap(map);
 

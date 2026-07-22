@@ -46,7 +46,7 @@ function Chip({
       className={`shrink-0 rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
         active
           ? 'border-rose-600 bg-rose-600 text-white'
-          : 'border-slate-300 bg-white text-slate-600'
+          : 'border-slate-300 bg-[#fffdf8] text-slate-600'
       }`}
     >
       {children}
@@ -132,12 +132,19 @@ export default function MoimApp() {
   return (
     <div className="pb-24">
       {/* 헤더 */}
-      <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
+      <header className="sticky top-0 z-20 border-b border-slate-200 bg-[#fffdf8]/90 backdrop-blur">
         <div className="flex items-center justify-between px-4 pt-4 pb-2">
           <div>
-            <h1 className="text-xl font-black text-slate-900">
-              모심 <span className="text-rose-600">.</span>
-            </h1>
+            <div className="flex items-baseline gap-2">
+              <h1 className="text-xl font-black text-slate-900">
+                모심 <span className="text-rose-600">.</span>
+              </h1>
+              <p className="text-[10px] font-extrabold tracking-tight">
+                <span className="text-[#ea002c]">SK</span>{' '}
+                <span className="text-[#f47725]">innovation</span>{' '}
+                <span className="text-[#f47725]">E&amp;S</span>
+              </p>
+            </div>
             <p className="text-xs text-slate-500">
               {COMPANY} 법인카드 실적 기반 식당 지도
             </p>
@@ -148,7 +155,7 @@ export default function MoimApp() {
                 key={v}
                 onClick={() => setView(v)}
                 className={`rounded-md px-3 py-1 ${
-                  view === v ? 'bg-white text-slate-900 shadow' : 'text-slate-500'
+                  view === v ? 'bg-[#fffdf8] text-slate-900 shadow' : 'text-slate-500'
                 }`}
               >
                 {v === 'list' ? '목록' : '지도'}
@@ -235,7 +242,7 @@ export default function MoimApp() {
               key={s}
               onClick={() => setSort(s)}
               className={`rounded-full px-2.5 py-1 ${
-                sort === s ? 'bg-slate-900 text-white' : 'text-slate-500'
+                sort === s ? 'bg-[#3d0b12] text-white' : 'text-slate-500'
               }`}
             >
               {SORT_LABEL[s]}
@@ -267,7 +274,7 @@ export default function MoimApp() {
             />
           ))}
           {results.length === 0 && (
-            <li className="rounded-xl bg-white p-8 text-center text-sm text-slate-400">
+            <li className="rounded-xl bg-[#fffdf8] p-8 text-center text-sm text-slate-400">
               조건에 맞는 식당이 없어요. 필터를 조정해 보세요.
             </li>
           )}

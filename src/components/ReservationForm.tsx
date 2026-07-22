@@ -48,7 +48,7 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
           <select
             value={people}
             onChange={(e) => setPeople(Number(e.target.value))}
-            className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-sm font-semibold text-slate-900"
+            className="mt-1 w-full rounded-lg border border-slate-200 bg-[#fffdf8] px-2 py-2 text-sm font-semibold text-slate-900"
           >
             {[2, 3, 4, 5, 6, 8, 10, 15, 20].map((n) => (
               <option key={n} value={n}>
@@ -63,7 +63,7 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
-            className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-sm font-semibold text-slate-900"
+            className="mt-1 w-full rounded-lg border border-slate-200 bg-[#fffdf8] px-2 py-2 text-sm font-semibold text-slate-900"
           />
         </label>
         <label className="text-xs text-slate-500">
@@ -71,7 +71,7 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
           <select
             value={time}
             onChange={(e) => setTime(e.target.value)}
-            className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-sm font-semibold text-slate-900"
+            className="mt-1 w-full rounded-lg border border-slate-200 bg-[#fffdf8] px-2 py-2 text-sm font-semibold text-slate-900"
           >
             {['11:30', '12:00', '12:30', '17:30', '18:00', '18:30', '19:00', '19:30'].map((t) => (
               <option key={t} value={t}>
