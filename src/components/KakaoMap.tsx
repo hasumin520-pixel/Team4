@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { COMPANY_LATLNG, CUISINE_COLOR, latLngOf, type Restaurant } from '@/lib/data';
+import { COMPANY_LATLNG, CUISINES, CUISINE_COLOR, latLngOf, type Restaurant } from '@/lib/data';
 
 declare global {
   interface Window {
@@ -44,7 +44,7 @@ export default function KakaoMap({
         const { maps } = window.kakao!;
         if (!containerRef.current || mapRef.current) return;
         const center = new maps.LatLng(COMPANY_LATLNG.lat, COMPANY_LATLNG.lng);
-        const map = new maps.Map(containerRef.current, { center, level: 6 });
+        const map = new maps.Map(containerRef.current, { center, level: 4 });
         mapRef.current = map;
 
         // 거리 동심원 + 회사 마커
@@ -97,15 +97,20 @@ export default function KakaoMap({
     for (const r of restaurants) {
       const { lat, lng } = latLngOf(r);
       const isSel = selected?.id === r.id;
-      const size = isSel ? 18 : 10 + Math.min(r.visitCount, 30) / 4;
+      const size = isSel ? 24 : 14 + Math.min(r.visitCount, 30) / 2.5;
       const el = document.createElement('div');
       el.style.cssText = 'display:flex;flex-direction:column;align-items:center;cursor:pointer';
       el.innerHTML = `
-        <div style="font-size:11px;font-weight:${isSel ? 900 : 500};color:#334155;
-          text-shadow:0 0 3px #fff,0 0 3px #fff;white-space:nowrap">${r.name}</div>
+        <div style="font-size:11px;font-weight:${isSel ? 900 : 600};color:#1e293b;
+          text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;white-space:nowrap">${r.name}</div>
         <div style="width:${size}px;height:${size}px;border-radius:50%;
-          background:${CUISINE_COLOR[r.cuisine]};border:2px solid #fff;
-          box-shadow:0 1px 4px rgba(0,0,0,.3)"></div>`;
+          background:${CUISINE_COLOR[r.cuisine]};border:2.5px solid #fff;
+          box-shadow:0 0 0 1.5px rgba(0,0,0,.35),0 2px 5px rgba(0,0,0,.35);
+          display:flex;align-items:center;justify-content:center">${
+            r.visitCount >= 10
+              ? `<span style="color:#fff;font-size:9px;font-weight:800;line-height:1">${r.visitCount}</span>`
+              : ''
+          }</div>`;
       el.addEventListener('click', () => onSelectRef.current(r));
       const overlay = new kakao.maps.CustomOverlay({
         position: new kakao.maps.LatLng(lat, lng),
@@ -121,14 +126,38 @@ export default function KakaoMap({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(renderPins, [restaurants, selected]);
 
+  const legendCuisines = CUISINES.filter((c) => restaurants.some((r) => r.cuisine === c));
+
   return (
     <div className="px-4">
-      <div
-        ref={containerRef}
-        className="h-[420px] w-full overflow-hidden rounded-xl bg-slate-200 shadow-sm"
-      />
+      <div className="relative">
+        {/* [&_img]:grayscale — 지도 타일(img)만 흑백, 핀(div)은 컬러 유지 */}
+        <div
+          ref={containerRef}
+          className="h-[420px] w-full overflow-hidden rounded-xl bg-slate-200 shadow-sm [&_img]:grayscale"
+        />
+        <div className="absolute right-2 top-2 z-10 flex flex-col gap-1 rounded-lg bg-white/90 px-2.5 py-2 shadow-md">
+          {legendCuisines.map((c) => (
+            <div key={c} className="flex items-center gap-1.5 text-[11px] font-semibold text-slate-700">
+              <span
+                className="inline-block h-3 w-3 rounded-full border border-white shadow-sm"
+                style={{ background: CUISINE_COLOR[c] }}
+              />
+              {c}
+            </div>
+          ))}
+          <div className="mt-0.5 flex flex-col items-center gap-1 border-t border-slate-300/60 pt-1.5">
+            <div className="flex items-end gap-1">
+              <span className="h-2 w-2 rounded-full bg-slate-500" />
+              <span className="h-3 w-3 rounded-full bg-slate-500" />
+              <span className="h-4 w-4 rounded-full bg-slate-500" />
+            </div>
+            <span className="text-[10px] font-semibold leading-none text-slate-600">클수록 방문 많음</span>
+          </div>
+        </div>
+      </div>
       <p className="mt-2 text-center text-[11px] text-slate-400">
-        핀 크기 = 방문횟수 · 탭하면 상세 보기
+        핀 크기·숫자 = 방문횟수 · 탭하면 상세 보기
       </p>
     </div>
   );

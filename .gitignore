@@ -11,3 +11,4 @@ next-env.d.ts
 *.docx
 *.xlsx
 scripts/data-src/
+.env*
