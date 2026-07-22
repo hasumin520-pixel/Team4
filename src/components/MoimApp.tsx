@@ -136,7 +136,7 @@ export default function MoimApp() {
         <div className="flex items-center justify-between px-4 pt-4 pb-2">
           <div>
             <h1 className="text-xl font-black text-slate-900">
-              모임 <span className="text-rose-600">.</span>
+              모심 <span className="text-rose-600">.</span>
             </h1>
             <p className="text-xs text-slate-500">
               {COMPANY} 법인카드 실적 기반 식당 지도

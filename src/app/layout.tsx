@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '모임 — 회사 앞 식당 지도',
+  title: '모심 — 회사 앞 식당 지도',
   description: 'SK서린빌딩 주변, 법인카드 실적 기반 식당 추천',
 };
 

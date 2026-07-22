@@ -1,10 +1,10 @@
-# 모임(Moim) — 회사 앞 식당 지도
+# 모심(Mosim) — 회사 앞 식당 지도
 
 SK서린빌딩(종로구 종로 26) 임직원의 법인카드 사용 실적을 기반으로 회사 주변 식당을
 추천하는 모바일 웹. 기획서는 `데이터 프롬프트 예시.docx`, 원본 데이터는
 `20260722사용원가(실적).xlsx` 참고.
 
-> 초기 아이디어 목업(모심/Mosim, 순수 HTML 데모)은 [`mosim-mockup/`](mosim-mockup/) 참고.
+> 초기 아이디어 목업(순수 HTML 데모)은 [`mosim-mockup/`](mosim-mockup/) 참고 — 서비스 이름은 이 목업에서 이어받았다.
 >
 > 배포: https://moim-blush.vercel.app (tndudrla/moim main 브랜치 push 시 자동 배포) ·
 > 팀 공유 저장소: [hasumin520-pixel/Team4](https://github.com/hasumin520-pixel/Team4)
@@ -47,7 +47,7 @@ src/
     data.ts             # 타입, 파생 필드(가중평균 평점 등), 상수
     xlsx.ts             # 브라우저 엑셀 파싱 (fflate)
     assign.ts           # 거래→식당 결정적 배정 + 집계
-mosim-mockup/           # 팀원 초기 아이디어 목업 (모심 — 단일 HTML 데모)
+mosim-mockup/           # 팀원 초기 아이디어 목업 (단일 HTML 데모)
 ```
 
 ## 데이터 (전부 더미)
