@@ -1,5 +1,5 @@
 // 서울 열린데이터광장 LOCALDATA(일반음식점 인허가)로 회사 인근 신규 오픈 식당을 수집한다.
-// 실행: SEOUL_OPENDATA_KEY=<인증키> node scripts/new-restaurants.mjs [--months 12] [--apply]
+// 실행: SEOUL_OPENDATA_KEY=<인증키> node scripts/new-restaurants.mjs [--months 1] [--apply]
 //   --apply 없이 실행하면 결과만 출력(드라이런), --apply 시 src/data/newPlaces.json 갱신.
 // 좌표: LOCALDATA의 X/Y(TM 중부원점)는 기존 restaurants.json 실측 dx/dy와 상호명 매칭한
 //   앵커들의 중앙값 오프셋으로 회사 원점을 역산해 상대좌표(m)로 환산한다(반경 1.5km에서 오차 수 m).
@@ -26,7 +26,7 @@ if (!KEY) {
 
 const APPLY = process.argv.includes("--apply");
 const monthsIdx = process.argv.indexOf("--months");
-const MONTHS = monthsIdx > -1 ? Number(process.argv[monthsIdx + 1]) : 12;
+const MONTHS = monthsIdx > -1 ? Number(process.argv[monthsIdx + 1]) : 1;
 const MAX_DIST = 1500;
 
 const cutoffDate = new Date();

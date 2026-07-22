@@ -412,6 +412,25 @@ export default function MoimApp() {
           </button>
         </div>
 
+        {/* 활성 토글 필터 기준 안내 */}
+        {(newOnly || antiGraft) && (
+          <div className="space-y-1 px-4 pb-2">
+            {newOnly && (
+              <p className="rounded-lg bg-emerald-50 px-2.5 py-1.5 text-[11px] leading-relaxed text-emerald-800">
+                <b>🆕 새로 오픈</b> — 서울시 일반음식점 인허가 데이터 기준, 최근 1개월(
+                {NEW_PLACES_CUTOFF.replaceAll('-', '.')} 이후) 개업 신고 + 영업 중 + 반경 1.5km 이내
+                {officeName !== HQ_OFFICE && ' (본사에서만 제공)'}
+              </p>
+            )}
+            {antiGraft && (
+              <p className="rounded-lg bg-slate-100 px-2.5 py-1.5 text-[11px] leading-relaxed text-slate-700">
+                <b>⚖️ 김영란법</b> — 청탁금지법 식사 한도(1인 5만원)를 넘기 쉬운 &lsquo;
+                {PRICE_LABEL[3]}&rsquo; 가격대 식당 제외
+              </p>
+            )}
+          </div>
+        )}
+
         {/* 상세 필터 (접이식) */}
         {showFilters && (
           <div className="space-y-2 border-t border-slate-100 bg-slate-50/60 px-4 py-3">
