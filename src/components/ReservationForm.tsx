@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { Restaurant } from '@/lib/data';
+import SniperLauncher from './SniperLauncher';
 
 // 예약 자동화 목업 — 기획서의 "인원·시간 입력 → 네이버예약/캐치테이블 자동 예약" 흐름.
 // 실제 자동화(스나이핑) 대신 딥링크 + 시뮬레이션으로 UX만 구현한 단계.
@@ -108,6 +109,8 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
           캐치테이블에서 열기
         </a>
       </div>
+
+      <SniperLauncher name={r.name} date={date} time={time} people={people} />
     </div>
   );
 }
