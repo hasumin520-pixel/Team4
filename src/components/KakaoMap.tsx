@@ -9,7 +9,7 @@ declare global {
       maps: {
         load: (cb: () => void) => void;
         LatLng: new (lat: number, lng: number) => object;
-        Map: new (el: HTMLElement, opts: object) => { setCenter: (p: object) => void };
+        Map: new (el: HTMLElement, opts: object) => { setCenter: (p: object) => void; panTo?: (p: object) => void };
         Circle: new (opts: object) => { setMap: (m: object | null) => void };
         Marker: new (opts: object) => { setMap: (m: object | null) => void };
         CustomOverlay: new (opts: object) => { setMap: (m: object | null) => void };
@@ -36,7 +36,7 @@ export default function KakaoMap({
   onSelect: (r: Restaurant) => void;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<{ setCenter: (p: object) => void } | null>(null);
+  const mapRef = useRef<{ setCenter: (p: object) => void; panTo?: (p: object) => void } | null>(null);
   const overlaysRef = useRef<{ setMap: (m: object | null) => void }[]>([]);
   const onSelectRef = useRef(onSelect);
   onSelectRef.current = onSelect;
@@ -176,6 +176,17 @@ export default function KakaoMap({
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(renderPins, [restaurants, newPlaces, catchPlaces, selected]);
+
+  // 목록 스트립/핀에서 선택 시 해당 위치로 부드럽게 이동
+  useEffect(() => {
+    const map = mapRef.current;
+    const kakao = window.kakao;
+    if (!selected || !map || !kakao) return;
+    const { lat, lng } = latLngOf(selected);
+    const pos = new kakao.maps.LatLng(lat, lng);
+    if (map.panTo) map.panTo(pos);
+    else map.setCenter(pos);
+  }, [selected]);
 
   const legendCuisines = CUISINES.filter((c) => restaurants.some((r) => r.cuisine === c));
 

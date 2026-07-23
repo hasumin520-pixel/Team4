@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   CATCH_PLACES,
   COMPANY,
+  CUISINE_COLOR,
   CUISINES,
   DIST_BANDS,
   HQ_OFFICE,
@@ -612,24 +613,32 @@ export default function MoimApp() {
 
       {/* 본문 — 카카오맵은 실좌표가 있는 본사만, 그 외 위치는 SVG 목업 지도 */}
       {view === 'map' ? (
-        KAKAO_KEY && officeName === HQ_OFFICE ? (
-          <KakaoMap
-            appKey={KAKAO_KEY}
+        <div>
+          {KAKAO_KEY && officeName === HQ_OFFICE ? (
+            <KakaoMap
+              appKey={KAKAO_KEY}
+              restaurants={results.filter((r) => !r.pending)}
+              newPlaces={newPlaces}
+              catchPlaces={catchPlaces}
+              selected={selected}
+              onSelect={setSelected}
+            />
+          ) : (
+            <MapView
+              restaurants={results.filter((r) => !r.pending)}
+              selected={selected}
+              onSelect={setSelected}
+              centerBadge={officeName === HQ_OFFICE ? 'SK' : selectedOffice.flag}
+              centerLabel={officeName === HQ_OFFICE ? '서린빌딩' : selectedOffice.city}
+            />
+          )}
+          <MapListStrip
             restaurants={results.filter((r) => !r.pending)}
-            newPlaces={newPlaces}
-            catchPlaces={catchPlaces}
+            rankBase={sort === 'visits'}
             selected={selected}
             onSelect={setSelected}
           />
-        ) : (
-          <MapView
-            restaurants={results.filter((r) => !r.pending)}
-            selected={selected}
-            onSelect={setSelected}
-            centerBadge={officeName === HQ_OFFICE ? 'SK' : selectedOffice.flag}
-            centerLabel={officeName === HQ_OFFICE ? '서린빌딩' : selectedOffice.city}
-          />
-        )
+        </div>
       ) : (
         <ul className="space-y-3 px-4">
           {results.map((r, i) => (
@@ -696,6 +705,78 @@ function NewPlaceCard({ place }: { place: NewPlace }) {
         <p className="mt-0.5 truncate text-[11px] text-slate-400">{place.address}</p>
       </button>
     </li>
+  );
+}
+
+// 지도 아래 식당 미니카드 가로 스크롤 — 카드 탭 ↔ 지도 핀 선택 동기화
+function MapListStrip({
+  restaurants,
+  rankBase,
+  selected,
+  onSelect,
+}: {
+  restaurants: Restaurant[];
+  rankBase: boolean; // 방문횟수순일 때만 순위 배지 표시
+  selected: Restaurant | null;
+  onSelect: (r: Restaurant) => void;
+}) {
+  const itemRefs = useRef<Map<string, HTMLLIElement>>(new Map());
+
+  // 핀 클릭 등 외부에서 선택이 바뀌면 해당 카드를 스트립 중앙으로
+  useEffect(() => {
+    if (!selected) return;
+    itemRefs.current.get(selected.id)?.scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+      block: 'nearest',
+    });
+  }, [selected]);
+
+  if (restaurants.length === 0) return null;
+
+  return (
+    <ul className="scrollbar-hide mt-2 flex gap-2 overflow-x-auto px-4 pb-1">
+      {restaurants.map((r, i) => {
+        const isSel = selected?.id === r.id;
+        return (
+          <li
+            key={r.id}
+            ref={(el) => {
+              if (el) itemRefs.current.set(r.id, el);
+              else itemRefs.current.delete(r.id);
+            }}
+            onClick={() => onSelect(r)}
+            className={`w-40 shrink-0 cursor-pointer rounded-xl border p-2.5 shadow-md transition-colors ${
+              isSel ? 'border-rose-500 bg-rose-50' : 'border-slate-200 bg-[#fffdf8]/95'
+            }`}
+          >
+            <div className="flex items-center gap-1">
+              {rankBase && (
+                <span
+                  className={`shrink-0 rounded px-1 text-[10px] font-black ${
+                    i < 3 ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-500'
+                  }`}
+                >
+                  {i + 1}
+                </span>
+              )}
+              <b className="truncate text-xs text-slate-900">{r.name}</b>
+            </div>
+            <p className="mt-1 flex items-center gap-1.5 text-[10px] text-slate-500">
+              <span
+                className="rounded px-1 font-bold text-white"
+                style={{ backgroundColor: CUISINE_COLOR[r.cuisine] }}
+              >
+                {r.cuisine}
+              </span>
+              <span className="font-semibold text-amber-500">★ {r.rating.toFixed(1)}</span>
+              <span>{r.walkMin}분</span>
+              {r.visitCount > 0 && <span className="font-bold text-slate-700">{r.visitCount}회</span>}
+            </p>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 
