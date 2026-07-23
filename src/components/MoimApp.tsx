@@ -30,6 +30,7 @@ import ReservationForm from './ReservationForm';
 import SniperBanner from './SniperBanner';
 import MapView from './MapView';
 import KakaoMap from './KakaoMap';
+import OverseasMap from './OverseasMap';
 import DetailSheet from './DetailSheet';
 import NewPlaceSheet from './NewPlaceSheet';
 
@@ -697,6 +698,15 @@ export default function MoimApp() {
               selected={selected}
               onSelect={setSelected}
               onSelectNew={setSelectedNew}
+            />
+          ) : isOverseas && mapCenter ? (
+            <OverseasMap
+              key={officeName}
+              center={mapCenter}
+              centerLabel={officeName}
+              restaurants={results.filter((r) => !r.pending)}
+              selected={selected}
+              onSelect={setSelected}
             />
           ) : (
             <MapView
