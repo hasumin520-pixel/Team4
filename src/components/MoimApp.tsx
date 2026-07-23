@@ -385,12 +385,12 @@ export default function MoimApp() {
               {COMPANY} 법인카드 실적 기반 식당 지도
             </p>
           </div>
-          <div className="flex rounded-lg bg-slate-100 p-1 text-sm font-medium">
+          <div className="flex rounded-lg bg-slate-100 p-1 text-xs font-medium">
             {(['list', 'map'] as const).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
-                className={`rounded-md px-3 py-1 ${
+                className={`rounded-md px-2.5 py-1 ${
                   view === v ? 'bg-[#fffdf8] text-slate-900 shadow' : 'text-slate-500'
                 }`}
               >
@@ -493,7 +493,7 @@ export default function MoimApp() {
 
         {/* 서비스 3축 모드 — 기존 식사 성격 세그먼트 자리 */}
         <div className="px-4 pb-2">
-          <div className="flex rounded-lg bg-slate-100 p-1 text-sm font-bold">
+          <div className="flex rounded-lg bg-slate-100 p-1 text-[13px] font-bold">
             {(Object.keys(MODE_META) as Mode[]).map((m) => {
               const disabled = m === 'catch' && isOverseas;
               return (
@@ -502,7 +502,7 @@ export default function MoimApp() {
                   onClick={() => setMode(m)}
                   disabled={disabled}
                   title={disabled ? '캐치테이블은 국내 전용이에요' : undefined}
-                  className={`flex-1 rounded-md px-2 py-2 transition-colors ${
+                  className={`flex-1 rounded-md px-2 py-1.5 transition-colors ${
                     mode === m ? MODE_META[m].active : disabled ? 'text-slate-300' : 'text-slate-500'
                   }`}
                 >
@@ -517,7 +517,7 @@ export default function MoimApp() {
         <div className="flex items-center px-4 pb-2">
           <button
             onClick={() => setShowFilters((v) => !v)}
-            className={`ml-auto shrink-0 rounded-full border px-3 py-1.5 text-xs font-semibold ${
+            className={`ml-auto shrink-0 rounded-full border px-4 py-2 text-sm font-semibold ${
               showFilters || activeDetailCount > 0
                 ? 'border-rose-500 bg-rose-50 text-rose-600'
                 : 'border-slate-300 bg-[#fffdf8] text-slate-600'
