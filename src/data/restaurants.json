@@ -1613,36 +1613,6 @@
       "placeUrl": "http://place.map.kakao.com/1745558364"
     },
     {
-      "id": "R056",
-      "name": "서린낙지",
-      "cuisine": "한식",
-      "desc": "매콤한 낙지볶음 노포",
-      "priceTier": 1,
-      "purposes": [
-        "점심",
-        "저녁 회식"
-      ],
-      "distM": 91,
-      "dx": -17,
-      "dy": 90,
-      "kakao": {
-        "score": 4,
-        "count": 1433
-      },
-      "naver": {
-        "score": 4.3,
-        "count": 290
-      },
-      "google": {
-        "score": 4.5,
-        "count": 432
-      },
-      "naverBooking": false,
-      "catchtable": false,
-      "address": "서울 종로구 종로 19",
-      "placeUrl": "http://place.map.kakao.com/7937472"
-    },
-    {
       "id": "R057",
       "name": "창화당 익선점",
       "cuisine": "한식",

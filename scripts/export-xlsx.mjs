@@ -1,4 +1,4 @@
-// 현재 식당 DB(restaurants.json + visits.json)를 팀원 공유용 엑셀로 내보낸다.
+// 현재 식당 DB(restaurants.json + 정산 서브모듈 + visits.json)를 팀원 공유용 엑셀로 내보낸다.
 // 팀원이 행을 추가해 돌려주면 다시 반영하는 용도 (편집 대상: 식당목록 시트).
 // 실행: node scripts/export-xlsx.mjs → 모심_식당목록.xlsx
 
@@ -9,8 +9,19 @@ import { zipSync, strToU8 } from "fflate";
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(dir, "..");
-const { restaurants } = JSON.parse(readFileSync(path.join(root, "src/data/restaurants.json"), "utf8"));
-const { stats } = JSON.parse(readFileSync(path.join(root, "src/data/visits.json"), "utf8"));
+const { restaurants: curated } = JSON.parse(readFileSync(path.join(root, "src/data/restaurants.json"), "utf8"));
+const { stats: baseStats } = JSON.parse(readFileSync(path.join(root, "src/data/visits.json"), "utf8"));
+const imported = JSON.parse(readFileSync(path.join(root, "src/data/importedRestaurants.json"), "utf8"));
+
+// 앱과 동일한 현재 기준 DB: 큐레이션 + 정산 자동 등록 스텁, 통계는 기본값 + 정산분 합산
+const restaurants = [...curated, ...imported.restaurants];
+const stats = structuredClone(baseStats);
+for (const [rid, s] of Object.entries(imported.stats)) {
+  const t = (stats[rid] ??= { count: 0, totalAmount: 0, lastDate: "", byAccount: {} });
+  t.count += s.count;
+  t.totalAmount += s.totalAmount;
+  if (s.lastDate > t.lastDate) t.lastDate = s.lastDate;
+}
 
 const PRICE = { 1: "2~3만원대", 2: "4~6만원대", 3: "10만원 이상" };
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -42,11 +53,13 @@ const rows1 = [rowXml(1, HEADERS, true)];
 const sorted = [...restaurants].sort((a, b) => (stats[b.id]?.count ?? 0) - (stats[a.id]?.count ?? 0));
 sorted.forEach((r, i) => {
   const s = stats[r.id];
-  const rating = ((r.kakao.score * r.kakao.count + r.google.score * r.google.count) / (r.kakao.count + r.google.count)).toFixed(1);
+  const rc = r.kakao.count + r.google.count;
+  const rating = rc > 0 ? Number(((r.kakao.score * r.kakao.count + r.google.score * r.google.count) / rc).toFixed(1)) : "";
   rows1.push(
     rowXml(i + 2, [
       r.name, r.cuisine, r.desc, PRICE[r.priceTier], r.purposes.join(", "), r.distM,
-      r.naverBooking ? "Y" : "N", r.catchtable ? "Y" : "N", s?.count ?? 0, Number(rating), "",
+      r.naverBooking ? "Y" : "N", r.catchtable ? "Y" : "N", s?.count ?? 0, rating,
+      r.pending ? "정산 자동 등록 (위치 미확인)" : "",
     ])
   );
 });
