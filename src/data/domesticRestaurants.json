@@ -1,0 +1,4522 @@
+{
+  "updated": "2026-07-23",
+  "source": "카카오 로컬 API 실측",
+  "offices": {
+    "코원에너지서비스㈜": {
+      "officeLat": 37.4993734685906,
+      "officeLng": 127.074444687029,
+      "restaurants": [
+        {
+          "id": "dom-코원에너지서비스-0",
+          "name": "브라운에프엔비 코원에너지서비스점",
+          "cuisine": "기타",
+          "desc": "구내식당 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 3,
+          "dx": -1,
+          "dy": 3,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 남부순환로 3165",
+          "placeUrl": "http://place.map.kakao.com/254211979",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-1",
+          "name": "미소야 대치점",
+          "cuisine": "일식",
+          "desc": "미소야 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 547,
+          "dx": -533,
+          "dy": -122,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 영동대로 219",
+          "placeUrl": "http://place.map.kakao.com/7889948",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-2",
+          "name": "담은국밥",
+          "cuisine": "한식",
+          "desc": "국밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 555,
+          "dx": -549,
+          "dy": -85,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 영동대로 221",
+          "placeUrl": "http://place.map.kakao.com/38757579",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-3",
+          "name": "장독대",
+          "cuisine": "한식",
+          "desc": "육류,고기 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 564,
+          "dx": -559,
+          "dy": -80,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 영동대로 221",
+          "placeUrl": "http://place.map.kakao.com/16734080",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-4",
+          "name": "생마차 대치점",
+          "cuisine": "기타",
+          "desc": "생마차 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 564,
+          "dx": -559,
+          "dy": -80,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 영동대로 221",
+          "placeUrl": "http://place.map.kakao.com/1897787492",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-5",
+          "name": "남경반점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 565,
+          "dx": -559,
+          "dy": -79,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 영동대로 221",
+          "placeUrl": "http://place.map.kakao.com/8249923",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-6",
+          "name": "백년그집",
+          "cuisine": "한식",
+          "desc": "육류,고기 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 565,
+          "dx": -559,
+          "dy": -79,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 영동대로 221",
+          "placeUrl": "http://place.map.kakao.com/424073481",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-코원에너지서비스-7",
+          "name": "만리",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 666,
+          "dx": 126,
+          "dy": -656,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "서울 강남구 개포로109길 9",
+          "placeUrl": "http://place.map.kakao.com/16032016",
+          "loc": "코원에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "부산도시가스㈜": {
+      "officeLat": 35.17624804738,
+      "officeLng": 129.182286815586,
+      "restaurants": [
+        {
+          "id": "dom-부산도시가스-0",
+          "name": "웰빙식당",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 220,
+          "dx": -43,
+          "dy": -217,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동순환로249번길 21",
+          "placeUrl": "http://place.map.kakao.com/1612147060",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-1",
+          "name": "김순분할매회국수 해운대점",
+          "cuisine": "한식",
+          "desc": "국수 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 227,
+          "dx": -58,
+          "dy": -221,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동순환로249번길 21",
+          "placeUrl": "http://place.map.kakao.com/25430885",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-2",
+          "name": "밀양돼지국밥",
+          "cuisine": "한식",
+          "desc": "국밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 235,
+          "dx": -48,
+          "dy": -231,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동순환로249번길 21",
+          "placeUrl": "http://place.map.kakao.com/16675700",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-3",
+          "name": "스시리",
+          "cuisine": "일식",
+          "desc": "초밥,롤 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 343,
+          "dx": -136,
+          "dy": -316,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동순환로 252",
+          "placeUrl": "http://place.map.kakao.com/702695046",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-4",
+          "name": "털보횟집",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 454,
+          "dx": -416,
+          "dy": -182,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 세실로 126",
+          "placeUrl": "http://place.map.kakao.com/207369762",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-5",
+          "name": "탕참 탕수육참잘하는집 해운대점",
+          "cuisine": "중식",
+          "desc": "탕참 탕수육참잘하는집 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 474,
+          "dx": 8,
+          "dy": -476,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동순환로 275",
+          "placeUrl": "http://place.map.kakao.com/1797163399",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-6",
+          "name": "대우쟁반짜장",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 475,
+          "dx": 9,
+          "dy": -477,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동순환로 275",
+          "placeUrl": "http://place.map.kakao.com/11011021",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-부산도시가스-7",
+          "name": "고래상회",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 576,
+          "dx": -492,
+          "dy": -300,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "부산 해운대구 좌동로 109-10",
+          "placeUrl": "http://place.map.kakao.com/139522564",
+          "loc": "부산도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "영남에너지서비스(구미)": {
+      "officeLat": 36.09383165267164,
+      "officeLng": 128.3755972244594,
+      "restaurants": [
+        {
+          "id": "dom-영남에너지서비스구미-0",
+          "name": "한울푸드",
+          "cuisine": "기타",
+          "desc": "구내식당 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 303,
+          "dx": -257,
+          "dy": 161,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 1공단로6길 64-23",
+          "placeUrl": "http://place.map.kakao.com/16289444",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-1",
+          "name": "라티스 구내식당",
+          "cuisine": "기타",
+          "desc": "구내식당 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 607,
+          "dx": 297,
+          "dy": 531,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 1공단로6길 13-41",
+          "placeUrl": "http://place.map.kakao.com/54330821",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-2",
+          "name": "냉면장수&갈비탕 구미점",
+          "cuisine": "한식",
+          "desc": "냉면 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 759,
+          "dx": -513,
+          "dy": -561,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 임은길 68",
+          "placeUrl": "http://place.map.kakao.com/1650570602",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-3",
+          "name": "백년기사님식당",
+          "cuisine": "기타",
+          "desc": "기사식당 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 767,
+          "dx": -543,
+          "dy": -544,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 임은길 64",
+          "placeUrl": "http://place.map.kakao.com/9072461",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-4",
+          "name": "금수천대반점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 792,
+          "dx": -595,
+          "dy": -525,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 임은길 59",
+          "placeUrl": "http://place.map.kakao.com/16639814",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-5",
+          "name": "홍도가든",
+          "cuisine": "한식",
+          "desc": "찌개,전골 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 796,
+          "dx": -472,
+          "dy": -643,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 1공단로4길 156",
+          "placeUrl": "http://place.map.kakao.com/10969074",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-6",
+          "name": "배가옥",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 855,
+          "dx": 621,
+          "dy": 589,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 1공단로10길 37",
+          "placeUrl": "http://place.map.kakao.com/1395958159",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스구미-7",
+          "name": "나리돈까스",
+          "cuisine": "일식",
+          "desc": "돈까스,우동 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 906,
+          "dx": -687,
+          "dy": -591,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 구미시 임은길 50",
+          "placeUrl": "http://place.map.kakao.com/1728977437",
+          "loc": "영남에너지서비스(구미)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "영남에너지서비스(포항)": {
+      "officeLat": 36.0708061900205,
+      "officeLng": 129.351893872792,
+      "restaurants": [
+        {
+          "id": "dom-영남에너지서비스포항-0",
+          "name": "마장지장수골",
+          "cuisine": "한식",
+          "desc": "삼계탕 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 246,
+          "dx": 199,
+          "dy": 144,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 우창로125번길 120",
+          "placeUrl": "http://place.map.kakao.com/1983746060",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-1",
+          "name": "삼정밀면",
+          "cuisine": "한식",
+          "desc": "냉면 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 626,
+          "dx": -123,
+          "dy": -616,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 소티재로151번길 9",
+          "placeUrl": "http://place.map.kakao.com/1216538346",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-2",
+          "name": "마성떡볶이 포항역점",
+          "cuisine": "기타",
+          "desc": "마성떡볶이 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 904,
+          "dx": -902,
+          "dy": 51,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 흥해읍 포항역로 1",
+          "placeUrl": "http://place.map.kakao.com/515719876",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-3",
+          "name": "마성면우동리 포항역점",
+          "cuisine": "일식",
+          "desc": "돈까스,우동 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 914,
+          "dx": -912,
+          "dy": 49,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 흥해읍 포항역로 1",
+          "placeUrl": "http://place.map.kakao.com/2007199115",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-4",
+          "name": "올리엔 포항점",
+          "cuisine": "양식",
+          "desc": "이탈리안 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1071,
+          "dx": 941,
+          "dy": -511,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 창흥로 89",
+          "placeUrl": "http://place.map.kakao.com/1213315642",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-5",
+          "name": "궁물촌 포항역점",
+          "cuisine": "한식",
+          "desc": "육류,고기 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 1188,
+          "dx": -1160,
+          "dy": 252,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 흥해읍 달전로 325",
+          "placeUrl": "http://place.map.kakao.com/1107882320",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-6",
+          "name": "홍굴이해물짬뽕 달전점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1326,
+          "dx": -925,
+          "dy": 952,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 흥해읍 도음로 985",
+          "placeUrl": "http://place.map.kakao.com/10969321",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-영남에너지서비스포항-7",
+          "name": "에바다회식당",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 1400,
+          "dx": -1014,
+          "dy": 967,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경북 포항시 북구 흥해읍 도음로 977",
+          "placeUrl": "http://place.map.kakao.com/16324260",
+          "loc": "영남에너지서비스(포항)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "충청에너지서비스㈜": {
+      "officeLat": 36.6565920011462,
+      "officeLng": 127.448470159127,
+      "restaurants": [
+        {
+          "id": "dom-충청에너지서비스-0",
+          "name": "청주가야밀면",
+          "cuisine": "한식",
+          "desc": "냉면 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 574,
+          "dx": 522,
+          "dy": 240,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 송절로 47",
+          "placeUrl": "http://place.map.kakao.com/11811112",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-1",
+          "name": "권가제면소 송절본점",
+          "cuisine": "일식",
+          "desc": "일식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 594,
+          "dx": 485,
+          "dy": 344,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 월명로 277",
+          "placeUrl": "http://place.map.kakao.com/479929466",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-2",
+          "name": "비파해물칼국수",
+          "cuisine": "한식",
+          "desc": "칼국수 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 614,
+          "dx": 21,
+          "dy": 616,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 송화로108번길 32",
+          "placeUrl": "http://place.map.kakao.com/666330262",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-3",
+          "name": "교동막국수",
+          "cuisine": "한식",
+          "desc": "국수 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 614,
+          "dx": 565,
+          "dy": 240,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 송절로 53",
+          "placeUrl": "http://place.map.kakao.com/1606825727",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-4",
+          "name": "만리장성",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 688,
+          "dx": 522,
+          "dy": -450,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 덕암로 2",
+          "placeUrl": "http://place.map.kakao.com/595550240",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-5",
+          "name": "회&조개",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 703,
+          "dx": 699,
+          "dy": -71,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 월명로236번길 37",
+          "placeUrl": "http://place.map.kakao.com/998444642",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-6",
+          "name": "조기종의향미각 송절점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 717,
+          "dx": 582,
+          "dy": 419,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 2순환로 629",
+          "placeUrl": "http://place.map.kakao.com/1328811701",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-충청에너지서비스-7",
+          "name": "금용",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 845,
+          "dx": 822,
+          "dy": 195,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "충북 청주시 흥덕구 송절로76번길 3",
+          "placeUrl": "http://place.map.kakao.com/2027639320",
+          "loc": "충청에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "전남도시가스㈜": {
+      "officeLat": 34.9539212338147,
+      "officeLng": 127.525795997347,
+      "restaurants": [
+        {
+          "id": "dom-전남도시가스-0",
+          "name": "송가네식당",
+          "cuisine": "한식",
+          "desc": "한정식 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식",
+            "접대"
+          ],
+          "distM": 57,
+          "dx": -27,
+          "dy": 51,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 장선배기2길 9-5",
+          "placeUrl": "http://place.map.kakao.com/1994434500",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-1",
+          "name": "콩주발",
+          "cuisine": "한식",
+          "desc": "국밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 62,
+          "dx": -38,
+          "dy": 50,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 장선배기2길 9-9",
+          "placeUrl": "http://place.map.kakao.com/16203042",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-2",
+          "name": "예향정 순천조례점",
+          "cuisine": "한식",
+          "desc": "쌈밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 102,
+          "dx": -99,
+          "dy": -27,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 기적의도서관1길 19",
+          "placeUrl": "http://place.map.kakao.com/1244597086",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-3",
+          "name": "큰바다횟집",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 111,
+          "dx": -3,
+          "dy": 112,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 장선배기2길 14",
+          "placeUrl": "http://place.map.kakao.com/1671264143",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-4",
+          "name": "두만강음식점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 187,
+          "dx": -187,
+          "dy": -14,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 장선배기1길 10-26",
+          "placeUrl": "http://place.map.kakao.com/630726175",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-5",
+          "name": "창운횟집",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 188,
+          "dx": -186,
+          "dy": -29,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 장선배기1길 6-25",
+          "placeUrl": "http://place.map.kakao.com/549986431",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-6",
+          "name": "샤브마니아 순천조례점",
+          "cuisine": "기타",
+          "desc": "샤브마니아 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 219,
+          "dx": -175,
+          "dy": -131,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 장선배기길 14",
+          "placeUrl": "http://place.map.kakao.com/832046476",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전남도시가스-7",
+          "name": "용화루",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 255,
+          "dx": 190,
+          "dy": -171,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전남광주통합특별시 순천시 조례못등1길 4-14",
+          "placeUrl": "http://place.map.kakao.com/16585341",
+          "loc": "전남도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "전북에너지서비스㈜": {
+      "officeLat": 36.0373970947613,
+      "officeLng": 126.984474889832,
+      "restaurants": [
+        {
+          "id": "dom-전북에너지서비스-0",
+          "name": "아람&푸드",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 190,
+          "dx": -26,
+          "dy": -189,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전북특별자치도 익산시 삼기면 산단도마2길 36",
+          "placeUrl": "http://place.map.kakao.com/657791836",
+          "loc": "전북에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전북에너지서비스-1",
+          "name": "솜리국수 삼기점",
+          "cuisine": "한식",
+          "desc": "국수 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1629,
+          "dx": -918,
+          "dy": -1349,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전북특별자치도 익산시 삼기면 황금로 407",
+          "placeUrl": "http://place.map.kakao.com/354098368",
+          "loc": "전북에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전북에너지서비스-2",
+          "name": "하선",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1694,
+          "dx": -260,
+          "dy": -1680,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전북특별자치도 익산시 삼기면 진북로 11-1",
+          "placeUrl": "http://place.map.kakao.com/27278965",
+          "loc": "전북에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전북에너지서비스-3",
+          "name": "삼기반점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1918,
+          "dx": -124,
+          "dy": -1920,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전북특별자치도 익산시 삼기면 황금로 506",
+          "placeUrl": "http://place.map.kakao.com/10438969",
+          "loc": "전북에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전북에너지서비스-4",
+          "name": "송나라",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 2283,
+          "dx": 2137,
+          "dy": -801,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전북특별자치도 익산시 삼기면 미륵사지로 666",
+          "placeUrl": "http://place.map.kakao.com/25887449",
+          "loc": "전북에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-전북에너지서비스-5",
+          "name": "중화요리 어울림",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 2376,
+          "dx": -286,
+          "dy": 2367,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "전북특별자치도 익산시 함열읍 미륵사지로 1088",
+          "placeUrl": "http://place.map.kakao.com/1574842885",
+          "loc": "전북에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "강원도시가스㈜": {
+      "officeLat": 37.8867503170549,
+      "officeLng": 127.748484145376,
+      "restaurants": [
+        {
+          "id": "dom-강원도시가스-0",
+          "name": "룽타우객잔 후평점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 208,
+          "dx": 64,
+          "dy": -199,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 춘천로 349-2",
+          "placeUrl": "http://place.map.kakao.com/927112656",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-1",
+          "name": "왕소갈비",
+          "cuisine": "한식",
+          "desc": "갈비 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 220,
+          "dx": 217,
+          "dy": 40,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 춘천로 380",
+          "placeUrl": "http://place.map.kakao.com/16102946",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-2",
+          "name": "해마",
+          "cuisine": "일식",
+          "desc": "일식집 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식",
+            "접대"
+          ],
+          "distM": 229,
+          "dx": 223,
+          "dy": 54,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 춘천로 380-1",
+          "placeUrl": "http://place.map.kakao.com/10919534",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-3",
+          "name": "작은집",
+          "cuisine": "한식",
+          "desc": "한정식 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식",
+            "접대"
+          ],
+          "distM": 237,
+          "dx": 237,
+          "dy": -6,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 삭주로 189",
+          "placeUrl": "http://place.map.kakao.com/26578480",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-4",
+          "name": "돈기부여돈까스전문점 후평점",
+          "cuisine": "일식",
+          "desc": "돈까스,우동 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 245,
+          "dx": -202,
+          "dy": -139,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 후석로 395",
+          "placeUrl": "http://place.map.kakao.com/1417889896",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-5",
+          "name": "막썰어회센터",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 249,
+          "dx": -103,
+          "dy": -228,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 후석로 382",
+          "placeUrl": "http://place.map.kakao.com/1499664811",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-6",
+          "name": "풍기",
+          "cuisine": "양식",
+          "desc": "이탈리안 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 249,
+          "dx": 203,
+          "dy": 144,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 춘천로 387",
+          "placeUrl": "http://place.map.kakao.com/346153488",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-강원도시가스-7",
+          "name": "삼촌국밥",
+          "cuisine": "한식",
+          "desc": "국밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 255,
+          "dx": 232,
+          "dy": 107,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "강원특별자치도 춘천시 춘천로 386",
+          "placeUrl": "http://place.map.kakao.com/941979322",
+          "loc": "강원도시가스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "나래에너지서비스(집단에너지)": {
+      "officeLat": 37.4814568872287,
+      "officeLng": 127.152189438652,
+      "restaurants": [
+        {
+          "id": "dom-나래에너지서비스집단에너-0",
+          "name": "화덕어락",
+          "cuisine": "한식",
+          "desc": "해물,생선 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 303,
+          "dx": -237,
+          "dy": -190,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로2길 20",
+          "placeUrl": "http://place.map.kakao.com/1251721048",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-1",
+          "name": "사보텐 스타필드시티위례점",
+          "cuisine": "일식",
+          "desc": "사보텐 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 332,
+          "dx": -320,
+          "dy": -88,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/1590268545",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-2",
+          "name": "돌고래손칼국수 위례점",
+          "cuisine": "한식",
+          "desc": "칼국수 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 333,
+          "dx": -330,
+          "dy": -45,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 220",
+          "placeUrl": "http://place.map.kakao.com/579600385",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-3",
+          "name": "갓덴익스프레스 스타필드시티위례점",
+          "cuisine": "일식",
+          "desc": "초밥,롤 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 352,
+          "dx": -342,
+          "dy": -84,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/1146963338",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-4",
+          "name": "마라로 스타필드시티 위례",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 355,
+          "dx": -317,
+          "dy": -162,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/660679161",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-5",
+          "name": "더차이 스타필드시티위례",
+          "cuisine": "중식",
+          "desc": "중식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 360,
+          "dx": -350,
+          "dy": -85,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/1316123377",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-6",
+          "name": "라쿤피자 스타필드시티위례",
+          "cuisine": "양식",
+          "desc": "피자 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 362,
+          "dx": -326,
+          "dy": -158,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/54870577",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스집단에너-7",
+          "name": "철뚝집 북위례직영점",
+          "cuisine": "한식",
+          "desc": "삼겹살 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 363,
+          "dx": -362,
+          "dy": 14,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 220",
+          "placeUrl": "http://place.map.kakao.com/278248380",
+          "loc": "나래에너지서비스(집단에너지)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "나래에너지서비스(O&M)": {
+      "officeLat": 37.551597908587,
+      "officeLng": 127.186416499574,
+      "restaurants": [
+        {
+          "id": "dom-나래에너지서비스om-0",
+          "name": "연어로만 미사점",
+          "cuisine": "일식",
+          "desc": "일식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 89,
+          "dx": -5,
+          "dy": -90,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 조정대로 65",
+          "placeUrl": "http://place.map.kakao.com/1850643147",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-1",
+          "name": "스테이크존 하남점",
+          "cuisine": "양식",
+          "desc": "스테이크존 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 152,
+          "dx": 152,
+          "dy": -11,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 조정대로 85",
+          "placeUrl": "http://place.map.kakao.com/1177522242",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-2",
+          "name": "충무로육개장",
+          "cuisine": "한식",
+          "desc": "국밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 153,
+          "dx": -152,
+          "dy": 19,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 미사강변서로 16",
+          "placeUrl": "http://place.map.kakao.com/1125777589",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-3",
+          "name": "사미반점 미사점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 160,
+          "dx": -107,
+          "dy": -120,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 조정대로 45",
+          "placeUrl": "http://place.map.kakao.com/1265522290",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-4",
+          "name": "언피니쉬드",
+          "cuisine": "양식",
+          "desc": "이탈리안 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 170,
+          "dx": -167,
+          "dy": 32,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 미사강변서로 16",
+          "placeUrl": "http://place.map.kakao.com/996865236",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-5",
+          "name": "풍미숯불꼼장어",
+          "cuisine": "한식",
+          "desc": "장어 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식",
+            "접대"
+          ],
+          "distM": 199,
+          "dx": -166,
+          "dy": -111,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 조정대로 45",
+          "placeUrl": "http://place.map.kakao.com/982086310",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-6",
+          "name": "하남돈까스",
+          "cuisine": "일식",
+          "desc": "돈까스,우동 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 199,
+          "dx": -171,
+          "dy": -102,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 조정대로 45",
+          "placeUrl": "http://place.map.kakao.com/2019175272",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-나래에너지서비스om-7",
+          "name": "전주콩나물국밥",
+          "cuisine": "한식",
+          "desc": "국밥 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 199,
+          "dx": -171,
+          "dy": -102,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 조정대로 45",
+          "placeUrl": "http://place.map.kakao.com/140614716",
+          "loc": "나래에너지서비스(O&M)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "위례에너지서비스㈜": {
+      "officeLat": 37.4814568872287,
+      "officeLng": 127.152189438652,
+      "restaurants": [
+        {
+          "id": "dom-위례에너지서비스-0",
+          "name": "화덕어락",
+          "cuisine": "한식",
+          "desc": "해물,생선 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 303,
+          "dx": -237,
+          "dy": -190,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로2길 20",
+          "placeUrl": "http://place.map.kakao.com/1251721048",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-1",
+          "name": "사보텐 스타필드시티위례점",
+          "cuisine": "일식",
+          "desc": "사보텐 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 332,
+          "dx": -320,
+          "dy": -88,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/1590268545",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-2",
+          "name": "돌고래손칼국수 위례점",
+          "cuisine": "한식",
+          "desc": "칼국수 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 333,
+          "dx": -330,
+          "dy": -45,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 220",
+          "placeUrl": "http://place.map.kakao.com/579600385",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-3",
+          "name": "갓덴익스프레스 스타필드시티위례점",
+          "cuisine": "일식",
+          "desc": "초밥,롤 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 352,
+          "dx": -342,
+          "dy": -84,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/1146963338",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-4",
+          "name": "마라로 스타필드시티 위례",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 355,
+          "dx": -317,
+          "dy": -162,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/660679161",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-5",
+          "name": "더차이 스타필드시티위례",
+          "cuisine": "중식",
+          "desc": "중식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 360,
+          "dx": -350,
+          "dy": -85,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/1316123377",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-6",
+          "name": "라쿤피자 스타필드시티위례",
+          "cuisine": "양식",
+          "desc": "피자 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 362,
+          "dx": -326,
+          "dy": -158,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 200",
+          "placeUrl": "http://place.map.kakao.com/54870577",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-위례에너지서비스-7",
+          "name": "철뚝집 북위례직영점",
+          "cuisine": "한식",
+          "desc": "삼겹살 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 363,
+          "dx": -362,
+          "dy": 14,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 하남시 위례대로 220",
+          "placeUrl": "http://place.map.kakao.com/278248380",
+          "loc": "위례에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "파주에너지서비스㈜": {
+      "officeLat": 37.83103473995948,
+      "officeLng": 126.78550475367287,
+      "restaurants": [
+        {
+          "id": "dom-파주에너지서비스-0",
+          "name": "파주석갈비",
+          "cuisine": "한식",
+          "desc": "갈비 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 727,
+          "dx": 691,
+          "dy": 226,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 파주읍 새봉암길 160-20",
+          "placeUrl": "http://place.map.kakao.com/156805996",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-1",
+          "name": "진고개식당",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 777,
+          "dx": -774,
+          "dy": -65,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 월롱면 휴암로 449-5",
+          "placeUrl": "http://place.map.kakao.com/2053486917",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-2",
+          "name": "삼시세끼",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 941,
+          "dx": -475,
+          "dy": 815,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 문산읍 월롱산단3길 5-24",
+          "placeUrl": "http://place.map.kakao.com/26910409",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-3",
+          "name": "내포반점",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1042,
+          "dx": -613,
+          "dy": 846,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 문산읍 휴암로 538",
+          "placeUrl": "http://place.map.kakao.com/859981609",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-4",
+          "name": "문산짬뽕",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1653,
+          "dx": 432,
+          "dy": 1601,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 파주읍 봉서산로 3",
+          "placeUrl": "http://place.map.kakao.com/2126929563",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-5",
+          "name": "도톰유부앤커피 파주문산점",
+          "cuisine": "일식",
+          "desc": "일식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1793,
+          "dx": 362,
+          "dy": 1761,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 파주읍 통일로 1558",
+          "placeUrl": "http://place.map.kakao.com/1930345637",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-6",
+          "name": "금화왕돈까스 파주문산점",
+          "cuisine": "일식",
+          "desc": "금화왕돈까스 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1816,
+          "dx": 143,
+          "dy": 1816,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 파주읍 문산역로 15",
+          "placeUrl": "http://place.map.kakao.com/28296052",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-파주에너지서비스-7",
+          "name": "신원조매운짬뽕",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1820,
+          "dx": 1018,
+          "dy": 1513,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 파주시 파주읍 봉서산로 63",
+          "placeUrl": "http://place.map.kakao.com/1555112995",
+          "loc": "파주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "여주에너지서비스㈜": {
+      "officeLat": 37.362928678118,
+      "officeLng": 127.65843827576,
+      "restaurants": [
+        {
+          "id": "dom-여주에너지서비스-0",
+          "name": "연마루가든",
+          "cuisine": "한식",
+          "desc": "사철탕,영양탕 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 512,
+          "dx": 437,
+          "dy": -268,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 북내면 외재로 235",
+          "placeUrl": "http://place.map.kakao.com/19632429",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-1",
+          "name": "외룡묵밥집",
+          "cuisine": "한식",
+          "desc": "한식 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 931,
+          "dx": 929,
+          "dy": 43,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 북내면 여양2로 699",
+          "placeUrl": "http://place.map.kakao.com/9280402",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-2",
+          "name": "식당숲속",
+          "cuisine": "한식",
+          "desc": "닭요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 2378,
+          "dx": 1724,
+          "dy": -1641,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 북내면 선돌로 56-12",
+          "placeUrl": "http://place.map.kakao.com/10543271",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-3",
+          "name": "산천횟집",
+          "cuisine": "일식",
+          "desc": "회 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 2453,
+          "dx": 2047,
+          "dy": 1352,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 북내면 내룡길 106",
+          "placeUrl": "http://place.map.kakao.com/9805789",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-4",
+          "name": "유채",
+          "cuisine": "일식",
+          "desc": "돈까스,우동 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 4464,
+          "dx": -667,
+          "dy": -4428,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 여양로 482",
+          "placeUrl": "http://place.map.kakao.com/8481989",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-5",
+          "name": "중화요리 유반장",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 4618,
+          "dx": 1900,
+          "dy": -4222,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 북내면 여양2로 244",
+          "placeUrl": "http://place.map.kakao.com/814926527",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-6",
+          "name": "홍차우",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 4636,
+          "dx": 3198,
+          "dy": -3363,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 북내면 당전로 151",
+          "placeUrl": "http://place.map.kakao.com/1578960880",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-여주에너지서비스-7",
+          "name": "다온짬뽕",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 4831,
+          "dx": -4782,
+          "dy": 645,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "경기 여주시 대신면 여양로 1254",
+          "placeUrl": "http://place.map.kakao.com/27607641",
+          "loc": "여주에너지서비스㈜",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "아이지이(IGE)": {
+      "officeLat": 37.513255139314,
+      "officeLng": 126.660735455537,
+      "restaurants": [
+        {
+          "id": "dom-아이지이ige-0",
+          "name": "국밥참맛있는집 인천석남점",
+          "cuisine": "한식",
+          "desc": "국밥참맛있는집 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 296,
+          "dx": 284,
+          "dy": 84,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 율도로15번길 4",
+          "placeUrl": "http://place.map.kakao.com/1127425001",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-1",
+          "name": "평정",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 297,
+          "dx": 294,
+          "dy": 43,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 율도로 18",
+          "placeUrl": "http://place.map.kakao.com/1058250069",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-2",
+          "name": "모과나무집",
+          "cuisine": "한식",
+          "desc": "사철탕,영양탕 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 317,
+          "dx": 308,
+          "dy": 75,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 율도로 19",
+          "placeUrl": "http://place.map.kakao.com/8998270",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-3",
+          "name": "힘내소",
+          "cuisine": "한식",
+          "desc": "육류,고기 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 385,
+          "dx": 383,
+          "dy": 36,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 새오개로 37",
+          "placeUrl": "http://place.map.kakao.com/21354684",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-4",
+          "name": "피플앤컬쳐",
+          "cuisine": "일식",
+          "desc": "일식집 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식",
+            "접대"
+          ],
+          "distM": 508,
+          "dx": 503,
+          "dy": -72,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 염곡로311번길 18-1",
+          "placeUrl": "http://place.map.kakao.com/1449055457",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-5",
+          "name": "참치한판",
+          "cuisine": "일식",
+          "desc": "참치회 · 사무소 인근 실측",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 543,
+          "dx": 542,
+          "dy": 30,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 율도로 44",
+          "placeUrl": "http://place.map.kakao.com/1615433531",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-6",
+          "name": "원창궁",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 614,
+          "dx": -249,
+          "dy": 562,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 원창로 79",
+          "placeUrl": "http://place.map.kakao.com/9364390",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "dom-아이지이ige-7",
+          "name": "린탕수육",
+          "cuisine": "중식",
+          "desc": "중국요리 · 사무소 인근 실측",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 626,
+          "dx": 385,
+          "dy": 495,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 0,
+            "count": 0
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "인천 서해구 원창로 142-1",
+          "placeUrl": "http://place.map.kakao.com/283339159",
+          "loc": "아이지이(IGE)",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": false,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    }
+  }
+}

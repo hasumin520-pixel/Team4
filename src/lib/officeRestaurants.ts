@@ -7,16 +7,19 @@ import { HQ_OFFICE, RESTAURANTS, type Cuisine, type Purpose, type Restaurant } f
 import { cultureOf } from './culture';
 import type { Office } from './offices';
 import overseasJson from '@/data/overseasRestaurants.json';
+import domesticJson from '@/data/domesticRestaurants.json';
 
-// 해외법인 실식당 (웹 실사, 구글맵 실존 확인 — 방문 실적은 없어 visitCount 0)
+// 실측 식당 데이터 — 해외법인: 웹 실사(구글맵), 국내 자회사: 카카오 로컬 API.
+// 방문 실적은 없어 visitCount 0.
 type OverseasSeed = Omit<
   Restaurant,
   'visitCount' | 'totalAmount' | 'lastDate' | 'byAccount' | 'recent' | 'rating' | 'reviewCount' | 'walkMin'
 >;
-const OVERSEAS = overseasJson.offices as Record<
-  string,
-  { officeLat: number; officeLng: number; restaurants: OverseasSeed[] }
->;
+type RealOffices = Record<string, { officeLat: number; officeLng: number; restaurants: OverseasSeed[] }>;
+const REAL: RealOffices = {
+  ...(domesticJson.offices as unknown as RealOffices),
+  ...(overseasJson.offices as unknown as RealOffices),
+};
 
 function fromOverseas(seeds: OverseasSeed[]): Restaurant[] {
   return seeds.map((r) => {
@@ -173,10 +176,10 @@ function generate(office: Office): Restaurant[] {
   return out;
 }
 
-// 사업장별 식당 목록. 본사·해외법인은 실 데이터, 그 외(국내 자회사)는 생성한 더미.
+// 사업장별 식당 목록. 본사·해외법인·국내 자회사 모두 실 데이터, 미수집 위치만 seed 더미 폴백.
 export function restaurantsForOffice(office: Office): Restaurant[] {
   if (office.name === HQ_OFFICE) return RESTAURANTS;
-  const real = OVERSEAS[office.name];
+  const real = REAL[office.name];
   if (real) return fromOverseas(real.restaurants);
   return generate(office);
 }

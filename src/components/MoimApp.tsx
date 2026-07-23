@@ -173,7 +173,7 @@ export default function MoimApp() {
     const office = o && OFFICES.find((x) => x.name === o);
     if (office) {
       deeplinkOffice.current = office.name; // kind 전환 이펙트가 첫 위치로 덮지 않게 예약
-      setKind(office.name === HQ_OFFICE ? 'office' : 'trip');
+      setKind(office.country === '대한민국' ? 'office' : 'trip');
       setOfficeName(office.name);
     }
   }, []);
