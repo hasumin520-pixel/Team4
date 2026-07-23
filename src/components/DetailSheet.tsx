@@ -121,7 +121,9 @@ export default function DetailSheet({
           </button>
         </div>
 
-        {showReservation && <ReservationForm restaurant={r} />}
+        {showReservation && (
+          <ReservationForm name={r.name} catchtable={r.catchtable} catchtableUrl={r.catchtableUrl} />
+        )}
       </div>
     </div>
   );

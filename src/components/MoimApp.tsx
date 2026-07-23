@@ -26,6 +26,7 @@ import { OFFICES, TRIP_CATEGORIES, officesByCategory, type Office, type OfficeCa
 import { restaurantsForOffice } from '@/lib/officeRestaurants';
 import { cultureOf } from '@/lib/culture';
 import RestaurantCard from './RestaurantCard';
+import ReservationForm from './ReservationForm';
 import SniperBanner from './SniperBanner';
 import MapView from './MapView';
 import KakaoMap from './KakaoMap';
@@ -56,6 +57,14 @@ const STYLE_ACCOUNT: Record<Style, string | null> = {
   all: null,
   exec: '접대비',
   casual: '경상회의비',
+};
+
+// 캐치테이블 priceHint ↔ 예산 필터 tier 매핑 (김영란법 필터도 '고급'=3 기준)
+const HINT_TIER: Record<CatchPlace['priceHint'], number> = { 저렴: 1, 보통: 2, 고급: 3 };
+const HINT_STYLE: Record<CatchPlace['priceHint'], string> = {
+  저렴: 'bg-sky-100 text-sky-700',
+  보통: 'bg-amber-100 text-amber-700',
+  고급: 'bg-slate-800 text-white',
 };
 
 const AGES = [20, 30, 40, 50] as const;
@@ -318,17 +327,18 @@ export default function MoimApp() {
     );
   }, [mode, officeName, dist, cuisines, sort]);
 
-  // 🎯 캐치테이블 탭 + 본사일 때 방문 이력 없는 입점 식당 (웹 실사, 거리·음식·김영란법 필터 적용)
+  // 🎯 캐치테이블 탭 + 본사일 때 방문 이력 없는 입점 식당 (웹 실사, 거리·음식·예산·김영란법 필터 적용)
   const catchPlaces = useMemo(() => {
     if (mode !== 'catch' || officeName !== HQ_OFFICE) return [];
     const list = CATCH_PLACES.filter((p) => {
       if (dist && p.distM > dist) return false;
       if (cuisines.size > 0 && !cuisines.has(p.cuisine)) return false;
+      if (budget && HINT_TIER[p.priceHint] !== budget) return false;
       if (antiGraft && p.priceHint === '고급') return false;
       return true;
     });
     return [...list].sort((a, b) => a.distM - b.distM);
-  }, [mode, officeName, dist, cuisines, antiGraft]);
+  }, [mode, officeName, dist, cuisines, budget, antiGraft]);
 
   const toggleCuisine = (c: Cuisine) => {
     setCuisines((prev) => {
@@ -499,8 +509,9 @@ export default function MoimApp() {
             )}
             {mode === 'catch' && (
               <p className="rounded-lg bg-orange-50 px-2.5 py-1.5 text-[11px] leading-relaxed text-orange-800">
-                <b>🎯 캐치테이블</b> — 입점 식당만 모아 보여드려요. 자리가 없으면 식당 상세 → 예약의{' '}
-                <b>🎯 버튼</b>으로 내 PC의 Claude가 빈자리를 감시하다 자동 예약해요.
+                <b>🎯 캐치테이블</b> — 입점 식당만 모아 보여드려요. 카드를 탭해 바로 예약하고, 자리가
+                없으면 <b>🎯 Claude 빈자리 감시</b>(내 PC)로 취소표를 잡아드려요.
+                {officeName !== HQ_OFFICE && ' 미방문 입점 큐레이션은 본사에서만 제공돼요.'}
               </p>
             )}
             {antiGraft && (
@@ -687,7 +698,9 @@ export default function MoimApp() {
           {results.length === 0 && newPlaces.length === 0 && catchPlaces.length === 0 && (
             <li className="rounded-xl bg-[#fffdf8] p-8 text-center text-sm text-slate-400">
               {mode === 'catch'
-                ? '조건에 맞는 캐치테이블 입점 식당이 없어요. 필터를 조정해 보세요.'
+                ? officeName !== HQ_OFFICE
+                  ? '이 위치에는 캐치테이블 입점 정보가 없어요. 미방문 입점 큐레이션은 본사(SK서린빌딩)에서 제공돼요.'
+                  : '조건에 맞는 캐치테이블 입점 식당이 없어요. 필터를 조정해 보세요.'
                 : mode === 'new'
                   ? '조건에 맞는 신규 오픈 식당이 없어요. 필터를 조정해 보세요.'
                   : '조건에 맞는 식당이 없어요. 필터를 조정해 보세요.'}
@@ -799,31 +812,45 @@ function MapListStrip({
   );
 }
 
-// 캐치테이블 입점 식당 카드 — 방문 이력이 없어 상세시트 대신 캐치테이블 예약 페이지로 연결
+// 캐치테이블 입점 식당 카드 — 방문 이력이 없어 상세시트는 없지만, 카드를 펼치면
+// 예약 조건 입력 + 캐치테이블 딥링크 + Claude 빈자리 감시까지 한자리에서 이어진다.
+// (탭 즉시 외부 이탈시키던 이전 방식은 정보 확인·감시 진입이 불가능했음)
 function CatchPlaceCard({ place }: { place: CatchPlace }) {
+  const [open, setOpen] = useState(false);
   return (
-    <li>
-      <button
-        onClick={() => window.open(place.url, '_blank')}
-        className="w-full rounded-xl border border-orange-200 bg-[#fffdf8] p-4 text-left shadow-sm"
-      >
+    <li className="overflow-hidden rounded-xl border border-orange-200 bg-[#fffdf8] shadow-sm">
+      <button onClick={() => setOpen((v) => !v)} className="w-full p-4 text-left">
         <div className="flex items-center gap-2">
           <span className="shrink-0 rounded bg-orange-500 px-1.5 py-0.5 text-[11px] font-bold text-white">
             🎯 캐치테이블
           </span>
           <b className="truncate text-slate-900">{place.name}</b>
-          {place.priceHint === '고급' && (
-            <span className="shrink-0 rounded bg-slate-800 px-1.5 py-0.5 text-[11px] font-bold text-white">
-              고급
-            </span>
-          )}
+          <span
+            className={`shrink-0 rounded px-1.5 py-0.5 text-[11px] font-bold ${HINT_STYLE[place.priceHint]}`}
+          >
+            {place.priceHint}
+          </span>
+          <span className="ml-auto shrink-0 text-xs text-orange-400">{open ? '▲' : '▼'}</span>
         </div>
         <p className="mt-1 text-xs text-slate-600">
-          {place.cuisine} · 도보 {Math.max(1, Math.round(place.distM / 67))}분 ({place.distM}m) · 탭하면
-          바로 예약
+          {place.cuisine} · {travelLabel(place.distM)} ({place.distM}m) ·{' '}
+          {open ? '접기' : '탭해서 예약 옵션 보기'}
         </p>
         <p className="mt-0.5 truncate text-[11px] text-slate-400">{place.address}</p>
       </button>
+      {open && (
+        <div className="border-t border-orange-100 px-4 pb-4">
+          <a
+            href={place.placeUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-2.5 inline-block text-[11px] font-medium text-slate-500 underline"
+          >
+            카카오맵에서 위치·리뷰 보기 ↗
+          </a>
+          <ReservationForm name={place.name} catchtable catchtableUrl={place.url} />
+        </div>
+      )}
     </li>
   );
 }

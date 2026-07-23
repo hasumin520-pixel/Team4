@@ -43,7 +43,7 @@ export default function RestaurantCard({
             )}
             {r.catchtable && (
               <span className="shrink-0 rounded bg-orange-500 px-1.5 py-0.5 text-[11px] font-bold text-white">
-                예약 가능
+                🎯 캐치테이블
               </span>
             )}
             {r.pending && (

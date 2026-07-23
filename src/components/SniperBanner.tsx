@@ -24,10 +24,14 @@ export default function SniperBanner() {
     })();
   }, []);
 
-  const copy = () => {
-    navigator.clipboard.writeText(SETUP_CMD);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(SETUP_CMD);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch {
+      window.prompt('자동 복사가 막혀 있어요. 아래 명령을 직접 복사하세요:', SETUP_CMD);
+    }
   };
 
   const DOT: Record<typeof agent, string> = {

@@ -20,11 +20,16 @@ export default function SniperLauncher({
   time: string;
   people: number;
 }) {
-  const [state, setState] = useState<'idle' | 'checking' | 'launched' | 'setup'>('idle');
+  const [state, setState] = useState<'idle' | 'checking' | 'launched' | 'setup' | 'mobile'>('idle');
   const [status, setStatus] = useState<AgentStatus>({ agent: false, claude: false, skill: false, auth: false });
   const [copied, setCopied] = useState(false);
 
   const launch = async () => {
+    // 모바일/태블릿에는 로컬 에이전트가 없다 — 타임아웃 대기 없이 바로 안내
+    if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      setState('mobile');
+      return;
+    }
     setState('checking');
     try {
       const res = await fetch(`${AGENT}/status`, { signal: AbortSignal.timeout(2500) });
@@ -46,10 +51,14 @@ export default function SniperLauncher({
     }
   };
 
-  const copy = () => {
-    navigator.clipboard.writeText(SETUP_CMD);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(SETUP_CMD);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch {
+      window.prompt('자동 복사가 막혀 있어요. 아래 명령을 직접 복사하세요:', SETUP_CMD);
+    }
   };
 
   if (state === 'launched') {
@@ -77,6 +86,16 @@ export default function SniperLauncher({
       >
         {state === 'checking' ? '내 PC 에이전트 확인 중...' : '🎯 Claude로 예약 — 빈자리 없으면 자동 감시 (내 PC)'}
       </button>
+
+      {state === 'mobile' && (
+        <div className="mt-2 rounded-xl border border-violet-200 bg-violet-50/60 p-3">
+          <p className="text-xs font-bold text-slate-700">📱 빈자리 감시는 PC 전용이에요</p>
+          <p className="mt-1 text-[11px] leading-relaxed text-slate-600">
+            감시·예약은 <b>내 PC의 Claude</b>가 실행해요. PC 브라우저로 모심을 열고 같은 버튼을
+            눌러주세요 — 지금 조건({date} {time} · {people}명)을 그대로 넣으면 됩니다.
+          </p>
+        </div>
+      )}
 
       {state === 'setup' && (
         <div className="mt-2 rounded-xl border border-violet-200 bg-violet-50/60 p-3">

@@ -1,45 +1,32 @@
 'use client';
 
 import { useState } from 'react';
-import type { Restaurant } from '@/lib/data';
 import SniperLauncher from './SniperLauncher';
 
-// 예약 자동화 목업 — 기획서의 "인원·시간 입력 → 네이버예약/캐치테이블 자동 예약" 흐름.
-// 실제 자동화(스나이핑) 대신 딥링크 + 시뮬레이션으로 UX만 구현한 단계.
-export default function ReservationForm({ restaurant: r }: { restaurant: Restaurant }) {
+// 예약 진입점 — 인원·날짜·시간을 정해 캐치테이블/네이버 딥링크로 이동하고,
+// 캐치테이블 입점 식당이면 같은 조건으로 Claude 빈자리 감시(SniperLauncher)를 걸 수 있다.
+// 실제로 동작하지 않는 "자동 예약 시뮬레이션"은 제거하고 실동작 경로만 노출한다.
+export default function ReservationForm({
+  name,
+  catchtable,
+  catchtableUrl,
+}: {
+  name: string;
+  catchtable: boolean;
+  catchtableUrl?: string;
+}) {
   const today = new Date();
+  const todayStr = today.toISOString().slice(0, 10);
   const defaultDate = new Date(today.getTime() + 86400000).toISOString().slice(0, 10);
 
   const [people, setPeople] = useState(4);
   const [date, setDate] = useState(defaultDate);
   const [time, setTime] = useState('12:00');
-  const [status, setStatus] = useState<'idle' | 'booking' | 'done'>('idle');
 
-  const simulate = () => {
-    setStatus('booking');
-    setTimeout(() => setStatus('done'), 1500);
-  };
-
-  if (status === 'done') {
-    return (
-      <div className="mt-3 rounded-xl bg-emerald-50 p-4 text-center">
-        <p className="text-2xl">✅</p>
-        <p className="mt-1 text-sm font-bold text-emerald-700">예약 요청 완료 (시뮬레이션)</p>
-        <p className="mt-1 text-xs text-emerald-600">
-          {r.name} · {date} {time} · {people}명
-        </p>
-        <p className="mt-2 text-[11px] text-slate-400">
-          실제 자동 예약은 네이버예약/캐치테이블 연동 후 제공됩니다
-        </p>
-        <button
-          onClick={() => setStatus('idle')}
-          className="mt-2 text-xs font-medium text-emerald-700 underline"
-        >
-          다시 입력
-        </button>
-      </div>
-    );
-  }
+  const catchHref = catchtable
+    ? catchtableUrl ?? `https://app.catchtable.co.kr/ct/search?keyword=${encodeURIComponent(name)}`
+    : null;
+  const naverHref = `https://map.naver.com/p/search/${encodeURIComponent(name)}`;
 
   return (
     <div className="mt-3 rounded-xl border border-slate-200 p-3">
@@ -63,6 +50,7 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
           <input
             type="date"
             value={date}
+            min={todayStr}
             onChange={(e) => setDate(e.target.value)}
             className="mt-1 w-full rounded-lg border border-slate-200 bg-[#fffdf8] px-2 py-2 text-sm font-semibold text-slate-900"
           />
@@ -83,41 +71,46 @@ export default function ReservationForm({ restaurant: r }: { restaurant: Restaur
         </label>
       </div>
 
-      <button
-        onClick={simulate}
-        disabled={status === 'booking'}
-        className="mt-3 w-full rounded-xl bg-rose-600 py-3 text-sm font-bold text-white disabled:opacity-60"
-      >
-        {status === 'booking' ? '예약 요청 중...' : '자동 예약 (시뮬레이션)'}
-      </button>
-
-      <div className="mt-2 flex gap-2">
-        <a
-          href={`https://map.naver.com/p/search/${encodeURIComponent(r.name)}`}
-          target="_blank"
-          rel="noreferrer"
-          className="flex-1 rounded-lg bg-[#03C75A]/10 py-2 text-center text-xs font-bold text-[#03A050]"
-        >
-          네이버에서 예약
-        </a>
-        {r.catchtable ? (
+      {catchHref ? (
+        <>
+          <div className="mt-3 flex items-stretch gap-2">
+            <a
+              href={catchHref}
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-[1.5] items-center justify-center rounded-xl bg-orange-500 py-3 text-sm font-bold text-white"
+            >
+              🎯 캐치테이블에서 예약
+            </a>
+            <a
+              href={naverHref}
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-1 items-center justify-center rounded-xl bg-[#03C75A]/10 py-3 text-xs font-bold text-[#03A050]"
+            >
+              네이버에서 보기
+            </a>
+          </div>
+          <p className="mt-1.5 text-[11px] text-slate-400">
+            자리가 없나요? 위 인원·날짜·시간 그대로 아래 🎯 버튼을 누르면 Claude가 취소표를 감시해요.
+          </p>
+          <SniperLauncher name={name} date={date} time={time} people={people} />
+        </>
+      ) : (
+        <>
           <a
-            href={r.catchtableUrl ?? `https://app.catchtable.co.kr/ct/search?keyword=${encodeURIComponent(r.name)}`}
+            href={naverHref}
             target="_blank"
             rel="noreferrer"
-            className="flex-1 rounded-lg bg-orange-500/10 py-2 text-center text-xs font-bold text-orange-600"
+            className="mt-3 flex items-center justify-center rounded-xl bg-[#03C75A] py-3 text-sm font-bold text-white"
           >
-            캐치테이블에서 예약
+            네이버에서 예약·전화 확인
           </a>
-        ) : (
-          <span className="flex-1 rounded-lg bg-slate-100 py-2 text-center text-xs font-medium text-slate-400">
-            캐치테이블 미입점
-          </span>
-        )}
-      </div>
-
-      {/* Claude 자동 예약은 캐치테이블 입점 식당에서만 */}
-      {r.catchtable && <SniperLauncher name={r.name} date={date} time={time} people={people} />}
+          <p className="mt-1.5 text-[11px] text-slate-400">
+            캐치테이블 미입점 식당이에요 — 네이버 지도에서 예약 버튼이나 전화번호를 확인해 주세요.
+          </p>
+        </>
+      )}
     </div>
   );
 }
