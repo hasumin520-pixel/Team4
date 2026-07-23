@@ -1084,7 +1084,8 @@
       "naverBooking": false,
       "catchtable": true,
       "address": "서울 중구 세종대로 136",
-      "placeUrl": "http://place.map.kakao.com/913589012"
+      "placeUrl": "http://place.map.kakao.com/913589012",
+      "catchtableUrl": "https://app.catchtable.co.kr/ct/shop/ojeje_gwanghwamun"
     },
     {
       "id": "R038",
@@ -1171,7 +1172,8 @@
       "naverBooking": false,
       "catchtable": true,
       "address": "서울 종로구 종로3길 17",
-      "placeUrl": "http://place.map.kakao.com/1758366707"
+      "placeUrl": "http://place.map.kakao.com/1758366707",
+      "catchtableUrl": "https://app.catchtable.co.kr/ct/shop/generousduckoo_dtower"
     },
     {
       "id": "R041",
@@ -3703,7 +3705,7 @@
         "count": 212
       },
       "naverBooking": false,
-      "catchtable": true,
+      "catchtable": false,
       "address": "서울 종로구 새문안로5길 8-1",
       "placeUrl": "http://place.map.kakao.com/552877346"
     },
@@ -4093,7 +4095,8 @@
       "naverBooking": false,
       "catchtable": true,
       "address": "서울 종로구 세종대로 178",
-      "placeUrl": "http://place.map.kakao.com/877868443"
+      "placeUrl": "http://place.map.kakao.com/877868443",
+      "catchtableUrl": "https://app.catchtable.co.kr/ct/shop/rudbeckia"
     },
     {
       "id": "R141",
