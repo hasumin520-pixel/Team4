@@ -32,6 +32,10 @@ if (Test-Path "$skillDir\SKILL.md") {
 Write-Host '[3/4] 모심 PC 에이전트 설치·실행 중...'
 $agentDir = "$env:USERPROFILE\.mosim"
 New-Item -ItemType Directory -Force $agentDir | Out-Null
+# 이미 떠 있는 (구버전) 에이전트를 내리고 새 버전으로 교체 — 포트 점유로 새 인스턴스가 조용히 죽는 것 방지
+Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction SilentlyContinue |
+  Where-Object { $_.CommandLine -match 'mosim-agent\.ps1' } |
+  ForEach-Object { try { Stop-Process -Id $_.ProcessId -Force -ErrorAction Stop } catch {} }
 Invoke-WebRequest "$BASE/mosim-agent.ps1" -OutFile "$agentDir\mosim-agent.ps1"
 $startup = [Environment]::GetFolderPath('Startup')
 Set-Content -Encoding Ascii "$startup\mosim-agent.cmd" "@powershell -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$agentDir\mosim-agent.ps1`""
