@@ -99,8 +99,9 @@ export default function KakaoMap({
     for (const r of restaurants) {
       const { lat, lng } = latLngOf(r);
       const isSel = selected?.id === r.id;
-      // 면적이 방문수에 비례하도록 지름은 제곱근 스케일 (10~33px, 상한 40회)
-      const base = 10 + Math.sqrt(Math.min(r.visitCount, 40)) * 4;
+      // 지름 11~33px 정확히 3배 차이 — 방문 1회→11px, 상한 40회→33px, 제곱근 스케일
+      const t = (Math.sqrt(Math.min(Math.max(r.visitCount, 1), 40)) - 1) / (Math.sqrt(40) - 1);
+      const base = Math.round(11 + 22 * t);
       const size = isSel ? Math.max(base, 24) : base;
       const el = document.createElement('div');
       el.style.cssText = 'display:flex;flex-direction:column;align-items:center;cursor:pointer';
