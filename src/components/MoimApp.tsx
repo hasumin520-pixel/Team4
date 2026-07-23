@@ -42,9 +42,9 @@ type Gender = 'all' | 'm' | 'f';
 type Mode = 'card' | 'new' | 'catch'; // 서비스 3축: 법인카드 검증 맛집 / 새로 오픈 / 캐치테이블 예약
 
 const MODE_META: Record<Mode, { icon: string; label: string; active: string }> = {
-  card: { icon: '💳', label: '법인카드', active: 'border-rose-600 bg-rose-600 text-white shadow' },
-  new: { icon: '🆕', label: '새로 오픈', active: 'border-emerald-500 bg-emerald-500 text-white shadow' },
-  catch: { icon: '🎯', label: '캐치테이블', active: 'border-orange-500 bg-orange-500 text-white shadow' },
+  card: { icon: '💳', label: '법인카드', active: 'bg-rose-600 text-white shadow' },
+  new: { icon: '🆕', label: '새로 오픈', active: 'bg-emerald-500 text-white shadow' },
+  catch: { icon: '🎯', label: '캐치테이블', active: 'bg-orange-500 text-white shadow' },
 };
 
 const STYLE_ACCOUNT: Record<Style, string | null> = {
@@ -277,9 +277,8 @@ export default function MoimApp() {
   };
 
   const activeDetailCount =
-    (age !== null ? 1 : 0) + (gender !== 'all' ? 1 : 0) + (roomOnly ? 1 : 0) + (parkOnly ? 1 : 0) +
-    (budget ? 1 : 0) + (dist ? 1 : 0) + cuisines.size;
-  const account = STYLE_ACCOUNT[style];
+    (style !== 'all' ? 1 : 0) + (age !== null ? 1 : 0) + (gender !== 'all' ? 1 : 0) +
+    (roomOnly ? 1 : 0) + (parkOnly ? 1 : 0) + (budget ? 1 : 0) + (dist ? 1 : 0) + cuisines.size;
 
   return (
     <div className="pb-24">
@@ -377,45 +376,26 @@ export default function MoimApp() {
           )}
         </div>
 
-        {/* 식사 성격 */}
+        {/* 서비스 3축 모드 — 기존 식사 성격 세그먼트 자리 */}
         <div className="px-4 pb-2">
-          <div className="mb-1 flex items-center gap-2">
-            <span className="text-xs font-medium text-slate-400">식사 성격</span>
-            {account && <span className="rounded bg-slate-200 px-1.5 py-0.5 text-[10px] text-slate-600">{account}</span>}
+          <div className="flex rounded-lg bg-slate-100 p-1 text-sm font-bold">
+            {(Object.keys(MODE_META) as Mode[]).map((m) => {
+              const disabled = m === 'catch' && isOverseas;
+              return (
+                <button
+                  key={m}
+                  onClick={() => setMode(m)}
+                  disabled={disabled}
+                  title={disabled ? '캐치테이블은 국내 전용이에요' : undefined}
+                  className={`flex-1 rounded-md px-2 py-2 transition-colors ${
+                    mode === m ? MODE_META[m].active : disabled ? 'text-slate-300' : 'text-slate-500'
+                  }`}
+                >
+                  {MODE_META[m].icon} {MODE_META[m].label}
+                </button>
+              );
+            })}
           </div>
-          <Seg<Style>
-            value={style}
-            onChange={setStyle}
-            options={[
-              { v: 'all', label: '전체' },
-              { v: 'exec', label: '임원 식사' },
-              { v: 'casual', label: '캐주얼 식사' },
-            ]}
-          />
-        </div>
-
-        {/* 서비스 3축 모드 버튼 */}
-        <div className="flex gap-2 px-4 pb-2">
-          {(Object.keys(MODE_META) as Mode[]).map((m) => {
-            const disabled = m === 'catch' && isOverseas;
-            return (
-              <button
-                key={m}
-                onClick={() => setMode(m)}
-                disabled={disabled}
-                title={disabled ? '캐치테이블은 국내 전용이에요' : undefined}
-                className={`flex-1 rounded-xl border py-2.5 text-sm font-bold transition-colors ${
-                  mode === m
-                    ? MODE_META[m].active
-                    : disabled
-                      ? 'border-slate-200 bg-slate-50 text-slate-300'
-                      : 'border-slate-300 bg-[#fffdf8] text-slate-600'
-                }`}
-              >
-                {MODE_META[m].icon} {MODE_META[m].label}
-              </button>
-            );
-          })}
         </div>
 
         {/* 빠른 토글 + 상세 필터 열기 */}
@@ -478,6 +458,18 @@ export default function MoimApp() {
         {/* 상세 필터 (접이식) */}
         {showFilters && (
           <div className="space-y-2 border-t border-slate-100 bg-slate-50/60 px-4 py-3">
+            <FilterRow label="성격">
+              {([
+                ['all', '전체'],
+                ['exec', '임원 식사'],
+                ['casual', '캐주얼 식사'],
+              ] as [Style, string][]).map(([s, l]) => (
+                <Chip key={s} active={style === s} onClick={() => setStyle(s)}>
+                  {l}
+                  {s !== 'all' && STYLE_ACCOUNT[s] && style === s ? ` · ${STYLE_ACCOUNT[s]}` : ''}
+                </Chip>
+              ))}
+            </FilterRow>
             <FilterRow label="연령대">
               {AGES.map((a) => (
                 <Chip key={a} active={age === a} onClick={() => setAge(age === a ? null : a)}>
