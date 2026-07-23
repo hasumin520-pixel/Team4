@@ -200,3 +200,13 @@ export function formatDate(ymd: string): string {
 export function formatAmount(n: number): string {
   return n.toLocaleString('ko-KR') + '원';
 }
+
+// 거리·이동시간 표기 — 해외 실식당은 수 km 밖도 있어 km/차량 기준으로 전환
+export function formatDistance(distM: number): string {
+  return distM >= 1000 ? `${(distM / 1000).toFixed(1)}km` : `${distM}m`;
+}
+
+export function travelLabel(distM: number): string {
+  const walk = Math.max(1, Math.round(distM / 67));
+  return walk <= 25 ? `도보 ${walk}분` : `차로 ${Math.max(3, Math.round(distM / 400))}분`;
+}

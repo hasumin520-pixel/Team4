@@ -1,0 +1,2336 @@
+{
+  "updated": "2026-07-23",
+  "source": "웹 실사(구글맵 실존 확인)",
+  "offices": {
+    "LNG Americas": {
+      "officeLat": 29.7522,
+      "officeLng": -95.4606,
+      "restaurants": [
+        {
+          "id": "ov-lngamericas-0",
+          "name": "BORI (Spring Branch)",
+          "cuisine": "한식",
+          "desc": "휴스턴 최고 평가의 한식 프리미엄 소고기구이·정갈한 반찬, 주재원 회식 단골",
+          "priceTier": 2,
+          "purposes": [
+            "저녁 회식",
+            "접대"
+          ],
+          "distM": 9171,
+          "dx": -7732,
+          "dy": 4931,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 1800
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "1453 Witte Rd, Houston, TX 77080",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=BORI%20Korean%20Restaurant%20Witte%20Rd%20Houston",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-lngamericas-1",
+          "name": "Mastro's Steakhouse",
+          "cuisine": "양식",
+          "desc": "Post Oak Hotel 내 최고급 스테이크하우스, 사무소 도보권 접대 1순위",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 731,
+          "dx": 474,
+          "dy": -557,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 3500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "1650 West Loop S, Houston, TX 77027",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Mastro's%20Steakhouse%20Houston%20Post%20Oak",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-lngamericas-2",
+          "name": "Truluck's Ocean's Finest Seafood & Crab",
+          "cuisine": "양식",
+          "desc": "갤러리아 인근 씨푸드·스톤크랩 명가, 비즈니스 디너 정석",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 2193,
+          "dx": -1730,
+          "dy": -1347,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 3000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "5350 Westheimer Rd, Houston, TX 77056",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Truluck's%20Westheimer%20Houston",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-lngamericas-3",
+          "name": "Uchi Houston",
+          "cuisine": "일식",
+          "desc": "제임스 비어드 수상 셰프의 모던 스시·니혼슈, 예약 필수",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 6081,
+          "dx": 5992,
+          "dy": -1035,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 3800
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "904 Westheimer Rd, Houston, TX 77006",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Uchi%20Houston%20Westheimer",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-lngamericas-4",
+          "name": "Le Colonial Houston",
+          "cuisine": "동남아",
+          "desc": "리버오크스 디스트릭트의 프렌치-베트남 파인다이닝, 분위기 좋은 접대처",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "접대"
+          ],
+          "distM": 1457,
+          "dx": 735,
+          "dy": -1258,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1600
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "4444 Westheimer Rd, Houston, TX 77027",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Colonial%20Houston%20River%20Oaks%20District",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-lngamericas-5",
+          "name": "Kenny & Ziggy's New York Delicatessen",
+          "cuisine": "기타",
+          "desc": "사무소 바로 앞 Post Oak의 유명 뉴욕식 델리, 파스트라미 샌드위치 점심",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 453,
+          "dx": 87,
+          "dy": -445,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 5000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "1743 Post Oak Blvd, Houston, TX 77056",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Kenny%20and%20Ziggy's%20Post%20Oak%20Blvd%20Houston",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-lngamericas-6",
+          "name": "The Original Ninfa's Uptown",
+          "cuisine": "기타",
+          "desc": "파히타 원조 텍스멕스의 업타운점, 사무소 도보권 점심·캐주얼 회식",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 474,
+          "dx": -77,
+          "dy": -468,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 2500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "1700 Post Oak Blvd Bldg 1, Houston, TX 77056",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Original%20Ninfa's%20Uptown%20Post%20Oak%20Houston",
+          "loc": "LNG Americas",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "Passkey": {
+      "officeLat": 40.7527,
+      "officeLng": -74.0011,
+      "restaurants": [
+        {
+          "id": "ov-passkey-0",
+          "name": "COTE Korean Steakhouse",
+          "cuisine": "한식",
+          "desc": "미쉐린 1스타 한식 스테이크하우스, 뉴욕 비즈니스 접대의 핫플",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 1627,
+          "dx": 843,
+          "dy": -1391,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 6500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "16 W 22nd St, New York, NY 10010",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=COTE%20Korean%20Steakhouse%20NYC",
+          "loc": "Passkey",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-passkey-1",
+          "name": "Jongro BBQ (종로상회)",
+          "cuisine": "한식",
+          "desc": "K타운 32번가의 정통 숯불 고기집, 주재원 회식 단골",
+          "priceTier": 2,
+          "purposes": [
+            "저녁 회식",
+            "점심"
+          ],
+          "distM": 1338,
+          "dx": 1206,
+          "dy": -579,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 5000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "22 W 32nd St 2nd Fl, New York, NY 10001",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Jongro%20BBQ%2032nd%20St%20New%20York",
+          "loc": "Passkey",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-passkey-2",
+          "name": "Peak",
+          "cuisine": "양식",
+          "desc": "30 Hudson Yards 101층 전망 다이닝, VIP 접대·기념 식사용",
+          "priceTier": 3,
+          "purposes": [
+            "접대"
+          ],
+          "distM": 134,
+          "dx": 8,
+          "dy": 134,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 2500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "30 Hudson Yards 101st Fl, New York, NY 10001",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Peak%20Restaurant%2030%20Hudson%20Yards",
+          "loc": "Passkey",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-passkey-3",
+          "name": "Estiatorio Milos Hudson Yards",
+          "cuisine": "양식",
+          "desc": "허드슨야드의 그리스식 하이엔드 씨푸드, 바이어 접대 정석",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "점심"
+          ],
+          "distM": 106,
+          "dx": 34,
+          "dy": 100,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 1200
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "20 Hudson Yards 5th Fl, New York, NY 10001",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Estiatorio%20Milos%20Hudson%20Yards",
+          "loc": "Passkey",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-passkey-4",
+          "name": "Keens Steakhouse",
+          "cuisine": "양식",
+          "desc": "1885년 창업 머튼찹·드라이에이징 명가, 뉴욕 클래식 비즈니스 디너",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 1294,
+          "dx": 1273,
+          "dy": -234,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 8000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "72 W 36th St, New York, NY 10018",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Keens%20Steakhouse%20NYC",
+          "loc": "Passkey",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-passkey-5",
+          "name": "Mercado Little Spain",
+          "cuisine": "양식",
+          "desc": "호세 안드레스의 스페인 푸드홀, 사무소 바로 아래 간편 점심·타파스",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 101,
+          "dx": -84,
+          "dy": 56,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 5000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "10 Hudson Yards, New York, NY 10001",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Mercado%20Little%20Spain%20Hudson%20Yards",
+          "loc": "Passkey",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-passkey-6",
+          "name": "Los Tacos No.1 (Chelsea Market)",
+          "cuisine": "기타",
+          "desc": "첼시마켓의 뉴욕 1등 타코, 도보 10분 가성비 점심",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1189,
+          "dx": -354,
+          "dy": -1135,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 9000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "75 9th Ave, New York, NY 10011",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Los%20Tacos%20No%201%20Chelsea%20Market",
+          "loc": "Passkey",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "PRISM Energy China": {
+      "officeLat": 39.9087,
+      "officeLng": 116.461,
+      "restaurants": [
+        {
+          "id": "ov-prismenergyc-0",
+          "name": "본가 本家 (双井店)",
+          "cuisine": "한식",
+          "desc": "국무 남측 솽징의 한국식 고기구이 프랜차이즈, 주재원 회식용",
+          "priceTier": 2,
+          "purposes": [
+            "저녁 회식",
+            "점심"
+          ],
+          "distM": 1351,
+          "dx": -316,
+          "dy": -1314,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 200
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "朝阳区双花园南里三区合生国际大厦4号楼",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AC%E5%AE%B6%20%E9%9F%A9%E5%9B%BD%E6%96%99%E7%90%86%20%E5%8F%8C%E4%BA%95%20%E5%8C%97%E4%BA%AC",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyc-1",
+          "name": "那家小馆 (永安里店)",
+          "cuisine": "중식",
+          "desc": "청 황실 가정식 콘셉트의 인기 접대 맛집, 국무에서 차 5분",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 1290,
+          "dx": -1289,
+          "dy": 56,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 1200
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "朝阳区永安里中街10号",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Najia%20Xiaoguan%20Yonganli%20Beijing%20%E9%82%A3%E5%AE%B6%E5%B0%8F%E9%A6%86",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyc-2",
+          "name": "딘타이펑 鼎泰丰 (国贸商城店)",
+          "cuisine": "중식",
+          "desc": "국무상성 내 샤오롱바오 명가, 손님 동반 점심 무난 픽",
+          "priceTier": 2,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 128,
+          "dx": 102,
+          "dy": -78,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 800
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "建国门外大街1号国贸商城B1",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Din%20Tai%20Fung%20China%20World%20Mall%20Beijing",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyc-3",
+          "name": "다둥 大董烤鸭 (团结湖店)",
+          "cuisine": "중식",
+          "desc": "수쿠토리 오리로 유명한 베이징덕 대표 브랜드, 접대 필수 코스",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 2783,
+          "dx": 34,
+          "dy": 2783,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 2000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "朝阳区团结湖北口3号楼",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Da%20Dong%20Roast%20Duck%20Tuanjiehu%20Beijing",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyc-4",
+          "name": "메이저우둥포 眉州东坡 (CBD万达店)",
+          "cuisine": "중식",
+          "desc": "쓰촨 가정식 체인, 가성비 좋은 팀 점심·캐주얼 회식",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 1111,
+          "dx": 1110,
+          "dy": 45,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.2,
+            "count": 400
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "朝阳区建国路93号万达广场",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9C%89%E5%B7%9E%E4%B8%9C%E5%9D%A1%20%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%20%E5%BB%BA%E5%9B%BD%E8%B7%AF%20%E5%8C%97%E4%BA%AC",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyc-5",
+          "name": "Grill 79",
+          "cuisine": "양식",
+          "desc": "China World Summit Wing 79층 스테이크·전망 다이닝, VIP 접대",
+          "priceTier": 3,
+          "purposes": [
+            "접대"
+          ],
+          "distM": 188,
+          "dx": -171,
+          "dy": -78,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "建国门外大街1号国贸大酒店79층",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Grill%2079%20China%20World%20Summit%20Wing%20Beijing",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyc-6",
+          "name": "샤궁 夏宫 Summer Palace",
+          "cuisine": "중식",
+          "desc": "차이나월드호텔의 광둥식 파인다이닝, 딤섬 오찬 접대 명소",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "점심"
+          ],
+          "distM": 291,
+          "dx": -290,
+          "dy": 22,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 600
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "建国门外大街1号中国大饭店 1F",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Summer%20Palace%20China%20World%20Hotel%20Beijing",
+          "loc": "PRISM Energy China",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "PRISM Energy Australia": {
+      "officeLat": -31.9541,
+      "officeLng": 115.8535,
+      "restaurants": [
+        {
+          "id": "ov-prismenergya-0",
+          "name": "Arirang Korean BBQ",
+          "cuisine": "한식",
+          "desc": "퍼스 CBD 배럭스트리트의 오래된 한식 BBQ, 도보 5분 점심·회식",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 696,
+          "dx": 689,
+          "dy": -100,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.2,
+            "count": 1600
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "91-93 Barrack St, Perth WA 6000",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Arirang%20Korean%20BBQ%20Barrack%20St%20Perth",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergya-1",
+          "name": "Wildflower",
+          "cuisine": "양식",
+          "desc": "COMO The Treasury 옥상의 파인다이닝, 서호주 제철 식재료 접대 1순위",
+          "priceTier": 3,
+          "purposes": [
+            "접대"
+          ],
+          "distM": 779,
+          "dx": 756,
+          "dy": -189,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 700
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "1 Cathedral Ave, Perth WA 6000",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Wildflower%20Restaurant%20COMO%20Treasury%20Perth",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergya-2",
+          "name": "Rockpool Bar & Grill Perth",
+          "cuisine": "양식",
+          "desc": "크라운퍼스의 드라이에이징 스테이크 명가, 광산업계 비즈니스 디너 성지",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 3861,
+          "dx": 3797,
+          "dy": -701,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1800
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Crown Perth, Great Eastern Hwy, Burswood WA 6100",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Rockpool%20Bar%20and%20Grill%20Crown%20Perth",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergya-3",
+          "name": "Nobu Perth",
+          "cuisine": "일식",
+          "desc": "크라운퍼스의 노부 재팬-페루비안, 미소 대구 등 시그니처 접대 코스",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 3809,
+          "dx": 3740,
+          "dy": -724,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 1900
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Crown Perth, Great Eastern Hwy, Burswood WA 6100",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Nobu%20Perth%20Crown",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergya-4",
+          "name": "Long Chim Perth",
+          "cuisine": "동남아",
+          "desc": "데이비드 톰슨의 방콕 스트리트푸드, State Buildings 지하 회식 명소",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 748,
+          "dx": 727,
+          "dy": -178,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.2,
+            "count": 1600
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "State Buildings, Cnr St Georges Tce & Barrack St, Perth WA 6000",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Long%20Chim%20Perth%20State%20Buildings",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergya-5",
+          "name": "Petition Kitchen",
+          "cuisine": "양식",
+          "desc": "State Buildings의 모던 호주식 올데이 다이닝, 캐주얼 비즈니스 런치",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 764,
+          "dx": 746,
+          "dy": -167,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1400
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "State Buildings, St Georges Tce, Perth WA 6000",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Petition%20Kitchen%20Perth",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergya-6",
+          "name": "Tak Chee House",
+          "cuisine": "동남아",
+          "desc": "노스브리지의 말레이시안 하이난치킨·차퀘이티아우 가성비 명가",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1412,
+          "dx": 425,
+          "dy": 1347,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "364 William St, Northbridge WA 6003",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Tak%20Chee%20House%20William%20St%20Northbridge",
+          "loc": "PRISM Energy Australia",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "PRISM Energy Pte": {
+      "officeLat": 1.283,
+      "officeLng": 103.8531,
+      "restaurants": [
+        {
+          "id": "ov-prismenergyp-0",
+          "name": "Wang Dae Bak Korean BBQ (China Square)",
+          "cuisine": "한식",
+          "desc": "연탄불 삼겹살로 유명한 CBD 대표 한식 BBQ, 한국인 주재원 단골집",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 645,
+          "dx": -601,
+          "dy": 234,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 2400
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "22 Cross St, #01-64/65 China Square Central, Singapore 048421",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Wang%20Dae%20Bak%20Korean%20BBQ%20China%20Square%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyp-1",
+          "name": "O.BBa BBQ",
+          "cuisine": "한식",
+          "desc": "탄종파가 코리아타운의 심야 영업 한식 고깃집, 회식 2차까지 가능",
+          "priceTier": 2,
+          "purposes": [
+            "저녁 회식"
+          ],
+          "distM": 1190,
+          "dx": -1046,
+          "dy": -568,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 2100
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "71/73 Tanjong Pagar Rd, Singapore 088493",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=O.BBa%20BBQ%20Tanjong%20Pagar%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyp-2",
+          "name": "VUE Bar & Grill",
+          "cuisine": "양식",
+          "desc": "사무소 건물(OUE Bayfront) 19층 루프탑 그릴, 마리나베이 전망 접대 최적",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 11,
+          "dx": 11,
+          "dy": 0,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1400
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "50 Collyer Quay, Level 19 OUE Bayfront, Singapore 049321",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=VUE%20Bar%20and%20Grill%20OUE%20Bayfront%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyp-3",
+          "name": "Jade (The Fullerton Hotel)",
+          "cuisine": "중식",
+          "desc": "풀러튼 호텔의 광둥요리 파인다이닝, 점심 딤섬 비즈니스 미팅 명소",
+          "priceTier": 3,
+          "purposes": [
+            "점심",
+            "접대"
+          ],
+          "distM": 345,
+          "dx": -11,
+          "dy": 345,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 900
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "1 Fullerton Square, The Fullerton Hotel, Singapore 049178",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Jade%20Restaurant%20Fullerton%20Hotel%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyp-4",
+          "name": "Lau Pa Sat",
+          "cuisine": "기타",
+          "desc": "빅토리아풍 건물의 유서 깊은 호커센터, 저렴하고 빠른 점심 해결",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 394,
+          "dx": -300,
+          "dy": -256,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 45000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "18 Raffles Quay, Singapore 048582",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Lau%20Pa%20Sat%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyp-5",
+          "name": "The Black Swan",
+          "cuisine": "양식",
+          "desc": "아르데코풍 유럽식 브라서리, CBD 금융권 비즈니스 런치 단골",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "접대"
+          ],
+          "distM": 454,
+          "dx": -434,
+          "dy": -134,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1300
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "19 Cecil St, Singapore 049704",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=The%20Black%20Swan%20Cecil%20Street%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-prismenergyp-6",
+          "name": "Song Fa Bak Kut Teh (New Bridge Rd)",
+          "cuisine": "동남아",
+          "desc": "1969년부터 이어온 바쿠테 원조집, 현지식 점심으로 인기",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 962,
+          "dx": -723,
+          "dy": 635,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 9500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "11 New Bridge Rd, #01-01, Singapore 059383",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Song%20Fa%20Bak%20Kut%20Teh%20New%20Bridge%20Road%20Singapore",
+          "loc": "PRISM Energy Pte",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "PT PRISM Nusantara": {
+      "officeLat": -6.2281,
+      "officeLng": 106.8063,
+      "restaurants": [
+        {
+          "id": "ov-ptprismnusan-0",
+          "name": "Magal Korean BBQ (Senopati)",
+          "cuisine": "한식",
+          "desc": "마포갈매기 자카르타 지점, SCBD 인근 한식 BBQ 회식 1순위",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 554,
+          "dx": 465,
+          "dy": -301,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 2000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Jl. Senopati Raya, Kebayoran Baru, Jakarta Selatan 12190",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Magal%20Korean%20BBQ%20Senopati%20Jakarta",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-ptprismnusan-1",
+          "name": "Chung Gi Wa (Melawai)",
+          "cuisine": "한식",
+          "desc": "블록엠 리틀코리아의 터줏대감 한식당, 주재원 전통 단골집",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 1931,
+          "dx": -719,
+          "dy": -1792,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 1500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Jl. Melawai VIII, Kebayoran Baru, Jakarta Selatan 12160",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Chung%20Gi%20Wa%20Melawai%20Jakarta",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-ptprismnusan-2",
+          "name": "Seribu Rasa (Gunawarman)",
+          "cuisine": "동남아",
+          "desc": "인도네시아-말레이 해산물 요리 전문, 콜로니얼 저택 분위기의 접대 명소",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 663,
+          "dx": -255,
+          "dy": -612,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 4000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Jl. Gunawarman No.3, Kebayoran Baru, Jakarta Selatan 12110",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Seribu%20Rasa%20Gunawarman%20Jakarta",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": true,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-ptprismnusan-3",
+          "name": "Sate Khas Senayan (Pakubuwono)",
+          "cuisine": "동남아",
+          "desc": "자카르타 대표 사테 체인의 본점급 매장, 부담 없는 현지식 점심",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 1574,
+          "dx": -1250,
+          "dy": -957,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 3000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Jl. Pakubuwono VI No.6, Kebayoran Baru, Jakarta Selatan 12120",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Sate%20Khas%20Senayan%20Pakubuwono%20Jakarta",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": true,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-ptprismnusan-4",
+          "name": "Remboelan (Plaza Senayan)",
+          "cuisine": "동남아",
+          "desc": "플라자 스나얀의 인도네시아 가정식 레스토랑, 가성비 좋은 점심 회동",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 806,
+          "dx": -764,
+          "dy": 256,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 5000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Plaza Senayan L5, Jl. Asia Afrika No.8, Jakarta 10270",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Remboelan%20Plaza%20Senayan%20Jakarta",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": true,
+            "halal": true,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-ptprismnusan-5",
+          "name": "Henshin (The Westin Jakarta)",
+          "cuisine": "양식",
+          "desc": "가마타워 67-69층 닛케이(일-페루) 루프탑 다이닝, 최고급 접대용",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 2913,
+          "dx": 2822,
+          "dy": 724,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 3000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Gama Tower Lv.67-69, Jl. H.R. Rasuna Said Kav. C-22, Jakarta 12940",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Henshin%20Westin%20Jakarta%20Gama%20Tower",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-ptprismnusan-6",
+          "name": "GIA Restaurant & Bar",
+          "cuisine": "양식",
+          "desc": "수디르만 대로변 이탈리안 파인다이닝, 임원급 비즈니스 런치 명소",
+          "priceTier": 3,
+          "purposes": [
+            "점심",
+            "접대"
+          ],
+          "distM": 1759,
+          "dx": 1295,
+          "dy": 1191,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 2500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Sampoerna Strategic Square, Jl. Jend. Sudirman Kav. 45-46, Jakarta 12930",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=GIA%20Restaurant%20Sampoerna%20Strategic%20Square%20Jakarta",
+          "loc": "PT PRISM Nusantara",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "베트남 법인": {
+      "officeLat": 10.7716,
+      "officeLng": 106.7043,
+      "restaurants": [
+        {
+          "id": "ov-베트남법인-0",
+          "name": "Bornga (Vincom Center)",
+          "cuisine": "한식",
+          "desc": "백종원 본가의 호치민 지점, 빈컴센터 지하의 검증된 한식 BBQ",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 770,
+          "dx": -262,
+          "dy": 724,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 900
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "B3-10B Vincom Center, 72 Lê Thánh Tôn, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Bornga%20Vincom%20Center%20Le%20Thanh%20Ton%20Ho%20Chi%20Minh",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-베트남법인-1",
+          "name": "Homido BBQ",
+          "cuisine": "한식",
+          "desc": "레탄톤 거리의 숯불 한식 BBQ, 구글 고평점의 회식 인기 맛집",
+          "priceTier": 2,
+          "purposes": [
+            "저녁 회식"
+          ],
+          "distM": 828,
+          "dx": 77,
+          "dy": 824,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.8,
+            "count": 1100
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "Lê Thánh Tôn, Bến Nghé, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Homido%20BBQ%20Le%20Thanh%20Ton%20District%201%20Ho%20Chi%20Minh",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-베트남법인-2",
+          "name": "Anan Saigon",
+          "cuisine": "동남아",
+          "desc": "호치민 최초 미쉐린 1스타, 모던 베트남 요리로 접대에 최적",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 131,
+          "dx": -131,
+          "dy": -11,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 1500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "89 Tôn Thất Đạm, Bến Nghé, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Anan%20Saigon%2089%20Ton%20That%20Dam",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-베트남법인-3",
+          "name": "Mandarine Restaurant",
+          "cuisine": "동남아",
+          "desc": "전통 공연과 함께하는 베트남 궁중식 파인다이닝, 격식 있는 접대용",
+          "priceTier": 3,
+          "purposes": [
+            "접대"
+          ],
+          "distM": 990,
+          "dx": 208,
+          "dy": 968,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 1200
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "11A Ngô Văn Năm, Bến Nghé, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Mandarine%20Restaurant%20Ngo%20Van%20Nam%20Ho%20Chi%20Minh",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-베트남법인-4",
+          "name": "Nhà Hàng Ngon",
+          "cuisine": "동남아",
+          "desc": "콜로니얼 빌라에서 베트남 전국 길거리 음식을 한번에, 손님 초대 점심 명소",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 860,
+          "dx": -514,
+          "dy": 690,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 20000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "160 Pasteur, Bến Nghé, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Nha%20Hang%20Ngon%20160%20Pasteur%20Ho%20Chi%20Minh",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-베트남법인-5",
+          "name": "Pizza 4P's (Lê Thánh Tôn)",
+          "cuisine": "양식",
+          "desc": "자가제조 치즈 화덕피자로 유명한 베트남 국민 피자, 캐주얼 회식용",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 813,
+          "dx": -131,
+          "dy": 802,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.6,
+            "count": 10000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "8/15 Lê Thánh Tôn, Bến Nghé, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Pizza%204P's%20Le%20Thanh%20Ton%20Ho%20Chi%20Minh",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-베트남법인-6",
+          "name": "Secret Garden",
+          "cuisine": "동남아",
+          "desc": "루프탑 옥상에서 즐기는 베트남 가정식, 가볍고 분위기 좋은 점심",
+          "priceTier": 1,
+          "purposes": [
+            "점심"
+          ],
+          "distM": 831,
+          "dx": -536,
+          "dy": 635,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 7000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "158 Pasteur, Bến Nghé, Quận 1, TP.HCM",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Secret%20Garden%20Restaurant%20158%20Pasteur%20Ho%20Chi%20Minh",
+          "loc": "베트남 법인",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    },
+    "런던 사무소": {
+      "officeLat": 51.5133,
+      "officeLng": -0.1527,
+      "restaurants": [
+        {
+          "id": "ov-런던사무소-0",
+          "name": "Koba",
+          "cuisine": "한식",
+          "desc": "피츠로비아의 정통 한식 BBQ, 오피스 점심 세트가 알찬 주재원 단골",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 1320,
+          "dx": 1212,
+          "dy": 523,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 1200
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "11 Rathbone St, London W1T 1NA",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Koba%20Korean%20Restaurant%20Rathbone%20Street%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-런던사무소-1",
+          "name": "Arang",
+          "cuisine": "한식",
+          "desc": "소호 골든스퀘어의 한식당, 숯불구이와 찌개로 회식에 무난",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 1160,
+          "dx": 1129,
+          "dy": -267,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 900
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "9 Golden Square, London W1F 9HZ",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Arang%20Korean%20Restaurant%20Golden%20Square%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-런던사무소-2",
+          "name": "Scott's",
+          "cuisine": "양식",
+          "desc": "1851년부터 이어온 메이페어 시푸드 명가, 사무소 도보 2분 접대 1순위",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "점심"
+          ],
+          "distM": 278,
+          "dx": 76,
+          "dy": -267,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 2500
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "20 Mount St, London W1K 2HE",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Scott's%20Restaurant%20Mount%20Street%20Mayfair%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-런던사무소-3",
+          "name": "Gymkhana",
+          "cuisine": "기타",
+          "desc": "미쉐린 2스타 모던 인도 요리, 런던 비즈니스 디너의 정석",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 888,
+          "dx": 755,
+          "dy": -468,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.5,
+            "count": 3000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "42 Albemarle St, London W1S 4JH",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Gymkhana%20Albemarle%20Street%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-런던사무소-4",
+          "name": "The Wolseley",
+          "cuisine": "양식",
+          "desc": "피카딜리의 그랜드 카페 브라서리, 비즈니스 조찬·런치 명소",
+          "priceTier": 2,
+          "purposes": [
+            "점심",
+            "접대"
+          ],
+          "distM": 1035,
+          "dx": 762,
+          "dy": -701,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 7000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "160 Piccadilly, London W1J 9EB",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=The%20Wolseley%20Piccadilly%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": false,
+            "room": true,
+            "quiet": true,
+            "group": false,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-런던사무소-5",
+          "name": "Hakkasan Mayfair",
+          "cuisine": "중식",
+          "desc": "미쉐린 스타 모던 광둥요리, 세련된 분위기의 고급 접대·회식용",
+          "priceTier": 3,
+          "purposes": [
+            "접대",
+            "저녁 회식"
+          ],
+          "distM": 660,
+          "dx": 575,
+          "dy": -323,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.4,
+            "count": 3000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "17 Bruton St, London W1J 6QB",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=Hakkasan%20Mayfair%20Bruton%20Street%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": true,
+            "room": true,
+            "quiet": true,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        },
+        {
+          "id": "ov-런던사무소-6",
+          "name": "The Grazing Goat",
+          "cuisine": "양식",
+          "desc": "마블아치 인근 개스트로펍, 부담 없는 가격의 캐주얼 점심·맥주 회식",
+          "priceTier": 1,
+          "purposes": [
+            "점심",
+            "저녁 회식"
+          ],
+          "distM": 555,
+          "dx": -513,
+          "dy": 212,
+          "kakao": {
+            "score": 0,
+            "count": 0
+          },
+          "naver": {
+            "score": 0,
+            "count": 0
+          },
+          "google": {
+            "score": 4.3,
+            "count": 2000
+          },
+          "naverBooking": false,
+          "catchtable": false,
+          "address": "6 New Quebec St, London W1H 7RQ",
+          "placeUrl": "https://www.google.com/maps/search/?api=1&query=The%20Grazing%20Goat%20New%20Quebec%20Street%20London",
+          "loc": "런던 사무소",
+          "features": {
+            "premium": false,
+            "room": false,
+            "quiet": false,
+            "group": true,
+            "english": true,
+            "halal": false,
+            "parking": false
+          },
+          "isNew": false
+        }
+      ]
+    }
+  }
+}

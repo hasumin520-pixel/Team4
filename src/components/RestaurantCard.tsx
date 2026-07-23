@@ -1,6 +1,6 @@
 'use client';
 
-import { CUISINE_COLOR, PRICE_LABEL, type Restaurant } from '@/lib/data';
+import { CUISINE_COLOR, PRICE_LABEL, formatDistance, travelLabel, type Restaurant } from '@/lib/data';
 
 export default function RestaurantCard({
   restaurant: r,
@@ -66,7 +66,7 @@ export default function RestaurantCard({
               <span className="text-slate-400">📍 위치 확인 전</span>
             ) : (
               <span>
-                {r.distM}m · 도보 {r.walkMin}분
+                {formatDistance(r.distM)} · {travelLabel(r.distM)}
               </span>
             )}
             <span>{PRICE_LABEL[r.priceTier]}</span>

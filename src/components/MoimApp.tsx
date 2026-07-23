@@ -13,6 +13,7 @@ import {
   PRICE_LABEL,
   RESTAURANTS,
   buildRestaurants,
+  travelLabel,
   type CatchPlace,
   type Cuisine,
   type NewPlace,
@@ -162,12 +163,19 @@ export default function MoimApp() {
   const culture = cultureOf(selectedOffice.country);
   const isOverseas = !!culture;
 
-  // ?view=map / ?mode=new|catch 딥링크 (서버 렌더는 기본값이라 mount 후 반영)
+  // ?view=map / ?mode=new|catch / ?office=<이름> 딥링크 (서버 렌더는 기본값이라 mount 후 반영)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     if (params.get('view') === 'map') setView('map');
     const m = params.get('mode');
     if (m === 'new' || m === 'catch') setMode(m);
+    const o = params.get('office');
+    const office = o && OFFICES.find((x) => x.name === o);
+    if (office) {
+      deeplinkOffice.current = office.name; // kind 전환 이펙트가 첫 위치로 덮지 않게 예약
+      setKind(office.name === HQ_OFFICE ? 'office' : 'trip');
+      setOfficeName(office.name);
+    }
   }, []);
 
   // 엑셀 업로드로 교체된 방문 통계 (localStorage 영속화, 본사 전용)
@@ -198,8 +206,19 @@ export default function MoimApp() {
     }
   }, []);
 
-  // 위치 종류(국내 사업장/해외 출장지) 전환 시 해당 종류의 첫 위치로
+  // 위치 종류(국내 사업장/해외 출장지) 전환 시 해당 종류의 첫 위치로 (딥링크 진입 시엔 그 위치 유지)
+  const kindMounted = useRef(false);
+  const deeplinkOffice = useRef<string | null>(null);
   useEffect(() => {
+    if (!kindMounted.current) {
+      kindMounted.current = true;
+      return;
+    }
+    if (deeplinkOffice.current) {
+      setOfficeName(deeplinkOffice.current);
+      deeplinkOffice.current = null;
+      return;
+    }
     setOfficeName(kind === 'trip' ? FIRST_TRIP : HQ_OFFICE);
   }, [kind]);
 
@@ -770,7 +789,7 @@ function MapListStrip({
                 {r.cuisine}
               </span>
               <span className="font-semibold text-amber-500">★ {r.rating.toFixed(1)}</span>
-              <span>{r.walkMin}분</span>
+              <span>{travelLabel(r.distM)}</span>
               {r.visitCount > 0 && <span className="font-bold text-slate-700">{r.visitCount}회</span>}
             </p>
           </li>

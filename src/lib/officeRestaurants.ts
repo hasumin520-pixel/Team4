@@ -6,6 +6,41 @@
 import { HQ_OFFICE, RESTAURANTS, type Cuisine, type Purpose, type Restaurant } from './data';
 import { cultureOf } from './culture';
 import type { Office } from './offices';
+import overseasJson from '@/data/overseasRestaurants.json';
+
+// 해외법인 실식당 (웹 실사, 구글맵 실존 확인 — 방문 실적은 없어 visitCount 0)
+type OverseasSeed = Omit<
+  Restaurant,
+  'visitCount' | 'totalAmount' | 'lastDate' | 'byAccount' | 'recent' | 'rating' | 'reviewCount' | 'walkMin'
+>;
+const OVERSEAS = overseasJson.offices as Record<
+  string,
+  { officeLat: number; officeLng: number; restaurants: OverseasSeed[] }
+>;
+
+function fromOverseas(seeds: OverseasSeed[]): Restaurant[] {
+  return seeds.map((r) => {
+    const reviewCount = r.kakao.count + r.naver.count + r.google.count;
+    return {
+      ...r,
+      visitCount: 0,
+      totalAmount: 0,
+      lastDate: '',
+      byAccount: {},
+      recent: [],
+      rating:
+        reviewCount > 0
+          ? Math.round(
+              ((r.kakao.score * r.kakao.count + r.naver.score * r.naver.count + r.google.score * r.google.count) /
+                reviewCount) *
+                10
+            ) / 10
+          : 0,
+      reviewCount,
+      walkMin: Math.max(1, Math.round(r.distM / 67)),
+    };
+  });
+}
 
 // --- 결정적 난수 (문자열 seed → mulberry32) ---
 function hashSeed(str: string): number {
@@ -138,8 +173,10 @@ function generate(office: Office): Restaurant[] {
   return out;
 }
 
-// 사업장별 식당 목록. 본사면 실 데이터, 그 외엔 생성한 더미.
+// 사업장별 식당 목록. 본사·해외법인은 실 데이터, 그 외(국내 자회사)는 생성한 더미.
 export function restaurantsForOffice(office: Office): Restaurant[] {
   if (office.name === HQ_OFFICE) return RESTAURANTS;
+  const real = OVERSEAS[office.name];
+  if (real) return fromOverseas(real.restaurants);
   return generate(office);
 }
