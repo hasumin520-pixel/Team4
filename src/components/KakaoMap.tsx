@@ -30,6 +30,7 @@ export default function KakaoMap({
   catchPlaces = [],
   selected,
   onSelect,
+  onSelectNew,
 }: {
   appKey: string;
   center: { lat: number; lng: number }; // 사업장 실좌표 (부모에서 key={officeName}로 위치별 리마운트)
@@ -40,6 +41,7 @@ export default function KakaoMap({
   catchPlaces?: CatchPlace[]; // 🎯 방문 이력 없는 캐치테이블 입점 (캐치테이블 탭에서만 전달됨)
   selected: Restaurant | null;
   onSelect: (r: Restaurant) => void;
+  onSelectNew?: (p: NewPlace) => void; // 🆕 핀 탭 → 신규 오픈 상세 시트 (미지정 시 카카오맵 새창)
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   // 사업장 기준 상대좌표(dx/dy, m) → 위경도
@@ -51,6 +53,8 @@ export default function KakaoMap({
   const overlaysRef = useRef<{ setMap: (m: object | null) => void }[]>([]);
   const onSelectRef = useRef(onSelect);
   onSelectRef.current = onSelect;
+  const onSelectNewRef = useRef(onSelectNew);
+  onSelectNewRef.current = onSelectNew;
 
   // SDK 로드 + 지도 생성 (1회)
   useEffect(() => {
@@ -152,9 +156,10 @@ export default function KakaoMap({
           text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;white-space:nowrap">🆕 ${p.name}</div>
         <div style="width:13px;height:13px;border-radius:50%;background:#fff;
           border:3.5px solid #10b981;box-shadow:0 1px 4px rgba(0,0,0,.35)"></div>`;
-      el.addEventListener('click', () =>
-        window.open(`https://map.kakao.com/link/search/${encodeURIComponent(p.name)}`, '_blank')
-      );
+      el.addEventListener('click', () => {
+        if (onSelectNewRef.current) onSelectNewRef.current(p);
+        else window.open(`https://map.kakao.com/link/search/${encodeURIComponent(p.name)}`, '_blank');
+      });
       const overlay = new kakao.maps.CustomOverlay({
         position: new kakao.maps.LatLng(lat, lng),
         content: el,

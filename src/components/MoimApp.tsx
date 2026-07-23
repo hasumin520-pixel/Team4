@@ -31,6 +31,7 @@ import SniperBanner from './SniperBanner';
 import MapView from './MapView';
 import KakaoMap from './KakaoMap';
 import DetailSheet from './DetailSheet';
+import NewPlaceSheet from './NewPlaceSheet';
 
 const KAKAO_KEY = process.env.NEXT_PUBLIC_KAKAO_MAP_KEY;
 
@@ -172,6 +173,7 @@ export default function MoimApp() {
   const [sort, setSort] = useState<Sort>('visits');
   const [view, setView] = useState<'list' | 'map'>('list');
   const [selected, setSelected] = useState<Restaurant | null>(null);
+  const [selectedNew, setSelectedNew] = useState<NewPlace | null>(null); // 새로 오픈 식당 상세 시트
 
   const selectedOffice: Office = useMemo(
     () => OFFICES.find((o) => o.name === officeName) ?? OFFICES[0],
@@ -694,6 +696,7 @@ export default function MoimApp() {
               catchPlaces={catchPlaces}
               selected={selected}
               onSelect={setSelected}
+              onSelectNew={setSelectedNew}
             />
           ) : (
             <MapView
@@ -727,7 +730,7 @@ export default function MoimApp() {
             </li>
           )}
           {newPlaces.map((p) => (
-            <NewPlaceCard key={`${p.name}-${p.address}`} place={p} />
+            <NewPlaceCard key={`${p.name}-${p.address}`} place={p} onClick={() => setSelectedNew(p)} />
           ))}
           {catchPlaces.length > 0 && (
             <li className="pt-1 text-center text-[11px] text-slate-400">
@@ -752,18 +755,17 @@ export default function MoimApp() {
       )}
 
       {selected && <DetailSheet restaurant={selected} onClose={() => setSelected(null)} />}
+      {selectedNew && <NewPlaceSheet place={selectedNew} onClose={() => setSelectedNew(null)} />}
     </div>
   );
 }
 
 // 신규 오픈 식당 카드 — 방문 실적이 없어 상세시트 대신 카카오맵 검색으로 연결
-function NewPlaceCard({ place }: { place: NewPlace }) {
+function NewPlaceCard({ place, onClick }: { place: NewPlace; onClick: () => void }) {
   return (
     <li>
       <button
-        onClick={() =>
-          window.open(`https://map.kakao.com/link/search/${encodeURIComponent(place.name)}`, '_blank')
-        }
+        onClick={onClick}
         className="w-full rounded-xl border border-emerald-200 bg-[#fffdf8] p-4 text-left shadow-sm"
       >
         <div className="flex items-center gap-2">

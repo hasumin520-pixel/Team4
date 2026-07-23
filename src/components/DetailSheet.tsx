@@ -9,6 +9,7 @@ import {
   formatDate,
   type Restaurant,
 } from '@/lib/data';
+import { OFFICES } from '@/lib/offices';
 import ReservationForm from './ReservationForm';
 
 export default function DetailSheet({
@@ -19,6 +20,9 @@ export default function DetailSheet({
   onClose: () => void;
 }) {
   const [showReservation, setShowReservation] = useState(false);
+  // 해외법인 소속 식당은 예약·확인 링크를 네이버 대신 구글 지도로
+  const office = r.loc ? OFFICES.find((o) => o.name === r.loc) : undefined;
+  const overseas = !!office && office.country !== '대한민국';
 
   return (
     <div className="fixed inset-0 z-30" onClick={onClose}>
@@ -122,7 +126,14 @@ export default function DetailSheet({
         </div>
 
         {showReservation && (
-          <ReservationForm name={r.name} catchtable={r.catchtable} catchtableUrl={r.catchtableUrl} />
+          <ReservationForm
+            name={r.name}
+            catchtable={r.catchtable}
+            catchtableUrl={r.catchtableUrl}
+            overseas={overseas}
+            googleUrl={overseas ? r.placeUrl : undefined}
+            address={r.address}
+          />
         )}
       </div>
     </div>

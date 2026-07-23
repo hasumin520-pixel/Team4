@@ -10,10 +10,16 @@ export default function ReservationForm({
   name,
   catchtable,
   catchtableUrl,
+  overseas = false,
+  googleUrl,
+  address,
 }: {
   name: string;
   catchtable: boolean;
   catchtableUrl?: string;
+  overseas?: boolean; // 해외법인 소속 — 네이버 대신 구글 지도로 안내
+  googleUrl?: string; // 구글맵 장소 페이지 (해외 실측 placeUrl)
+  address?: string;
 }) {
   const today = new Date();
   const todayStr = today.toISOString().slice(0, 10);
@@ -24,20 +30,27 @@ export default function ReservationForm({
   const [time, setTime] = useState('12:00');
 
   const naverHref = `https://map.naver.com/p/search/${encodeURIComponent(name)}`;
+  const googleHref =
+    googleUrl ??
+    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address ? `${name} ${address}` : name)}`;
 
   if (!catchtable) {
     return (
       <div className="mt-3 rounded-xl border border-slate-200 p-3">
         <a
-          href={naverHref}
+          href={overseas ? googleHref : naverHref}
           target="_blank"
           rel="noreferrer"
-          className="flex items-center justify-center rounded-xl bg-[#03C75A] py-3 text-sm font-bold text-white"
+          className={`flex items-center justify-center rounded-xl py-3 text-sm font-bold text-white ${
+            overseas ? 'bg-[#1A73E8]' : 'bg-[#03C75A]'
+          }`}
         >
-          네이버에서 예약·전화 확인
+          {overseas ? 'Google 지도에서 예약·전화 확인' : '네이버에서 예약·전화 확인'}
         </a>
         <p className="mt-1.5 text-[11px] text-slate-400">
-          캐치테이블 미입점 식당이에요 — 네이버 지도에서 예약 버튼이나 전화번호를 확인해 주세요.
+          {overseas
+            ? '해외 식당이에요 — Google 지도에서 Reserve(예약) 버튼이나 전화번호를 확인해 주세요.'
+            : '캐치테이블 미입점 식당이에요 — 네이버 지도에서 예약 버튼이나 전화번호를 확인해 주세요.'}
         </p>
       </div>
     );
