@@ -351,7 +351,8 @@ export default function MoimApp() {
 
   const activeDetailCount =
     (style !== 'all' ? 1 : 0) + (age !== null ? 1 : 0) + (gender !== 'all' ? 1 : 0) +
-    (roomOnly ? 1 : 0) + (parkOnly ? 1 : 0) + (budget ? 1 : 0) + (dist ? 1 : 0) + cuisines.size;
+    (roomOnly ? 1 : 0) + (parkOnly ? 1 : 0) + (budget ? 1 : 0) + (dist ? 1 : 0) + cuisines.size +
+    (antiGraft ? 1 : 0) + (halalOnly ? 1 : 0);
 
   return (
     <div className="pb-24">
@@ -465,26 +466,8 @@ export default function MoimApp() {
           </div>
         </div>
 
-        {/* 빠른 토글 + 상세 필터 열기 */}
-        <div className="scrollbar-hide flex items-center gap-2 overflow-x-auto px-4 pb-2">
-          <button
-            onClick={() => setAntiGraft((v) => !v)}
-            className={`shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium ${
-              antiGraft ? 'border-slate-900 bg-slate-900 text-white' : 'border-slate-300 bg-[#fffdf8] text-slate-600'
-            }`}
-          >
-            ⚖️ 김영란법
-          </button>
-          {isOverseas && (
-            <button
-              onClick={() => setHalalOnly((v) => !v)}
-              className={`shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium ${
-                halalOnly ? 'border-emerald-600 bg-emerald-600 text-white' : 'border-slate-300 bg-[#fffdf8] text-slate-600'
-              }`}
-            >
-              ☪️ 할랄만
-            </button>
-          )}
+        {/* 상세 필터 열기 (김영란법·할랄은 상세 필터의 '기준' 행으로 이동) */}
+        <div className="flex items-center px-4 pb-2">
           <button
             onClick={() => setShowFilters((v) => !v)}
             className={`ml-auto shrink-0 rounded-full border px-3 py-1.5 text-xs font-semibold ${
@@ -526,6 +509,16 @@ export default function MoimApp() {
         {/* 상세 필터 (접이식) */}
         {showFilters && (
           <div className="space-y-2 border-t border-slate-100 bg-slate-50/60 px-4 py-3">
+            <FilterRow label="기준">
+              <Chip active={antiGraft} onClick={() => setAntiGraft((v) => !v)}>
+                ⚖️ 김영란법
+              </Chip>
+              {isOverseas && (
+                <Chip active={halalOnly} onClick={() => setHalalOnly((v) => !v)}>
+                  ☪️ 할랄만
+                </Chip>
+              )}
+            </FilterRow>
             <FilterRow label="성격">
               {([
                 ['all', '전체'],
